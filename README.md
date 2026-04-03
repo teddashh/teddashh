@@ -26,7 +26,7 @@ One year, I wrote maybe one line of code. Never touched GitHub.
 
 ## What I Build
 
-I design from a **CIO's perspective** -- not "how do I write the cleverest code," but "what actually works for people who aren't engineers."
+I design from an **IT veteran's perspective** -- not "how do I write the cleverest code," but "what actually works for people who aren't engineers."
 
 ### [Clawd-Lobster](https://github.com/teddashh/clawd-lobster)
 Claude Code skills wrapper. Lightest weight, curated features, maximum performance. One generator command, you're running. 25 MB RAM, 672 KB on disk.
@@ -39,7 +39,7 @@ Multi-workspace terminal aggregator with Claude Code integration. Run your whole
 
 ## Philosophy
 
-> This isn't code written by a 20-year software engineer. It's the best path found by a 20-year IT veteran who knows what enterprises actually need.
+> This isn't code written by a 20-year software engineer. It's the best path found by a 20-year IT / MIS / Cybersecurity veteran who knows what enterprises actually need.
 
 The best developer tools come from people who've spent decades as **users** of technology. I know what breaks at 3 AM, what IT teams actually adopt vs. what dies after the demo, and why "just works" beats "highly configurable" every time.
 
