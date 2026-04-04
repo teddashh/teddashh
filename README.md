@@ -36,9 +36,6 @@ Claude Code skills wrapper. Lightest weight, curated features, maximum performan
 ### [MCP Memory Server](https://github.com/teddashh/mcp-memory-server)
 Unified long-term memory for AI agents. SQLite + Vector Search.
 
-### [Better Agent Terminal](https://github.com/teddashh/better-agent-terminal)
-Multi-workspace terminal aggregator with Claude Code integration. Run your whole agent fleet from one screen.
-
 ## Philosophy
 
 > This isn't code written by a 20-year software engineer. It's the best path found by a 20-year IT / MIS / Cybersecurity veteran who knows what enterprises actually need.
@@ -90,9 +87,6 @@ Claude Code skills wrapper。最輕量、精選功能、極致效能。一條指
 
 ### [MCP Memory Server](https://github.com/teddashh/mcp-memory-server)
 AI Agent 統一長期記憶。SQLite + Vector Search。
-
-### [Better Agent Terminal](https://github.com/teddashh/better-agent-terminal)
-多工作區終端聚合器，整合 Claude Code。一個畫面管理整個 agent 艦隊。
 
 ## 理念
 
