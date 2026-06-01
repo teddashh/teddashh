@@ -30,11 +30,20 @@ One year, I wrote maybe one line of code. Never touched GitHub.
 
 I design from an **IT veteran's perspective** -- not "how do I write the cleverest code," but "what actually works for people who aren't engineers."
 
+### [Ai-Sister](https://ai-sister.com) &middot; *live*
+A web app that orchestrates **ChatGPT, Claude, Gemini, and Grok** from a single input -- open to everyone, running on my own paid API keys. Parallel chat, structured debate, an 8-step coding loop, a multi-round roundtable, plus single-AI agent modes. Tiered plans with quota + subscription billing, per-tier model routing, SSE streaming. Hono + SQLite + React on Oracle Cloud ARM behind Caddy. Grew out of my [multi-ai-chat](https://github.com/teddashh/multi-ai-chat) Chrome extension.
+
+### [openclaw-hermes-watcher](https://github.com/teddashh/openclaw-hermes-watcher)
+A security hardening layer for AI agent hosts. A `chattr +i` policy baseline no agent can rewrite, a guardian subagent, and a deterministic cross-patrol heartbeat / dead-man's-switch -- bolted onto OpenClaw without touching its code. Apache-2.0.
+
 ### [Clawd-Lobster](https://github.com/teddashh/clawd-lobster)
 Claude Code skills wrapper. Lightest weight, curated features, maximum performance. One generator command, you're running. 25 MB RAM, 672 KB on disk.
 
 ### [MCP Memory Server](https://github.com/teddashh/mcp-memory-server)
-Unified long-term memory for AI agents. SQLite + Vector Search.
+Unified long-term memory for AI agents. SQLite + Oracle + Vector Search.
+
+### [idn-homograph-example](https://github.com/teddashh/idn-homograph-example)
+A hands-on study of IDN homograph attacks -- the "looks legit, isn't" threat I spent years defending against.
 
 ## Philosophy
 
@@ -82,11 +91,20 @@ Building a multi-AI agent fleet -- Claude, GPT, Gemini, and local models working
 
 我用 **IT 老兵的視角** 設計工具 -- 不是「怎麼寫最聰明的 code」，而是「什麼東西非工程師也能用」。
 
+### [Ai-Sister](https://ai-sister.com) &middot; *線上服務*
+一個 web app，一個輸入同時調度 **ChatGPT、Claude、Gemini、Grok** -- 開放給所有人用，跑在我自己付費的 API 上。平行對話、結構化辯論、8 步 coding loop、多輪圓桌論證，外加單一 AI 的 agent 模式。分級方案（額度 + 訂閱計費）、各級模型路由、SSE 串流。Hono + SQLite + React，部署在 Oracle Cloud ARM、前掛 Caddy。源自我的 [multi-ai-chat](https://github.com/teddashh/multi-ai-chat) Chrome 擴充。
+
+### [openclaw-hermes-watcher](https://github.com/teddashh/openclaw-hermes-watcher)
+AI agent 主機的安全強化層。任何 agent 都改不掉的 `chattr +i` 政策基線、守護 subagent，以及確定性的 cross-patrol heartbeat / dead-man's-switch -- 直接加掛在 OpenClaw 上，完全不動它的程式碼。Apache-2.0。
+
 ### [Clawd-Lobster](https://github.com/teddashh/clawd-lobster)
 Claude Code skills wrapper。最輕量、精選功能、極致效能。一條指令，直接跑。25 MB RAM，672 KB 磁碟。
 
 ### [MCP Memory Server](https://github.com/teddashh/mcp-memory-server)
-AI Agent 統一長期記憶。SQLite + Vector Search。
+AI Agent 統一長期記憶。SQLite + Oracle + Vector Search。
+
+### [idn-homograph-example](https://github.com/teddashh/idn-homograph-example)
+IDN homograph 攻擊的實作研究 -- 那種「看起來合法、其實不是」的威脅，正是我防守多年的東西。
 
 ## 理念
 
