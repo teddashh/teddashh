@@ -1,6 +1,7 @@
 # Agent scratch + local memory — never publish to this public profile repo
 .claude-memory/
 .bat-worktrees/
+HANDOFF.md
 *.env
 *.key
 secrets/
