@@ -168,7 +168,7 @@ During development, run `npm run dev`, reload the unpacked extension at `chrome:
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat)
 
 # Multi-AI Chat
 

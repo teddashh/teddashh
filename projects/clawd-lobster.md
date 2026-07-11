@@ -338,7 +338,7 @@ Clawd-Lobster is released under the **MIT License**. See [`LICENSE`](https://git
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [← Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文** · [GitHub 原始碼](https://github.com/teddashh/clawd-lobster) · [架構文件](https://github.com/teddashh/clawd-lobster/blob/master/ARCHITECTURE.md) · [繁體中文 README](https://github.com/teddashh/clawd-lobster/blob/master/README.zh-TW.md) · [Onboarding 指南](https://github.com/teddashh/clawd-lobster/blob/master/docs/onboarding-guide.html)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [← Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub 原始碼](https://github.com/teddashh/clawd-lobster) · [架構文件](https://github.com/teddashh/clawd-lobster/blob/master/ARCHITECTURE.md) · [繁體中文 README](https://github.com/teddashh/clawd-lobster/blob/master/README.zh-TW.md) · [Onboarding 指南](https://github.com/teddashh/clawd-lobster/blob/master/docs/onboarding-guide.html)
 
 # Clawd-Lobster
 

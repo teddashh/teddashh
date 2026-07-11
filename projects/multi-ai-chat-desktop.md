@@ -191,7 +191,7 @@ The first Rust compilation can take several minutes and must run in a graphical 
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat-desktop) · [最新正式版：v0.6.0](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v0.6.0)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat-desktop) · [最新正式版：v0.6.0](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v0.6.0)
 
 # Multi-AI Chat Desktop
 

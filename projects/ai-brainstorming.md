@@ -196,7 +196,7 @@ For production, build both packages and put the Hono server behind a reverse pro
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/ai-brainstorming)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/ai-brainstorming)
 
 # AI Brainstorming
 

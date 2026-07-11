@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ted Huang</title>
+  <desc id="desc">A precise black and white mobile profile banner with one cyan, violet, magenta, and amber gradient atmosphere.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ebebeb" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#007cf0"/>
+      <stop offset="0.22" stop-color="#00dfd8"/>
+      <stop offset="0.46" stop-color="#7928ca"/>
+      <stop offset="0.64" stop-color="#ff0080"/>
+      <stop offset="0.82" stop-color="#ff4d4d"/>
+      <stop offset="1" stop-color="#f9cb28"/>
+    </linearGradient>
+    <radialGradient id="blueGlow"><stop offset="0" stop-color="#00dfd8" stop-opacity="0.48"/><stop offset="1" stop-color="#007cf0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pinkGlow"><stop offset="0" stop-color="#ff0080" stop-opacity="0.38"/><stop offset="1" stop-color="#7928ca" stop-opacity="0"/></radialGradient>
+    <radialGradient id="amberGlow"><stop offset="0" stop-color="#f9cb28" stop-opacity="0.38"/><stop offset="1" stop-color="#ff4d4d" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="26"/></filter>
+    <clipPath id="clip"><rect width="600" height="260" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="600" height="260" fill="#ffffff"/>
+    <rect width="600" height="260" fill="url(#grid)" opacity="0.68"/>
+    <g filter="url(#blur)">
+      <ellipse cx="145" cy="258" rx="150" ry="62" fill="url(#blueGlow)"/>
+      <ellipse cx="325" cy="254" rx="165" ry="66" fill="url(#pinkGlow)"/>
+      <ellipse cx="510" cy="258" rx="145" ry="60" fill="url(#amberGlow)"/>
+    </g>
+    <text x="40" y="125" fill="#171717" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="54" font-weight="600" letter-spacing="-2">Ted Huang.</text>
+    <text x="42" y="165" fill="#4d4d4d" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17">ENTERPRISE IT → AI AGENTS</text>
+    <rect x="0" y="252" width="600" height="8" fill="url(#spectrum)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="259" rx="11.5" fill="none" stroke="#ebebeb"/>
+</svg>

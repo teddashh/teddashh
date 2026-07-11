@@ -219,7 +219,7 @@ The Oracle path likewise assumes an existing wallet, user, and compatible tables
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 個人頁](../README.md#traditional-chinese) · [GitHub 原始碼](https://github.com/teddashh/mcp-memory-server) · [Repo README](https://github.com/teddashh/mcp-memory-server#readme) · [English](#english) · **繁體中文**
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 個人頁](../README.zh-TW.md) · [GitHub 原始碼](https://github.com/teddashh/mcp-memory-server) · [Repo README](https://github.com/teddashh/mcp-memory-server#readme) · [English](#english) · **繁體中文**
 
 # MCP Memory Server
 
