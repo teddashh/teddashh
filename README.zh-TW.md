@@ -64,7 +64,7 @@
 
 ## 公開作品。
 
-九個公開 repository，涵蓋多 AI 體驗、Agent 基礎設施、資安與學習。每個作品都有完整案例頁，說清楚架構、設計決策、使用方式、現有限制與授權狀態。
+九個公開 repository，涵蓋多 AI 體驗、Agent 基礎設施、資安與學習；2026-07-12 快照合計 55 顆 GitHub stars。下方 star badge 會持續更新；每個作品都有完整案例頁，說清楚架構、設計決策、使用方式、現有限制與授權狀態。
 
 <p><code>01 / 多 AI 體驗</code></p>
 
@@ -75,7 +75,8 @@
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      在不使用模型 API key 的前提下，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行五種結構化桌面工作流。<br><br>
+      功能完整的 v1.1.0 桌面版：不使用模型 API key，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行五種以對話為中心的工作流，完成後還能在同一本機 session 繼續追問。<br><br>
+      <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">原始碼 ↗</a>
     </td>
@@ -87,6 +88,7 @@
     </td>
     <td width="68%" valign="top">
       把 Chrome 裡已開啟的 AI 服務分頁，變成一個輕量的多模型工作流控制面板。<br><br>
+      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.2.0</code><br><br>
       <code>Manifest V3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat">原始碼 ↗</a>
     </td>
@@ -98,6 +100,7 @@
     </td>
     <td width="68%" valign="top">
       送出點子後執行 5／12／16 輪 review；可以離開，再用私人續接連結或選配 email 報告回來。<br><br>
+      <a href="https://github.com/teddashh/ai-brainstorming/stargazers"><img alt="AI Brainstorming stars" src="https://img.shields.io/github/stars/teddashh/ai-brainstorming?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.1.0</code><br><br>
       <code>Hono</code> <code>React</code> <code>SQLite</code> <code>OpenRouter</code><br><br>
       <a href="https://github.com/teddashh/ai-brainstorming">原始碼 ↗</a>
     </td>
@@ -114,6 +117,7 @@
     </td>
     <td width="68%" valign="top">
       在 OpenClaw 主機外加上一層受控、可稽核的演進機制，同時把最終升級權保留給人類操作員。<br><br>
+      <a href="https://github.com/teddashh/openclaw-hermes-watcher/stargazers"><img alt="openclaw-hermes-watcher stars" src="https://img.shields.io/github/stars/teddashh/openclaw-hermes-watcher?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/openclaw-hermes-watcher/releases/latest"><img alt="openclaw-hermes-watcher release" src="https://img.shields.io/github/v/release/teddashh/openclaw-hermes-watcher?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Bash</code> <code>systemd</code> <code>OpenClaw</code> <code>Hermes</code><br><br>
       <a href="https://github.com/teddashh/openclaw-hermes-watcher">原始碼 ↗</a>
     </td>
@@ -125,6 +129,7 @@
     </td>
     <td width="68%" valign="top">
       Claude Code 的精選操作層，整合規格審查、長期記憶、可重用 skills、workspace 與多機延續。<br><br>
+      <a href="https://github.com/teddashh/clawd-lobster/stargazers"><img alt="Clawd-Lobster stars" src="https://img.shields.io/github/stars/teddashh/clawd-lobster?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.6.0 beta</code><br><br>
       <code>Python</code> <code>MCP</code> <code>SQLite</code> <code>Claude Code</code><br><br>
       <a href="https://github.com/teddashh/clawd-lobster">原始碼 ↗</a>
     </td>
@@ -136,6 +141,7 @@
     </td>
     <td width="68%" valign="top">
       在真正投入大量時間前，先讓產品、內容、社群與商業點子接受有攻防、有結論的驗證。<br><br>
+      <a href="https://github.com/teddashh/claude-idea-review-skill/stargazers"><img alt="Claude Idea Review Skill stars" src="https://img.shields.io/github/stars/teddashh/claude-idea-review-skill?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>可安裝 Skill</code><br><br>
       <code>Claude Code Skill</code> <code>Python</code> <code>Static reports</code><br><br>
       <a href="https://github.com/teddashh/claude-idea-review-skill">原始碼 ↗</a>
     </td>
@@ -147,6 +153,7 @@
     </td>
     <td width="68%" valign="top">
       把決策、已解問題、問題與知識分開建模，做成一個可檢查的 MCP 記憶伺服器。<br><br>
+      <a href="https://github.com/teddashh/mcp-memory-server/stargazers"><img alt="MCP Memory Server stars" src="https://img.shields.io/github/stars/teddashh/mcp-memory-server?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.1.0</code><br><br>
       <code>Python</code> <code>FastMCP</code> <code>SQLite</code> <code>Oracle</code><br><br>
       <a href="https://github.com/teddashh/mcp-memory-server">原始碼 ↗</a>
     </td>
@@ -163,6 +170,7 @@
     </td>
     <td width="68%" valign="top">
       用一堂短而直接的實作教材，讓人真正看懂 Unicode 網域如何做到肉眼難辨的偽裝。<br><br>
+      <a href="https://github.com/teddashh/idn-homograph-example/stargazers"><img alt="Homograph Attack Demo stars" src="https://img.shields.io/github/stars/teddashh/idn-homograph-example?style=flat-square&amp;label=stars&amp;color=111111"></a><br><br>
       <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Vercel</code><br><br>
       <a href="https://project-9ogsa.vercel.app">線上示範 ↗</a> · <a href="https://github.com/teddashh/idn-homograph-example">原始碼 ↗</a>
     </td>
@@ -174,6 +182,7 @@
     </td>
     <td width="68%" valign="top">
       把分散討論整理成以得分效率為核心的 3v3 配置、購買、訓練與賽後復盤框架。<br><br>
+      <a href="https://github.com/teddashh/zhan-dou-tuo-luo/stargazers"><img alt="AI Beyblade X Field Guide stars" src="https://img.shields.io/github/stars/teddashh/zhan-dou-tuo-luo?style=flat-square&amp;label=stars&amp;color=111111"></a><br><br>
       <code>Markdown</code> <code>研究筆記</code> <code>繁體中文</code><br><br>
       <a href="https://github.com/teddashh/zhan-dou-tuo-luo">原始碼 ↗</a>
     </td>

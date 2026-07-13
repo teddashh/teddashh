@@ -64,7 +64,7 @@
 
 ## Public work.
 
-Nine public repositories across multi-AI experiences, agent infrastructure, security, and learning. Each title opens a full case study with architecture, decisions, setup, current limits, and license status.
+Nine public repositories across multi-AI experiences, agent infrastructure, security, and learning—55 GitHub stars at the July 12 snapshot. Star badges below stay live; each title opens a full case study with architecture, decisions, setup, current limits, and license status.
 
 <p><code>01 / MULTI-AI EXPERIENCES</code></p>
 
@@ -75,7 +75,8 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      Coordinate logged-in ChatGPT, Claude, Gemini, and Grok sessions through five structured desktop workflows—without model API keys.<br><br>
+      The feature-complete v1.1.0 desktop edition: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through five conversation-first workflows, then keep talking in the same local session—without model API keys.<br><br>
+      <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">Source ↗</a>
     </td>
@@ -87,6 +88,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Turn the AI tabs already open in Chrome into one lightweight multi-model workflow surface.<br><br>
+      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.2.0</code><br><br>
       <code>Manifest V3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat">Source ↗</a>
     </td>
@@ -98,6 +100,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Submit an idea for a 5-, 12-, or 16-round review, leave, then return by private resume link or optional email report.<br><br>
+      <a href="https://github.com/teddashh/ai-brainstorming/stargazers"><img alt="AI Brainstorming stars" src="https://img.shields.io/github/stars/teddashh/ai-brainstorming?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.1.0</code><br><br>
       <code>Hono</code> <code>React</code> <code>SQLite</code> <code>OpenRouter</code><br><br>
       <a href="https://github.com/teddashh/ai-brainstorming">Source ↗</a>
     </td>
@@ -114,6 +117,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Add a guarded, auditable evolution layer to an OpenClaw host while keeping upgrade authority with the human operator.<br><br>
+      <a href="https://github.com/teddashh/openclaw-hermes-watcher/stargazers"><img alt="openclaw-hermes-watcher stars" src="https://img.shields.io/github/stars/teddashh/openclaw-hermes-watcher?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/openclaw-hermes-watcher/releases/latest"><img alt="openclaw-hermes-watcher release" src="https://img.shields.io/github/v/release/teddashh/openclaw-hermes-watcher?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Bash</code> <code>systemd</code> <code>OpenClaw</code> <code>Hermes</code><br><br>
       <a href="https://github.com/teddashh/openclaw-hermes-watcher">Source ↗</a>
     </td>
@@ -125,6 +129,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       A curated operating layer for reviewed specifications, persistent memory, reusable skills, workspaces, and multi-machine continuity.<br><br>
+      <a href="https://github.com/teddashh/clawd-lobster/stargazers"><img alt="Clawd-Lobster stars" src="https://img.shields.io/github/stars/teddashh/clawd-lobster?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.6.0 beta</code><br><br>
       <code>Python</code> <code>MCP</code> <code>SQLite</code> <code>Claude Code</code><br><br>
       <a href="https://github.com/teddashh/clawd-lobster">Source ↗</a>
     </td>
@@ -136,6 +141,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Give product, creator, community, and business ideas an adversarial review before serious time is spent building them.<br><br>
+      <a href="https://github.com/teddashh/claude-idea-review-skill/stargazers"><img alt="Claude Idea Review Skill stars" src="https://img.shields.io/github/stars/teddashh/claude-idea-review-skill?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>installable skill</code><br><br>
       <code>Claude Code Skill</code> <code>Python</code> <code>Static reports</code><br><br>
       <a href="https://github.com/teddashh/claude-idea-review-skill">Source ↗</a>
     </td>
@@ -147,6 +153,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Model decisions, resolved issues, questions, and knowledge through an inspectable MCP memory server.<br><br>
+      <a href="https://github.com/teddashh/mcp-memory-server/stargazers"><img alt="MCP Memory Server stars" src="https://img.shields.io/github/stars/teddashh/mcp-memory-server?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.1.0</code><br><br>
       <code>Python</code> <code>FastMCP</code> <code>SQLite</code> <code>Oracle</code><br><br>
       <a href="https://github.com/teddashh/mcp-memory-server">Source ↗</a>
     </td>
@@ -163,6 +170,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Make a visually deceptive Unicode domain understandable in a short, hands-on security-awareness lesson.<br><br>
+      <a href="https://github.com/teddashh/idn-homograph-example/stargazers"><img alt="Homograph Attack Demo stars" src="https://img.shields.io/github/stars/teddashh/idn-homograph-example?style=flat-square&amp;label=stars&amp;color=111111"></a><br><br>
       <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Vercel</code><br><br>
       <a href="https://project-9ogsa.vercel.app">Live ↗</a> · <a href="https://github.com/teddashh/idn-homograph-example">Source ↗</a>
     </td>
@@ -174,6 +182,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
     </td>
     <td width="68%" valign="top">
       Turn scattered discussions into a score-aware 3v3 deck-building, buying, practice, and match-review framework.<br><br>
+      <a href="https://github.com/teddashh/zhan-dou-tuo-luo/stargazers"><img alt="AI Beyblade X Field Guide stars" src="https://img.shields.io/github/stars/teddashh/zhan-dou-tuo-luo?style=flat-square&amp;label=stars&amp;color=111111"></a><br><br>
       <code>Markdown</code> <code>Research notes</code> <code>Traditional Chinese</code><br><br>
       <a href="https://github.com/teddashh/zhan-dou-tuo-luo">Source ↗</a>
     </td>
