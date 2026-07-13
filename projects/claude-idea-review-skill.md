@@ -300,7 +300,7 @@ The project is released under the **MIT License**. See [`LICENSE`](https://githu
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [← Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文** · [GitHub 原始碼](https://github.com/teddashh/claude-idea-review-skill) · [Skill 指令](https://github.com/teddashh/claude-idea-review-skill/blob/main/SKILL.md) · [Repo README](https://github.com/teddashh/claude-idea-review-skill/blob/main/README.md)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [← Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub 原始碼](https://github.com/teddashh/claude-idea-review-skill) · [Skill 指令](https://github.com/teddashh/claude-idea-review-skill/blob/main/SKILL.md) · [Repo README](https://github.com/teddashh/claude-idea-review-skill/blob/main/README.md)
 
 # Claude Idea Review Skill
 

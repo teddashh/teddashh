@@ -255,7 +255,7 @@ The project is released under the **Apache License 2.0**, including its explicit
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [← Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文** · [GitHub 原始碼](https://github.com/teddashh/openclaw-hermes-watcher) · [版本發布](https://github.com/teddashh/openclaw-hermes-watcher/releases) · [架構文件](https://github.com/teddashh/openclaw-hermes-watcher/blob/main/ARCHITECTURE.md) · [安裝指南](https://github.com/teddashh/openclaw-hermes-watcher/blob/main/docs/INSTALL.md)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [← Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub 原始碼](https://github.com/teddashh/openclaw-hermes-watcher) · [版本發布](https://github.com/teddashh/openclaw-hermes-watcher/releases) · [架構文件](https://github.com/teddashh/openclaw-hermes-watcher/blob/main/ARCHITECTURE.md) · [安裝指南](https://github.com/teddashh/openclaw-hermes-watcher/blob/main/docs/INSTALL.md)
 
 # openclaw-hermes-watcher
 

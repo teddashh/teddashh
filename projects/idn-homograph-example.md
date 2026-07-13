@@ -192,7 +192,7 @@ For a live corporate session, avoid asking attendees to visit an uncontrolled lo
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 個人頁](../README.md#traditional-chinese) · [GitHub 原始碼](https://github.com/teddashh/idn-homograph-example) · [線上示範](https://project-9ogsa.vercel.app) · [Repo README](https://github.com/teddashh/idn-homograph-example#readme) · [English](#english) · **繁體中文**
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 個人頁](../README.zh-TW.md) · [GitHub 原始碼](https://github.com/teddashh/idn-homograph-example) · [線上示範](https://project-9ogsa.vercel.app) · [Repo README](https://github.com/teddashh/idn-homograph-example#readme) · [English](#english) · **繁體中文**
 
 # IDN Homograph Attack Awareness Demo
 

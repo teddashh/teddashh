@@ -1,85 +1,127 @@
 <a id="english"></a>
 
-[← Back to Ted's profile](../README.md) · **English** · [繁體中文](#traditional-chinese)
+<p align="right">
+  <a href="../README.md">Ted Huang</a> / <strong>Public work</strong> · <a href="#traditional-chinese">繁體中文</a>
+</p>
 
-# Public GitHub portfolio
+<p><code>PUBLIC WORK / DIRECTORY</code></p>
 
-Nine public projects, each documented as a product and engineering case study—not just a repository link. Together they cover multi-AI interfaces, agent operations, persistent memory, security awareness, and AI-assisted learning.
+# Public projects.
 
-Every project page explains the problem, the experience it creates, the architecture behind it, the important design decisions, how to try it, and the limits that still matter.
+Nine public builds, documented as product and engineering case studies—not just repository links. Each page covers the problem, experience, architecture, decisions, setup, current limits, and license status.
 
-Repository contents and license files were reviewed on **July 11, 2026**. Follow the source links for changes made after that snapshot.
+<table width="100%">
+  <tr>
+    <td width="33%" align="center"><strong>9 projects</strong><br><sub>Documented repositories</sub></td>
+    <td width="33%" align="center"><strong>3 themes</strong><br><sub>Multi-AI · Infrastructure · Security &amp; learning</sub></td>
+    <td width="33%" align="center"><strong>Full case studies</strong><br><sub>English + Traditional Chinese</sub></td>
+  </tr>
+</table>
 
-## Multi-AI experiences
+## Start here.
 
-| Project | What it makes possible | Format and core stack |
-|---|---|---|
-| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md)** · [source](https://github.com/teddashh/multi-ai-chat-desktop) | Run structured workflows across logged-in ChatGPT, Claude, Gemini, and Grok web sessions from one desktop control surface—without model API keys. | Tauri 2 desktop app · React · TypeScript · Rust |
-| **[Multi-AI Chat](./multi-ai-chat.md)** · [source](https://github.com/teddashh/multi-ai-chat) | Turn existing provider tabs into a lightweight multi-AI workflow from Chrome's Side Panel. | Chrome Manifest V3 extension · React · TypeScript |
-| **[AI Brainstorming](./ai-brainstorming.md)** · [source](https://github.com/teddashh/ai-brainstorming) | Submit an idea for a 5-, 12-, or 16-round review, leave the page, then return by private resume link or—when SMTP is configured—receive the report by email. | Web MVP · Node.js · TypeScript · React · SQLite |
+| Start with | Best when you want to see… |
+|---|---|
+| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md)** | A complete end-user product: cross-platform UI, local orchestration, adapters, releases, and explicit trade-offs. |
+| **[openclaw-hermes-watcher](./openclaw-hermes-watcher.md)** | Agent operations and governance built from deterministic controls with human authority kept explicit. |
+| **[Homograph Attack Demo](./idn-homograph-example.md)** | A fast security teaching experience that turns an invisible Unicode risk into a memorable lesson. |
 
-## Agent infrastructure
+## Directory.
 
-| Project | What it makes possible | Format and core stack |
-|---|---|---|
-| **[openclaw-hermes-watcher](./openclaw-hermes-watcher.md)** · [source](https://github.com/teddashh/openclaw-hermes-watcher) | Add a guarded, auditable evolution layer to an existing OpenClaw host while keeping upgrade authority with the human operator. | Linux operations layer · Bash · systemd · YAML/JSONL |
-| **[Clawd-Lobster](./clawd-lobster.md)** · [source](https://github.com/teddashh/clawd-lobster) | Give Claude Code a curated operating system for reviewed specs, persistent memory, reusable skills, workspaces, and multi-machine continuity. | Python toolkit · MCP · SQLite · local web dashboard |
-| **[Claude Idea Review Skill](./claude-idea-review-skill.md)** · [source](https://github.com/teddashh/claude-idea-review-skill) | Run a structured, adversarial idea review inside Claude Code and turn the result into an actionable validation plan. | Claude Code Skill · Python helper scripts · static reports |
-| **[MCP Memory Server](./mcp-memory-server.md)** · [source](https://github.com/teddashh/mcp-memory-server) | Explore a structured, salience-aware MCP memory server with implemented SQLite and optional Oracle query paths. | Python MCP server · SQLite · Oracle Vector Search |
+<p><code>01 / MULTI-AI EXPERIENCES</code></p>
 
-## Security and learning
+| Project | Outcome & stack |
+|---|---|
+| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md)** · [source ↗](https://github.com/teddashh/multi-ai-chat-desktop) | Coordinate logged-in ChatGPT, Claude, Gemini, and Grok through structured local desktop workflows.<br><br>`Tauri 2` `React` `TypeScript` `Rust` |
+| **[Multi-AI Chat](./multi-ai-chat.md)** · [source ↗](https://github.com/teddashh/multi-ai-chat) | Turn existing provider tabs into a lightweight multi-AI workflow in Chrome's Side Panel.<br><br>`Manifest V3` `React` `TypeScript` |
+| **[AI Brainstorming](./ai-brainstorming.md)** · [source ↗](https://github.com/teddashh/ai-brainstorming) | Run an asynchronous 5-, 12-, or 16-round idea review with private resume links.<br><br>`Hono` `React` `SQLite` `OpenRouter` |
 
-| Project | What it makes possible | Format and core stack |
-|---|---|---|
-| **[Homograph Attack Awareness Demo](./idn-homograph-example.md)** · [source](https://github.com/teddashh/idn-homograph-example) · [live demo](https://project-9ogsa.vercel.app) | Make an invisible Unicode-domain spoof visible in a short, bilingual security-awareness lesson. | Static bilingual demo · HTML/CSS/JavaScript · Vercel |
-| **[AI Beyblade X Field Guide](./zhan-dou-tuo-luo.md)** · [source](https://github.com/teddashh/zhan-dou-tuo-luo) | Turn scattered discussions into a score-aware 3v3 strategy, buying, training, and match-review guide. | Chinese knowledge project · Markdown research notes |
+<p><code>02 / AGENT INFRASTRUCTURE</code></p>
 
-## How to read these pages
+| Project | Outcome & stack |
+|---|---|
+| **[openclaw-hermes-watcher](./openclaw-hermes-watcher.md)** · [source ↗](https://github.com/teddashh/openclaw-hermes-watcher) | Add a guarded, auditable evolution layer to an OpenClaw host while keeping human authority.<br><br>`Bash` `systemd` `OpenClaw` `Hermes` |
+| **[Clawd-Lobster](./clawd-lobster.md)** · [source ↗](https://github.com/teddashh/clawd-lobster) | Add reviewed specs, durable memory, reusable skills, workspaces, and multi-machine continuity to Claude Code.<br><br>`Python` `MCP` `SQLite` `Claude Code` |
+| **[Claude Idea Review Skill](./claude-idea-review-skill.md)** · [source ↗](https://github.com/teddashh/claude-idea-review-skill) | Turn an exciting idea into an adversarial verdict and an actionable validation plan.<br><br>`Claude Code Skill` `Python` `Static reports` |
+| **[MCP Memory Server](./mcp-memory-server.md)** · [source ↗](https://github.com/teddashh/mcp-memory-server) | Explore a structured MCP memory server with implemented SQLite and optional Oracle query paths.<br><br>`Python` `FastMCP` `SQLite` `Oracle` |
 
-These are portfolio case studies, while each repository README remains the operational source of truth for installation and current behavior. Product versions, provider interfaces, competition rules, and third-party services can change; follow the source links before installing or relying on a current integration.
+<p><code>03 / SECURITY &amp; LEARNING</code></p>
 
-License status is stated on each project page. A repository being publicly readable does not by itself define reuse rights when no license file has been published.
+| Project | Outcome & stack |
+|---|---|
+| **[Homograph Attack Demo](./idn-homograph-example.md)** · [live ↗](https://project-9ogsa.vercel.app) · [source ↗](https://github.com/teddashh/idn-homograph-example) | Make a deceptive Unicode domain understandable in a short bilingual security lesson.<br><br>`HTML` `CSS` `JavaScript` `Vercel` |
+| **[AI Beyblade X Field Guide](./zhan-dou-tuo-luo.md)** · [source ↗](https://github.com/teddashh/zhan-dou-tuo-luo) | Turn scattered discussions into a score-aware 3v3 strategy and training framework.<br><br>`Markdown` `Research notes` `Traditional Chinese` |
+
+<details>
+<summary><strong>How these case studies are verified.</strong></summary>
+
+Repository contents and license files were reviewed on **July 11, 2026**. Each repository README remains the operational source of truth for changes made after that snapshot.
+
+A repository being publicly readable does not by itself define reuse rights when no license has been published. Every case study states the license status found during review.
+
+</details>
 
 ---
 
 <a id="traditional-chinese"></a>
 
-[← 回到 Ted 的個人頁](../README.md#traditional-chinese) · [English](#english) · **繁體中文**
+<p align="right">
+  <a href="../README.zh-TW.md">Ted Huang</a> / <strong>公開作品</strong> · <a href="#english">English</a>
+</p>
 
-# GitHub 公開作品集
+<p><code>公開作品 / 目錄</code></p>
 
-九個公開作品，每一個都以「產品與工程案例」完整介紹，而不只是丟一個 repository 連結。整體涵蓋多 AI 操作介面、Agent 維運、長期記憶、資安教育與 AI 輔助學習。
+# 公開作品。
 
-每一頁都會說清楚：它解決什麼問題、使用者會得到什麼體驗、背後架構如何運作、關鍵設計取捨、怎麼開始，以及目前仍有哪些限制。
+九個公開作品，每一個都以產品與工程案例完整介紹，而不只是 repository 連結。各頁包含問題、體驗、架構、設計決策、使用方式、現有限制與授權狀態。
 
-Repository 內容與授權檔盤點日期為 **2026 年 7 月 11 日**；之後若有更新，請以原始碼連結為準。
+<table width="100%">
+  <tr>
+    <td width="33%" align="center"><strong>9 個作品</strong><br><sub>完整 Repo 案例</sub></td>
+    <td width="33%" align="center"><strong>3 個主題</strong><br><sub>多 AI · 基礎設施 · 資安與學習</sub></td>
+    <td width="33%" align="center"><strong>完整案例</strong><br><sub>English + 繁體中文</sub></td>
+  </tr>
+</table>
 
-## 多 AI 體驗
+## 從這裡開始。
 
-| 作品 | 它讓什麼事情成為可能 | 形式與核心技術 |
-|---|---|---|
-| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/multi-ai-chat-desktop) | 在一個桌面控制面板裡，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行結構化工作流，而且不需要模型 API key。 | Tauri 2 桌面應用 · React · TypeScript · Rust |
-| **[Multi-AI Chat](./multi-ai-chat.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/multi-ai-chat) | 把原本已開啟的 AI 服務分頁，變成 Chrome Side Panel 裡的輕量多 AI 工作流。 | Chrome Manifest V3 擴充 · React · TypeScript |
-| **[AI Brainstorming](./ai-brainstorming.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/ai-brainstorming) | 送出一個點子，執行 5／12／16 輪檢視；可以離開頁面，再用私人續接連結回來；SMTP 有設定時，也能從 email 收報告。 | Web MVP · Node.js · TypeScript · React · SQLite |
+| 先看這個 | 適合你想看…… |
+|---|---|
+| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese)** | 完整的終端使用者產品：跨平台 UI、本機編排、adapter、release engineering 與清楚取捨。 |
+| **[openclaw-hermes-watcher](./openclaw-hermes-watcher.md#traditional-chinese)** | 以確定性控制包住長期 Agent，同時明確保留人類權限的維運與治理。 |
+| **[Homograph Attack Demo](./idn-homograph-example.md#traditional-chinese)** | 把肉眼看不見的 Unicode 風險，變成能親自體驗的快速資安教材。 |
 
-## Agent 基礎設施
+## 完整目錄。
 
-| 作品 | 它讓什麼事情成為可能 | 形式與核心技術 |
-|---|---|---|
-| **[openclaw-hermes-watcher](./openclaw-hermes-watcher.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/openclaw-hermes-watcher) | 在既有 OpenClaw 主機上加入受約束、可稽核的演進層，同時把最終升級權保留在人類操作員手上。 | Linux 維運層 · Bash · systemd · YAML/JSONL |
-| **[Clawd-Lobster](./clawd-lobster.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/clawd-lobster) | 為 Claude Code 加上規格審查、長期記憶、可重用 skills、工作區與跨機器延續能力。 | Python 工具組 · MCP · SQLite · 本機 Web 儀表板 |
-| **[Claude Idea Review Skill](./claude-idea-review-skill.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/claude-idea-review-skill) | 在 Claude Code 裡執行有攻防、有結論的點子驗證，最後落成可執行的驗證計畫。 | Claude Code Skill · Python 輔助腳本 · 靜態報告 |
-| **[MCP Memory Server](./mcp-memory-server.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/mcp-memory-server) | 探索一套把記憶結構化並加入 salience 的 MCP server；目前已實作 SQLite 與選配 Oracle 查詢路徑。 | Python MCP server · SQLite · Oracle Vector Search |
+<p><code>01 / 多 AI 體驗</code></p>
 
-## 資安與學習
+| 作品 | 成果與技術 |
+|---|---|
+| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/multi-ai-chat-desktop) | 讓已登入的 ChatGPT、Claude、Gemini、Grok 執行結構化本機桌面工作流。<br><br>`Tauri 2` `React` `TypeScript` `Rust` |
+| **[Multi-AI Chat](./multi-ai-chat.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/multi-ai-chat) | 把既有 provider 分頁變成 Chrome Side Panel 裡的輕量多 AI 工作流。<br><br>`Manifest V3` `React` `TypeScript` |
+| **[AI Brainstorming](./ai-brainstorming.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/ai-brainstorming) | 執行非同步的 5／12／16 輪點子驗證，並以私人連結續接。<br><br>`Hono` `React` `SQLite` `OpenRouter` |
 
-| 作品 | 它讓什麼事情成為可能 | 形式與核心技術 |
-|---|---|---|
-| **[Homograph Attack Awareness Demo](./idn-homograph-example.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/idn-homograph-example) · [線上示範](https://project-9ogsa.vercel.app) | 用一堂短而直接的雙語教學，把肉眼幾乎看不見的 Unicode 網域偽裝變成可理解的風險。 | 雙語靜態示範 · HTML/CSS/JavaScript · Vercel |
-| **[AI 教你打陀螺](./zhan-dou-tuo-luo.md#traditional-chinese)** · [原始碼](https://github.com/teddashh/zhan-dou-tuo-luo) | 把分散討論整理成以得分效率為核心的 3v3 配置、購買、訓練與賽後復盤指南。 | 中文知識作品 · Markdown 研究筆記 |
+<p><code>02 / AGENT 基礎設施</code></p>
 
-## 怎麼閱讀這些頁面
+| 作品 | 成果與技術 |
+|---|---|
+| **[openclaw-hermes-watcher](./openclaw-hermes-watcher.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/openclaw-hermes-watcher) | 在 OpenClaw 主機外加上受控、可稽核的演進層，同時保留人類權限。<br><br>`Bash` `systemd` `OpenClaw` `Hermes` |
+| **[Clawd-Lobster](./clawd-lobster.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/clawd-lobster) | 為 Claude Code 加上規格審查、長期記憶、skills、workspace 與多機延續。<br><br>`Python` `MCP` `SQLite` `Claude Code` |
+| **[Claude Idea Review Skill](./claude-idea-review-skill.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/claude-idea-review-skill) | 把令人興奮的點子變成有攻防的結論與可執行驗證計畫。<br><br>`Claude Code Skill` `Python` `Static reports` |
+| **[MCP Memory Server](./mcp-memory-server.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/mcp-memory-server) | 探索一套已實作 SQLite 與選配 Oracle 查詢路徑的結構化 MCP 記憶伺服器。<br><br>`Python` `FastMCP` `SQLite` `Oracle` |
 
-這裡是作品案例；安裝方式與當下行為仍以各 repo 的 README 為準。產品版本、第三方 AI 介面、賽事規則與外部服務都可能改變，實際安裝或依賴整合前，請回到原始碼連結確認最新狀態。
+<p><code>03 / 資安與學習</code></p>
 
-每個作品頁也會如實標示授權狀態。Repository 公開可讀，不代表在沒有授權檔時已自動取得自由重用權。
+| 作品 | 成果與技術 |
+|---|---|
+| **[Homograph Attack Demo](./idn-homograph-example.md#traditional-chinese)** · [線上示範 ↗](https://project-9ogsa.vercel.app) · [原始碼 ↗](https://github.com/teddashh/idn-homograph-example) | 用一堂短而直接的雙語教材，讓人真正看懂 Unicode 網域偽裝。<br><br>`HTML` `CSS` `JavaScript` `Vercel` |
+| **[AI 教你打陀螺](./zhan-dou-tuo-luo.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/zhan-dou-tuo-luo) | 把分散討論整理成以得分效率為核心的 3v3 戰術與訓練框架。<br><br>`Markdown` `研究筆記` `繁體中文` |
+
+<details>
+<summary><strong>這些案例如何核對。</strong></summary>
+
+Repository 內容與授權檔盤點日期為 **2026 年 7 月 11 日**；之後的改動，以各 repo README 為準。
+
+Repository 公開可讀，不代表在沒有授權檔時已取得自由重用權。每一個案例頁都會如實標示盤點時看到的授權狀態。
+
+</details>

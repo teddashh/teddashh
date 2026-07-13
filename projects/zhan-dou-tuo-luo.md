@@ -222,7 +222,7 @@ State every rule or meta assumption that I must verify.
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 個人頁](../README.md#traditional-chinese) · [GitHub 原始碼](https://github.com/teddashh/zhan-dou-tuo-luo) · [指南首頁](https://github.com/teddashh/zhan-dou-tuo-luo#readme) · [推薦配置](https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/recommended-models.md) · [訓練指南](https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/techniques.md) · [English](#english) · **繁體中文**
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 個人頁](../README.zh-TW.md) · [GitHub 原始碼](https://github.com/teddashh/zhan-dou-tuo-luo) · [指南首頁](https://github.com/teddashh/zhan-dou-tuo-luo#readme) · [推薦配置](https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/recommended-models.md) · [訓練指南](https://github.com/teddashh/zhan-dou-tuo-luo/blob/main/docs/techniques.md) · [English](#english) · **繁體中文**
 
 # AI 教你打陀螺
 
