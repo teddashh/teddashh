@@ -32,8 +32,8 @@ Nine public builds, documented as product and engineering case studies—not jus
 
 | Project | Outcome & stack |
 |---|---|
-| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md)** · [source ↗](https://github.com/teddashh/multi-ai-chat-desktop) | Coordinate logged-in ChatGPT, Claude, Gemini, and Grok through structured local desktop workflows.<br><br>`Tauri 2` `React` `TypeScript` `Rust` |
-| **[Multi-AI Chat](./multi-ai-chat.md)** · [source ↗](https://github.com/teddashh/multi-ai-chat) | Turn existing provider tabs into a lightweight multi-AI workflow in Chrome's Side Panel.<br><br>`Manifest V3` `React` `TypeScript` |
+| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md)** · [source ↗](https://github.com/teddashh/multi-ai-chat-desktop) | Stable v1.6.3 coordinates logged-in ChatGPT, Claude, Gemini, and Grok through six guided local presets, including a 48-contribution Brainstorm.<br><br>`Tauri 2` `React` `TypeScript` `Rust` |
+| **[Multi-AI Chat](./multi-ai-chat.md)** · [source ↗](https://github.com/teddashh/multi-ai-chat) | Turn existing provider tabs into a lightweight Chrome Side Panel workflow with bounded continuation context and semantic Markdown transcripts.<br><br>`Manifest V3` `React` `TypeScript` |
 | **[AI Brainstorming](./ai-brainstorming.md)** · [source ↗](https://github.com/teddashh/ai-brainstorming) | Run an asynchronous 5-, 12-, or 16-round idea review with private resume links.<br><br>`Hono` `React` `SQLite` `OpenRouter` |
 
 <p><code>02 / AGENT INFRASTRUCTURE</code></p>
@@ -55,7 +55,7 @@ Nine public builds, documented as product and engineering case studies—not jus
 <details>
 <summary><strong>How these case studies are verified.</strong></summary>
 
-Repository contents and license files were reviewed on **July 11, 2026**. Each repository README remains the operational source of truth for changes made after that snapshot.
+Repository contents, release metadata, star counts, and license files were re-reviewed on **July 18, 2026**. Forks are deliberately excluded from this directory; each repository README remains the operational source of truth for changes made after that snapshot.
 
 A repository being publicly readable does not by itself define reuse rights when no license has been published. Every case study states the license status found during review.
 
@@ -97,8 +97,8 @@ A repository being publicly readable does not by itself define reuse rights when
 
 | 作品 | 成果與技術 |
 |---|---|
-| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/multi-ai-chat-desktop) | 讓已登入的 ChatGPT、Claude、Gemini、Grok 執行結構化本機桌面工作流。<br><br>`Tauri 2` `React` `TypeScript` `Rust` |
-| **[Multi-AI Chat](./multi-ai-chat.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/multi-ai-chat) | 把既有 provider 分頁變成 Chrome Side Panel 裡的輕量多 AI 工作流。<br><br>`Manifest V3` `React` `TypeScript` |
+| **[Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/multi-ai-chat-desktop) | 穩定版 v1.6.3 讓已登入的 ChatGPT、Claude、Gemini、Grok 執行六種本機引導 preset，包含 48 次貢獻的 Brainstorm。<br><br>`Tauri 2` `React` `TypeScript` `Rust` |
+| **[Multi-AI Chat](./multi-ai-chat.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/multi-ai-chat) | 把既有 provider 分頁變成 Chrome Side Panel 裡的輕量工作流，並提供有界的延續上下文與語意化 Markdown transcript。<br><br>`Manifest V3` `React` `TypeScript` |
 | **[AI Brainstorming](./ai-brainstorming.md#traditional-chinese)** · [原始碼 ↗](https://github.com/teddashh/ai-brainstorming) | 執行非同步的 5／12／16 輪點子驗證，並以私人連結續接。<br><br>`Hono` `React` `SQLite` `OpenRouter` |
 
 <p><code>02 / AGENT 基礎設施</code></p>
@@ -120,7 +120,7 @@ A repository being publicly readable does not by itself define reuse rights when
 <details>
 <summary><strong>這些案例如何核對。</strong></summary>
 
-Repository 內容與授權檔盤點日期為 **2026 年 7 月 11 日**；之後的改動，以各 repo README 為準。
+Repository 內容、release metadata、stars 與授權檔已於 **2026 年 7 月 18 日**重新盤點。這份目錄刻意排除 fork；之後的改動仍以各 repo README 為準。
 
 Repository 公開可讀，不代表在沒有授權檔時已取得自由重用權。每一個案例頁都會如實標示盤點時看到的授權狀態。
 

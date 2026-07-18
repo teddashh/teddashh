@@ -12,7 +12,7 @@ Claude Idea Review Skill is a small, installable Claude Code skill rather than a
 
 Its key design decision is to optimize for **decision quality**, not encouragement. Four named thinking personalities keep the argument legible: one expands the opportunity, one attacks assumptions, one converts disagreement into tests, and one integrates the evidence. Optional Codex, Gemini/Antigravity, and Grok access can add genuinely different providers; when they are unavailable, Claude continues and labels the simulated perspective rather than blocking the review.
 
-This case study was verified against the public repository on **July 11, 2026**:
+This case study was re-verified against the unchanged public repository on **July 18, 2026**:
 
 | Item | Repository evidence |
 |---|---|
@@ -312,7 +312,7 @@ Claude Idea Review Skill 是可安裝的 Claude Code skill，不是 hosted produ
 
 它最重要的設計選擇，是優化**決策品質**而不是鼓勵感。四個有名字的思考個性讓爭論容易閱讀：一個展開機會、一個攻擊假設、一個把分歧轉成測試、一個整合證據。Codex、Gemini/Antigravity、Grok 都是選用 provider；真的可用時能加入不同模型，無法使用時 Claude 仍會繼續，並明確標示 simulated perspective，不會讓 review 永久卡住。
 
-本頁在 **2026 年 7 月 11 日**核對公開 repo：
+本頁在 **2026 年 7 月 18 日**重新核對未變動的公開 repo：
 
 | 項目 | Repo 實際證據 |
 |---|---|

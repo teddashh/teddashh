@@ -19,8 +19,8 @@ It is best positioned as an **interactive teaching artifact**, not a phishing si
 | Stack | HTML5, embedded CSS, vanilla JavaScript, Vercel configuration, Google Fonts |
 | Content | Interactive URL pair, seven-step attack chain, five Latin/Cyrillic comparisons, attack patterns, and defenses |
 | Repository size | 3 tracked files; <code>index.html</code> is 1,052 lines / 37,149 bytes |
-| Live verification | The Vercel page returned HTTP 200 and matched the repository HTML byte-for-byte by SHA-256 on 2026-07-11 |
-| Audit basis | Default branch <code>main</code>, commit <code>8b0443c8848a14c7c7e4498d540430a26f09067b</code> |
+| Live verification | The Vercel page returned HTTP 200 and matched the repository HTML byte-for-byte by SHA-256 on 2026-07-18 |
+| Audit basis | Default branch <code>main</code>, commit <code>8b0443c8848a14c7c7e4498d540430a26f09067b</code>, re-verified unchanged on 2026-07-18 |
 
 ## Problem
 
@@ -166,7 +166,7 @@ For a live corporate session, avoid asking attendees to visit an uncontrolled lo
 | Area | Current status and consequence |
 |---|---|
 | Product scope | A single awareness lesson, not a learning management system, quiz engine, phishing campaign tool, or telemetry service. |
-| Live status | The documented Vercel URL was live and served the audited <code>index.html</code> on 2026-07-11. Third-party assets and outbound domains remain independently changeable. |
+| Live status | The documented Vercel URL was live and served the audited <code>index.html</code> on 2026-07-18. Third-party assets and outbound domains remain independently changeable. |
 | Search visibility | <code>noindex</code> asks compliant crawlers not to index the page; it is not authentication or confidentiality. The footer calls the material “Internal Security Awareness,” while the repository and deployment are public. |
 | Demonstration safety | The fake-looking domain is a real outbound link with no ownership statement or interstitial. Its future behavior cannot be guaranteed by this code. |
 | Content accuracy | The FPCUSA example correctly maps to <code>xn--fpcus-8ve.com</code>. A separate Booking.com illustration says a Cyrillic “о” maps to <code>xn--bking-qmb.com</code>; encoding the described <code>bоoking.com</code> yields <code>xn--boking-wqf.com</code>, so that example should be corrected. |
@@ -211,8 +211,8 @@ For a live corporate session, avoid asking attendees to visit an uncontrolled lo
 | 技術 | HTML5、embedded CSS、vanilla JavaScript、Vercel config、Google Fonts |
 | 內容 | 互動網址對照、七步攻擊鏈、五組拉丁／西里爾字元、攻擊模式與防禦方式 |
 | Repo 規模 | 3 個 tracked files；<code>index.html</code> 1,052 行／37,149 bytes |
-| 線上驗證 | 2026-07-11 檢查時 Vercel 回傳 HTTP 200，SHA-256 與 repo HTML 完全一致 |
-| 稽核基準 | 預設分支 <code>main</code>、commit <code>8b0443c8848a14c7c7e4498d540430a26f09067b</code> |
+| 線上驗證 | 2026-07-18 檢查時 Vercel 回傳 HTTP 200，SHA-256 與 repo HTML 完全一致 |
+| 稽核基準 | 預設分支 <code>main</code>、commit <code>8b0443c8848a14c7c7e4498d540430a26f09067b</code>，2026-07-18 重新確認未變動 |
 
 ## 要解決的問題
 
@@ -358,7 +358,7 @@ README 也寫了兩種方式：從 GitHub import，Framework Preset 選 “Other
 | 面向 | 目前狀態與影響 |
 |---|---|
 | 產品範圍 | 一堂單頁 awareness lesson，不是 LMS、quiz engine、phishing campaign tool 或 telemetry service。 |
-| 線上狀態 | 2026-07-11 檢查時，文件中的 Vercel URL 正在服務這份 audited <code>index.html</code>；第三方 assets 與外連 domains 仍可獨立變動。 |
+| 線上狀態 | 2026-07-18 檢查時，文件中的 Vercel URL 正在服務這份 audited <code>index.html</code>；第三方 assets 與外連 domains 仍可獨立變動。 |
 | 搜尋能見度 | <code>noindex</code> 只是在請守規則的 crawler 不收錄，不是 authentication 或 confidentiality。Footer 寫 “Internal Security Awareness”，但 repo 與 deployment 都是 public。 |
 | 示範安全 | 假網址是一個沒有 ownership statement 或 interstitial 的真外連，未來行為不受這份 code 保證。 |
 | 內容正確性 | FPCUSA example 正確對應 <code>xn--fpcus-8ve.com</code>。另一個 Booking.com illustration 說西里爾 “о” 對應 <code>xn--bking-qmb.com</code>；依敘述編碼 <code>bоoking.com</code> 會得到 <code>xn--boking-wqf.com</code>，這一例應修正。 |

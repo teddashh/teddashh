@@ -21,7 +21,7 @@ The repository packages that discipline in several connected forms:
 - optional Oracle Vector Search, Odoo, Codex, Gemini, NotebookLM, and deployment skills;
 - Windows, macOS, Linux, and experimental Docker setup paths.
 
-This case study was verified against the public repository on **July 11, 2026**:
+This case study was re-verified against the unchanged public repository on **July 18, 2026**:
 
 | Item | Repository evidence |
 |---|---|
@@ -359,7 +359,7 @@ Repo 把這些能力包成幾種互相連接的形式：
 - 選用 Oracle Vector Search、Odoo、Codex、Gemini、NotebookLM 與 deploy skills；
 - Windows、macOS、Linux，以及實驗性 Docker setup path。
 
-本頁在 **2026 年 7 月 11 日**核對公開 repo：
+本頁在 **2026 年 7 月 18 日**重新核對未變動的公開 repo：
 
 | 項目 | Repo 實際證據 |
 |---|---|
