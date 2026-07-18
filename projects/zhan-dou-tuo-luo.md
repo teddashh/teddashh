@@ -20,7 +20,7 @@ Its distinctive idea is simple: a top that spins the longest is not automaticall
 | Repository size | 7 tracked Markdown files; 421 lines / 15,217 bytes |
 | Evidence map | 6 unique external source URLs are linked across the guide |
 | AI scope | Describes ways an AI agent can analyze rules, inventory, matchups, and reviews; contains no agent code, prompt engine, model call, or dataset |
-| Audit basis | Default branch <code>main</code>, commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>, reviewed 2026-07-11 |
+| Audit basis | Default branch <code>main</code>, commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>, re-verified unchanged on 2026-07-18 |
 
 ## Problem
 
@@ -242,7 +242,7 @@ AI 教你打陀螺（英文作品名：**AI Beyblade X Field Guide**）是一個
 | Repo 規模 | 7 個 Markdown files；共 421 行／15,217 bytes |
 | 來源地圖 | 全站共連到 6 個不重複 external source URLs |
 | AI 範圍 | 說明 AI Agent 如何分析規則、庫存、對位與賽後結果；沒有 agent code、prompt engine、model call 或 dataset |
-| 稽核基準 | 預設分支 <code>main</code>、commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>，檢查日期 2026-07-11 |
+| 稽核基準 | 預設分支 <code>main</code>、commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>，2026-07-18 重新確認未變動 |
 
 ## 要解決的問題
 

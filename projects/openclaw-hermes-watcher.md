@@ -12,7 +12,7 @@
 
 The product is aimed at a difficult middle ground: an operator wants an agent to learn from months of service history and continuously study useful improvements, but does not want that same agent to grant itself permission, apply its own upgrades, rewrite the alarm, or demand attention every day.
 
-This case study was verified against the public repository on **July 11, 2026**:
+This case study was re-verified against the unchanged public repository on **July 18, 2026**:
 
 | Item | Repository evidence |
 |---|---|
@@ -267,7 +267,7 @@ The project is released under the **Apache License 2.0**, including its explicit
 
 它處理的是一個很難拿捏的中間地帶：操作員希望 Agent 能累積數月的服務歷史、持續研究值得做的改進；但又不希望同一個 Agent 可以替自己擴權、套用自己的升級、改寫警報規則，或每天用大量通知消耗人的注意力。
 
-本頁在 **2026 年 7 月 11 日**逐項核對公開 repo：
+本頁在 **2026 年 7 月 18 日**重新逐項核對未變動的公開 repo：
 
 | 項目 | Repo 實際證據 |
 |---|---|

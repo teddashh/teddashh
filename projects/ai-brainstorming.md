@@ -8,7 +8,7 @@
 
 AI Brainstorming is a standalone web MVP for asynchronous, multi-model review of a product, startup, feature, business-model, or decision idea. A visitor submits an email address and an idea, chooses the depth of the review, and receives a private resume link. Five model “seats” then work through a staged review while the page streams round-by-round progress; the completed transcript remains available as rendered Markdown, a download, and—when SMTP is configured—an email attachment.
 
-This page was verified against the public repository on **July 11, 2026**, with default branch `main` at [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5).
+This page was re-verified against the public repository on **July 18, 2026**; default branch `main` remains at [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5).
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -204,7 +204,7 @@ For production, build both packages and put the Hono server behind a reverse pro
 
 AI Brainstorming 是一個獨立 Web MVP，專門對產品、創業、功能、商業模式或決策 idea 做非同步多模型 review。訪客輸入 email 與 idea、選擇 review 深度後，會先得到一條私人 resume link；五個模型席位接著按階段工作，頁面逐輪 streaming 進度，完成 transcript 則保留為 rendered Markdown、下載檔，以及在 SMTP 有設定時寄出的 email 附件。
 
-本頁於 **2026 年 7 月 11 日**依公開 repository 核對；default branch `main` 當時位於 [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5)。
+本頁於 **2026 年 7 月 18 日**重新核對公開 repository；default branch `main` 仍位於 [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5)。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|

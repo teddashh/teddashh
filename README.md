@@ -64,7 +64,7 @@
 
 ## Public work.
 
-Nine public repositories across multi-AI experiences, agent infrastructure, security, and learning—55 GitHub stars at the July 12 snapshot. Star badges below stay live; each title opens a full case study with architecture, decisions, setup, current limits, and license status.
+Nine original public repositories across multi-AI experiences, agent infrastructure, security, and learning—72 GitHub stars at the July 18 snapshot. Star badges below stay live; each title opens a full case study with architecture, decisions, setup, current limits, and license status.
 
 <p><code>01 / MULTI-AI EXPERIENCES</code></p>
 
@@ -75,7 +75,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      The feature-complete v1.1.0 desktop edition: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through five conversation-first workflows, then keep talking in the same local session—without model API keys.<br><br>
+      The stable v1.6.3 desktop edition: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through six guided presets over five local workflow engines—including a 48-contribution Brainstorm—without model API keys.<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">Source ↗</a>
@@ -87,7 +87,7 @@ Nine public repositories across multi-AI experiences, agent infrastructure, secu
       <code>CHROME</code> <code>NO API KEYS</code>
     </td>
     <td width="68%" valign="top">
-      Turn the AI tabs already open in Chrome into one lightweight multi-model workflow surface.<br><br>
+      Turn the AI tabs already open in Chrome into one lightweight multi-model workflow surface, with bounded same-conversation context and structure-preserving Markdown transcripts.<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.2.0</code><br><br>
       <code>Manifest V3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat">Source ↗</a>

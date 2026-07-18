@@ -64,7 +64,7 @@
 
 ## 公開作品。
 
-九個公開 repository，涵蓋多 AI 體驗、Agent 基礎設施、資安與學習；2026-07-12 快照合計 55 顆 GitHub stars。下方 star badge 會持續更新；每個作品都有完整案例頁，說清楚架構、設計決策、使用方式、現有限制與授權狀態。
+九個非 fork 的原創公開 repository，涵蓋多 AI 體驗、Agent 基礎設施、資安與學習；2026-07-18 快照合計 72 顆 GitHub stars。下方 star badge 會持續更新；每個作品都有完整案例頁，說清楚架構、設計決策、使用方式、現有限制與授權狀態。
 
 <p><code>01 / 多 AI 體驗</code></p>
 
@@ -75,7 +75,7 @@
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      功能完整的 v1.1.0 桌面版：不使用模型 API key，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行五種以對話為中心的工作流，完成後還能在同一本機 session 繼續追問。<br><br>
+      穩定版 v1.6.3：不使用模型 API key，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行五套本機 workflow engine 上的六種引導 preset，包含 48 次貢獻的 Brainstorm。<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">原始碼 ↗</a>
@@ -87,7 +87,7 @@
       <code>CHROME</code> <code>NO API KEYS</code>
     </td>
     <td width="68%" valign="top">
-      把 Chrome 裡已開啟的 AI 服務分頁，變成一個輕量的多模型工作流控制面板。<br><br>
+      把 Chrome 裡已開啟的 AI 服務分頁，變成輕量多模型工作流控制面板；支援有界的同對話上下文與保留結構的 Markdown transcript。<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.2.0</code><br><br>
       <code>Manifest V3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat">原始碼 ↗</a>
