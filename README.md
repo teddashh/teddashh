@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://ai-sister.com"><strong>Visit Ai-Sister ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="./projects/README.md"><strong>Explore 9 case studies →</strong></a>
+  <a href="./projects/README.md"><strong>Explore 12 case studies →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 years</strong><br><sub>Enterprise IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>9 projects</strong><br><sub>Public case studies</sub>
+      <strong>12 projects</strong><br><sub>Public case studies</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 AI systems</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -64,7 +64,7 @@
 
 ## Public work.
 
-Nine original public repositories across multi-AI experiences, agent infrastructure, security, and learning—72 GitHub stars at the July 18 snapshot. Star badges below stay live; each title opens a full case study with architecture, decisions, setup, current limits, and license status.
+Twelve original public repositories across multi-AI experiences, agent infrastructure, security, and learning—117 GitHub stars at the July 30 snapshot. Star badges below stay live; each title opens a full case study with architecture, decisions, setup, current limits, and license status.
 
 <p><code>01 / MULTI-AI EXPERIENCES</code></p>
 
@@ -75,10 +75,22 @@ Nine original public repositories across multi-AI experiences, agent infrastruct
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      The stable v1.6.3 desktop edition: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through six guided presets over five local workflow engines—including a 48-contribution Brainstorm—without model API keys.<br><br>
+      Stable v1.8.3: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through six guided presets, configurable role assignments, and a full-width transcript, with fail-closed login/challenge isolation and no model API keys.<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">Source ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/multi-ai-terminal.md">Multi-AI Terminal</a></strong><br>
+      <code>HEADLESS AGENTS</code> <code>EVIDENCE</code>
+    </td>
+    <td width="68%" valign="top">
+      The v0.2.10 successor moves orchestration from provider web pages to real coding-agent runtimes, with stage gates, optional worktree isolation, durable event evidence, verification, steering, and replayable reports.<br><br>
+      <a href="https://github.com/teddashh/multi-ai-terminal/stargazers"><img alt="Multi-AI Terminal stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-terminal?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-terminal/releases/latest"><img alt="Multi-AI Terminal release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-terminal?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
+      <code>TypeScript</code> <code>React</code> <code>Node.js</code> <code>Tauri 2</code><br><br>
+      <a href="https://github.com/teddashh/multi-ai-terminal">Source ↗</a>
     </td>
   </tr>
   <tr>
@@ -110,6 +122,18 @@ Nine original public repositories across multi-AI experiences, agent infrastruct
 <p><code>02 / AGENT INFRASTRUCTURE</code></p>
 
 <table width="100%">
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/tokenmonster.md">TokenMonster</a></strong><br>
+      <code>LOCAL-FIRST</code> <code>AI USAGE</code>
+    </td>
+    <td width="68%" valign="top">
+      Track Claude Code, Codex, Gemini CLI, and Grok CLI usage locally, then turn real milestones into a live dashboard and an eleven-character desktop companion—without accounts or telemetry.<br><br>
+      <a href="https://github.com/teddashh/TokenMonster/stargazers"><img alt="TokenMonster stars" src="https://img.shields.io/github/stars/teddashh/TokenMonster?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/TokenMonster/releases"><img alt="TokenMonster release" src="https://img.shields.io/github/v/release/teddashh/TokenMonster?include_prereleases&amp;style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
+      <code>TypeScript</code> <code>Electron</code> <code>Node.js</code> <code>SQLite</code><br><br>
+      <a href="https://github.com/teddashh/TokenMonster">Source ↗</a>
+    </td>
+  </tr>
   <tr>
     <td width="32%" valign="top">
       <strong><a href="./projects/openclaw-hermes-watcher.md">openclaw-hermes-watcher</a></strong><br>
@@ -163,6 +187,18 @@ Nine original public repositories across multi-AI experiences, agent infrastruct
 <p><code>03 / SECURITY &amp; LEARNING</code></p>
 
 <table width="100%">
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/reset-therapy.md">Reset Therapy</a></strong><br>
+      <code>PARODY</code> <code>ZERO BUILD</code>
+    </td>
+    <td width="68%" valign="top">
+      A bilingual anti-burnout toy that turns four painstakingly fake AI quota panels into a reset button, chained golden dragons, and an optional shared “healing” leaderboard.<br><br>
+      <a href="https://github.com/teddashh/reset-therapy/stargazers"><img alt="Reset Therapy stars" src="https://img.shields.io/github/stars/teddashh/reset-therapy?style=flat-square&amp;label=stars&amp;color=111111"></a><br><br>
+      <code>HTML</code> <code>JavaScript</code> <code>Odoo 19</code> <code>SQLite</code><br><br>
+      <a href="https://www.ted-h.com/reset-therapy">Live ↗</a> · <a href="https://github.com/teddashh/reset-therapy">Source ↗</a>
+    </td>
+  </tr>
   <tr>
     <td width="32%" valign="top">
       <strong><a href="./projects/idn-homograph-example.md">Homograph Attack Demo</a></strong><br>
