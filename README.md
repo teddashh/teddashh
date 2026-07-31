@@ -268,7 +268,7 @@ current-focus/
 <details>
 <summary><strong>The longer story.</strong></summary>
 
-**Taipei, 1985–2008.** Studied computer science at National Central University, ran campus networks, co-built a MUD that is still operating after 20+ years, and managed the university's highest-traffic personal BBS board.
+**Taiwan, 1985–2008.** Studied computer science at National Central University, ran campus networks, co-built a MUD that is still operating after 20+ years, and managed the university's highest-traffic personal BBS board.
 
 **United States, 2008–today.** Earned a master's in computer information systems, then spent nearly two decades operating identity, endpoints, ERP, BI, CRM, and security programs inside real businesses.
 
@@ -279,6 +279,6 @@ current-focus/
 ---
 
 <p align="center">
-  <code>TAIPEI → UNITED STATES</code><br><br>
+  <code>TAIWAN → UNITED STATES</code><br><br>
   <a href="https://ted-h.com">ted-h.com</a> · <a href="mailto:ted@ted-h.com">ted@ted-h.com</a>
 </p>
