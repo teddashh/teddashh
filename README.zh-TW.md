@@ -279,6 +279,6 @@ current-focus/
 ---
 
 <p align="center">
-  <code>台北 → 美國</code><br><br>
+  <code>台灣 → 美國</code><br><br>
   <a href="https://ted-h.com">ted-h.com</a> · <a href="mailto:ted@ted-h.com">ted@ted-h.com</a>
 </p>
