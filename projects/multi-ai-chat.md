@@ -8,7 +8,7 @@
 
 Multi-AI Chat is a lightweight Chrome Side Panel extension that turns already-open, already-authenticated ChatGPT, Claude, Gemini, and Grok tabs into one coordinated workflow. It keeps the provider's own page as the model interface, uses a Manifest V3 service worker as the orchestrator, and displays the combined conversation in a compact React panel.
 
-This page was re-verified against the public repository on **July 18, 2026**, with default branch `master` at [`d753756`](https://github.com/teddashh/multi-ai-chat/commit/d7537569363f1e1e03287e450428641ef8fe173a). GitHub showed **8 stars** at this snapshot; the source version remains v0.2.0.
+This page was re-verified against the public repository on **July 30, 2026**, with default branch `master` at [`d753756`](https://github.com/teddashh/multi-ai-chat/commit/d7537569363f1e1e03287e450428641ef8fe173a). GitHub showed **13 stars** at this snapshot; the source version remains v0.2.0.
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -176,7 +176,7 @@ During development, run `npm run dev`, reload the unpacked extension at `chrome:
 
 ---
 
-[← Previous: Multi-AI Chat Desktop](./multi-ai-chat-desktop.md) · [Next: AI Brainstorming →](./ai-brainstorming.md)
+[← Previous: Multi-AI Terminal](./multi-ai-terminal.md) · [Next: AI Brainstorming →](./ai-brainstorming.md)
 
 ---
 
@@ -190,7 +190,7 @@ During development, run `npm run dev`, reload the unpacked extension at `chrome:
 
 Multi-AI Chat 是一個輕量 Chrome Side Panel 外掛，把已開啟、已登入的 ChatGPT、Claude、Gemini、Grok 分頁變成同一套工作流。Provider 自己的頁面仍是模型介面；Manifest V3 service worker 負責編排，React Side Panel 則顯示整合後的對話。
 
-本頁於 **2026 年 7 月 18 日**重新核對公開 repository；default branch `master` 位於 [`d753756`](https://github.com/teddashh/multi-ai-chat/commit/d7537569363f1e1e03287e450428641ef8fe173a)。這次快照中 GitHub 顯示 **8 stars**，source version 仍是 v0.2.0。
+本頁於 **2026 年 7 月 30 日**重新核對公開 repository；default branch `master` 位於 [`d753756`](https://github.com/teddashh/multi-ai-chat/commit/d7537569363f1e1e03287e450428641ef8fe173a)。這次快照中 GitHub 顯示 **13 stars**，source version 仍是 v0.2.0。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|
@@ -358,4 +358,4 @@ npm run verify
 
 ---
 
-[← 上一頁：Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese) · [下一頁：AI Brainstorming →](./ai-brainstorming.md#traditional-chinese)
+[← 上一頁：Multi-AI Terminal](./multi-ai-terminal.md#traditional-chinese) · [下一頁：AI Brainstorming →](./ai-brainstorming.md#traditional-chinese)

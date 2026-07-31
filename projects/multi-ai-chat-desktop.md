@@ -1,6 +1,6 @@
 <a id="english"></a>
 
-[← Public GitHub portfolio](./README.md) · [Ted's profile](../README.md) · **English** · [繁體中文](#traditional-chinese) · [GitHub repository](https://github.com/teddashh/multi-ai-chat-desktop) · [Latest stable release: v1.6.3](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.6.3)
+[← Public GitHub portfolio](./README.md) · [Ted's profile](../README.md) · **English** · [繁體中文](#traditional-chinese) · [GitHub repository](https://github.com/teddashh/multi-ai-chat-desktop) · [Latest stable release: v1.8.3](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
 
 # Multi-AI Chat Desktop
 
@@ -8,7 +8,7 @@
 
 Multi-AI Chat Desktop is a feature-complete, conversation-first desktop edition for people who already use ChatGPT, Claude, Gemini, and Grok on the web. It does not put four generic chat boxes beside one another and it does not ask for model API keys. One React control pane coordinates the real provider pages in native Tauri child WebViews, carries answers through six guided presets backed by five workflow engines, and keeps the resulting conversation readable, resumable, and local.
 
-This page was re-verified against the public repository and stable release on **July 18, 2026**, with default branch `main` at [`76e8e72`](https://github.com/teddashh/multi-ai-chat-desktop/commit/76e8e72580011fa5fe2b5bbf3f2ead2e66a3831c). GitHub showed **53 stars** at this snapshot. The latest published release is v1.6.3; `main` is two product commits ahead with a guarded, temporary expand/restore control for the focused provider stage.
+This page was re-verified against the public repository and stable release on **July 30, 2026**, with default branch `main` and the v1.8.3 tag both at [`a1aee84`](https://github.com/teddashh/multi-ai-chat-desktop/commit/a1aee8417475d277edde57737519d831d7f616f4). GitHub showed **89 stars** at this snapshot.
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -18,19 +18,22 @@ This page was re-verified against the public repository and stable release on **
 | Core stack | React 18, TypeScript, Zustand, Vite, Tailwind CSS, Rust, Tauri 2 |
 | Built-in workflows | Six guided presets over five engines: Free, Debate, Consult, Coding, Roundtable, and the Free-engine-based Brainstorm preset |
 | Local history | Up to 30 recent conversation transcripts |
-| Published version | v1.6.3, a stable cross-platform GitHub Release with Windows installer/portable, Apple Silicon DMG, and Linux x64 AppImage |
+| Published version | v1.8.3, a stable cross-platform GitHub Release with Windows installer/portable, Apple Silicon DMG, and Linux x64 AppImage |
 | Source status | Product scope is frozen; future work is limited to provider compatibility, security, and build breakage. Source manifests intentionally remain at `0.0.0`; release tags inject the public version. |
-| Current verification | `main`: 419 frontend tests across 51 files, 21 Agent contract tests, and 55 Rust tests. The v1.6.3 release candidate recorded 417 frontend tests before the two focused-stage commits. CI also runs typechecking, ESLint, adapter checks, production build, npm audit, formatting, warnings-denied Clippy, and CodeQL across Windows, macOS, and Linux. |
+| Current verification | v1.8.3: 465 frontend tests, 22 Agent contract tests, and 76 Rust tests, plus typechecking, lint, production builds, schema checks, formatting, warnings-denied Clippy, three-platform CI, and CodeQL. |
 
 The project is best understood as the full-featured sibling of the lighter [Multi-AI Chat Chrome extension](./multi-ai-chat.md): the extension controls tabs already open in Chrome, while the desktop edition owns its WebView layout, local provider profiles, snapshots, replay, checkpoints, and local-file workflow.
 
-### What changed after the previous v1.1.0 snapshot
+### What changed through v1.8.3
 
 - Conversation continuity was hardened across local session switches, prompt echoes are filtered, provider-consumed sends are preserved, and rich responses are serialized into semantic Markdown rather than flattened text.
 - History dates remain stable when content has not changed; the conversation sidebar remembers its collapsed state; selecting a connection chip can locate the corresponding transcript message.
 - Response language now follows an explicit request or the question and conversation language, with interface language used only as fallback and an optional fixed-language override.
 - v1.6.0 completed the frozen product with the 12-round Brainstorm preset, an optional AI-Sister commemorative theme, and large-text/WebView alignment improvements.
-- v1.6.1 through v1.6.3 concentrated on session boundaries, provider isolation, asynchronous UI cleanup, WebView ordering and focus, recoverable resets, immutable CI pinning, and machine-readable MIT licensing. Current `main` then added the temporary focused-stage expand/restore affordance with regression coverage.
+- v1.6.1 through v1.6.4 concentrated on session boundaries, provider isolation, recoverable resets, correct logged-out detection, passive challenge handling, and an expanded real-provider focus view.
+- v1.7.0 made structured workflow roles configurable, waits for a reset provider to become genuinely sendable, retries one bounded timing race, and prevents terminal provider errors from becoming downstream “answers.”
+- v1.8.0 added a full-width transcript, scroll-linked provider context, and safer native WebView/login transitions.
+- v1.8.1 restored four-provider defaults through a versioned migration and added bounded, read-only Grok challenge detection. v1.8.2 and v1.8.3 then kept authentication and challenge documents stock, rejected stale document authority, and applied exact fail-closed app-host checks to bridge, callback, adapter-refresh, and navigation paths.
 
 ## The problem it addresses
 
@@ -70,7 +73,9 @@ The current source also includes:
 - completion handling for image-only ChatGPT responses instead of waiting forever for text;
 - local conversation titles and reopening of the 30 most recent sessions;
 - bounded same-session context for resumed follow-ups, with isolation across local conversation switches;
-- transcript-aware navigation from provider chips, a remembered sidebar state, and a temporary focused-stage expand/restore control on current `main`;
+- transcript-aware navigation, a full-width reading mode, and provider chips that follow the response at the transcript reading line;
+- configurable provider assignments for structured workflow roles, with collision checks where roles run in parallel;
+- stock authentication/challenge documents and fail-closed host/document authority checks around bridge recovery and provider navigation;
 - step timeout state with retry, skip, and cancel paths rather than an invisible indefinite wait;
 - optional execution snapshots carrying graph version, app version, adapter versions, role map, step status, and human edits;
 - four snapshot privacy tiers: metadata only, hashes, prompt text, and full local text;
@@ -183,8 +188,9 @@ The first Rust compilation can take several minutes and must run in a graphical 
 - **Terms and account eligibility still apply.** Automated interaction may be restricted by each provider's terms. Users must only operate accounts and content they are authorized to use.
 - **Embedded login is not equivalent to a normal browser.** Project architecture notes identify Google/Gemini OAuth as the highest-risk login path because Google may block embedded browsers. Other providers and Cloudflare challenges may also change behavior.
 - **The provider set is not plug-and-play.** Adapters can update an existing provider, but adding a fifth provider requires type, UI, profile, and workflow changes.
-- **Packaging still has trust friction.** Windows artifacts are unsigned. macOS v1.6.3 is ad-hoc signed and its embedded signature is checked in release CI, but it is not Apple-notarized, so Gatekeeper may still require an explicit first-launch exception. Windows portable builds update manually, and only Apple Silicon macOS packages are published.
-- **The product is deliberately in maintenance mode.** v1.6.3 is the latest stable maintenance release of the feature-complete edition. New product surfaces are not on the roadmap; future releases are reserved for provider compatibility, security, and build breakage.
+- **Packaging still has trust friction.** Windows artifacts are unsigned. macOS v1.8.3 is ad-hoc signed and its embedded signature is checked in release CI, but it is not Apple-notarized, so Gatekeeper may still require an explicit first-launch exception. Windows portable builds update manually, and only Apple Silicon macOS packages are published.
+- **The product is deliberately in maintenance mode.** v1.8.3 is the latest stable maintenance release of the feature-complete edition. New product surfaces are not on the roadmap; future releases are reserved for provider compatibility, security, and build breakage.
+- **Automated validation is not a live provider guarantee.** v1.8.3's fresh-profile ChatGPT/Grok sign-in and Apple Silicon provider-login smoke tests were not repeated in that release session; third-party login and Turnstile behavior can still vary by account, network, and platform.
 - **One upstream Linux advisory is accepted, not hidden.** The Tauri/Wry GTK3 dependency graph retains the documented medium-severity `glib::VariantStrIter` advisory. The app does not directly call the affected API, and the compatible upstream graph does not yet provide the newer `glib` line.
 - **Local-first does not mean network-free.** Prompts go to selected provider sites, and the app checks GitHub-hosted adapter JSON at startup and periodically. There is no project conversation server, account system, analytics, or model API credential.
 - **License:** the repository includes the unmodified standard MIT License. Ted Huang's 2026 copyright and reference-work provenance live separately in `NOTICE.md`, so scanners now detect MIT without losing attribution; the software is provided without warranty.
@@ -197,19 +203,19 @@ The first Rust compilation can take several minutes and must run in a graphical 
 - [Product and protocol specification](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/SPEC.md)
 - [Implementation plan](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/PLAN.md)
 - [Release guide](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/RELEASE.md)
-- [v1.6.3 release notes](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/RELEASE_NOTES_v1.6.3.md)
+- [v1.8.3 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
 - [Adapter contribution guide](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/CONTRIBUTING.md)
 - [Published releases](https://github.com/teddashh/multi-ai-chat-desktop/releases) · [Current CI](https://github.com/teddashh/multi-ai-chat-desktop/actions)
 
 ---
 
-[← Previous: Public GitHub portfolio](./README.md) · [Next: Multi-AI Chat →](./multi-ai-chat.md)
+[← Previous: Public GitHub portfolio](./README.md) · [Next: Multi-AI Terminal →](./multi-ai-terminal.md)
 
 ---
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat-desktop) · [最新穩定版：v1.6.3](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.6.3)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat-desktop) · [最新穩定版：v1.8.3](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
 
 # Multi-AI Chat Desktop
 
@@ -217,7 +223,7 @@ The first Rust compilation can take several minutes and must run in a graphical 
 
 Multi-AI Chat Desktop 是功能完整、以對話為中心的桌面版本，服務已經在網頁上使用 ChatGPT、Claude、Gemini、Grok 的人。它不是把四個通用聊天框並排，也不要求模型 API key；一個 React 控制面板會協調 Tauri 原生 child WebView 裡的真實 provider 頁面，讓回答依五套 workflow engine 上的六種引導 preset 流動，並把對話留在本機、保持可閱讀與可延續。
 
-本頁於 **2026 年 7 月 18 日**重新核對公開 repository 與穩定 release；default branch `main` 位於 [`76e8e72`](https://github.com/teddashh/multi-ai-chat-desktop/commit/76e8e72580011fa5fe2b5bbf3f2ead2e66a3831c)。這次快照中 GitHub 顯示 **53 stars**。最新正式版是 v1.6.3；`main` 再領先兩個產品 commit，加入有防呆的暫時放大／還原 provider 聚焦區控制。
+本頁於 **2026 年 7 月 30 日**重新核對公開 repository 與穩定 release；default branch `main` 與 v1.8.3 tag 都位於 [`a1aee84`](https://github.com/teddashh/multi-ai-chat-desktop/commit/a1aee8417475d277edde57737519d831d7f616f4)。這次快照中 GitHub 顯示 **89 stars**。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|
@@ -227,19 +233,22 @@ Multi-AI Chat Desktop 是功能完整、以對話為中心的桌面版本，服�
 | 核心技術 | React 18、TypeScript、Zustand、Vite、Tailwind CSS、Rust、Tauri 2 |
 | 內建工作流 | 五套 engine 上的六種引導 preset：自由分送、四方辯證、多方諮詢、Coding、道理辯證，以及沿用 Free engine 的 Brainstorm |
 | 本機紀錄 | 最多 30 個近期對話 transcript |
-| 最新正式版 | v1.6.3 穩定版；提供 Windows installer／portable、Apple Silicon DMG 與 Linux x64 AppImage |
+| 最新正式版 | v1.8.3 穩定版；提供 Windows installer／portable、Apple Silicon DMG 與 Linux x64 AppImage |
 | 原始碼狀態 | 產品範圍已凍結；後續只處理 provider 相容性、資安與 build breakage。Source manifest 刻意維持 `0.0.0`，由 release tag 注入正式版號。 |
-| 目前驗證 | `main`：51 個檔案共 419 個 frontend tests、21 個 Agent contract tests、55 個 Rust tests。v1.6.3 release candidate 在兩個聚焦區 commit 前記錄 417 個 frontend tests。CI 另執行 typecheck、ESLint、adapter checks、production build、npm audit、format、warnings-denied Clippy，以及 Windows、macOS、Linux 的 CodeQL。 |
+| 目前驗證 | v1.8.3：465 個 frontend tests、22 個 Agent contract tests、76 個 Rust tests；另有 typecheck、lint、production build、schema checks、format、warnings-denied Clippy、三平台 CI 與 CodeQL。 |
 
 它也可以視為輕量版 [Multi-AI Chat Chrome 外掛](./multi-ai-chat.md#traditional-chinese)的完整桌面兄弟：外掛控制已開啟的 Chrome 分頁；Desktop 則自行管理 WebView 版面、本機 provider profile、snapshot、replay、checkpoint 與本機檔案流程。
 
-### 前次 v1.1.0 快照之後更新了什麼
+### 一路更新到 v1.8.3 的變化
 
 - 本機 conversation 切換時的上下文隔離更完整，會過濾 prompt echo、保留 provider 已消費的 send，並把 rich response 序列化成有語意的 Markdown，而不是壓平成純文字。
 - Conversation 內容沒有變時日期會保持穩定；sidebar 會記住收合狀態；點 provider connection chip 可定位到對應 transcript message。
 - 回答語言會先遵從明確要求，再依問題與 conversation 語言判斷；UI 語言只作 fallback，也能另外鎖定固定回答語言。
 - v1.6.0 以 12 輪 Brainstorm preset、可選 AI-Sister 紀念主題，以及大字體／WebView 對齊改善，完成凍結前的產品範圍。
-- v1.6.1 到 v1.6.3 集中修正 session boundary、provider isolation、非同步 UI cleanup、WebView 顯示順序與 focus、逾時後復原、immutable CI pinning，以及可機器辨識的 MIT license；目前 `main` 再加入有 regression coverage 的暫時聚焦區放大／還原功能。
+- v1.6.1 到 v1.6.4 集中修正 session boundary、provider isolation、可恢復 reset、登出狀態判斷、被動 challenge handling 與 provider 頁面放大。
+- v1.7.0 讓結構化 workflow 的角色可以自訂；等待 reset 後 provider 真正可送出、只做一次有界 timing retry，也不讓 terminal error 污染後續 prompt。
+- v1.8.0 加入全寬逐字稿、隨閱讀線更新的 provider context，以及更安全的原生 WebView／登入切換。
+- v1.8.1 透過版本化 migration 恢復四家 provider 預設，並加入有界、唯讀的 Grok challenge 偵測；v1.8.2 與 v1.8.3 進一步讓 authentication／challenge document 保持原狀、拒絕過期 document authority，並在 bridge、callback、adapter refresh 與 navigation 路徑套用精確的 fail-closed host 判斷。
 
 ## 它要解決的問題
 
@@ -279,7 +288,9 @@ Brainstorm 是最重的 preset；release notes 建議四家 provider 都保持 r
 - ChatGPT 只有圖片而沒有文字時的完成判斷，不會為了等文字永久卡住；
 - 以第一則問題產生本機對話標題，並重開最近 30 個 session；
 - 重開後續追問時提供有界的同 session 上下文，並在本機 conversation 切換時維持隔離；
-- 從 provider chip 定位 transcript、記住 sidebar 狀態，以及目前 `main` 的暫時聚焦區放大／還原控制；
+- 從 provider chip 定位 transcript、使用全寬閱讀模式，並讓 provider chip 跟隨逐字稿閱讀線所在的回答；
+- 可自訂結構化 workflow 的 provider 角色；平行執行的角色仍會先檢查 provider collision；
+- 讓 authentication／challenge document 保持原狀，並以 fail-closed host／document authority 保護 bridge recovery 與 provider navigation；
 - step timeout 狀態，以及 retry、skip、cancel 路徑，而不是無提示地無限等待；
 - 可選 execution snapshot，紀錄 graph/app 版本、adapter 版本、角色對應、step 狀態與 human edit；
 - 四種 snapshot 隱私層級：只留 metadata、hash、保留 prompt 文字、完整本機文字；
@@ -392,8 +403,9 @@ node scripts/agent/stop.mjs --json
 - **仍受各服務條款與帳號資格約束。** 自動化操作可能受到 provider terms 限制；只能使用自己有權操作的帳號與內容。
 - **Embedded login 不等於一般瀏覽器。** 架構文件把 Google／Gemini OAuth 列為最高風險登入路徑，因 Google 可能阻擋 embedded browser；其他 provider 與 Cloudflare challenge 也可能隨時改變。
 - **Provider 不是任意 plug-in。** Adapter 可更新既有 provider；加入第五家仍要改 type、UI、profile 與 workflow。
-- **套件信任仍有摩擦。** Windows 套件未簽章；macOS v1.6.3 已 ad-hoc sign，release CI 也會檢查內嵌簽章，但尚未 Apple notarization，因此 Gatekeeper 仍可能要求第一次啟動時明確放行。Windows portable 需手動更新，macOS 也只提供 Apple Silicon。
-- **產品刻意進入維護模式。** v1.6.3 是功能完整版本目前最新的穩定維護版；沒有新增產品介面的 roadmap，後續 release 只處理 provider 相容性、資安與 build breakage。
+- **套件信任仍有摩擦。** Windows 套件未簽章；macOS v1.8.3 已 ad-hoc sign，release CI 也會檢查內嵌簽章，但尚未 Apple notarization，因此 Gatekeeper 仍可能要求第一次啟動時明確放行。Windows portable 需手動更新，macOS 也只提供 Apple Silicon。
+- **產品刻意進入維護模式。** v1.8.3 是功能完整版本目前最新的穩定維護版；沒有新增產品介面的 roadmap，後續 release 只處理 provider 相容性、資安與 build breakage。
+- **自動驗證不等於 live provider 保證。** v1.8.3 release session 沒有重跑全新 profile 的 ChatGPT／Grok 登入與 Apple Silicon provider-login smoke；第三方登入與 Turnstile 行為仍可能因帳號、網路與平台而異。
 - **一項上游 Linux advisory 是明確接受，而非藏起來。** Tauri／Wry GTK3 dependency graph 仍有已記錄的 medium-severity `glib::VariantStrIter` advisory；app 未直接呼叫受影響 API，而相容的 upstream graph 尚未提供新版 `glib` line。
 - **Local-first 不代表完全離線。** Prompt 送到所選 provider，app 也會在啟動及固定週期檢查 GitHub adapter JSON；但沒有本專案對話 server、帳號系統、analytics 或模型 API credential。
 - **授權：** repo 內是未修改的標準 MIT License；Ted Huang 2026 copyright 與 reference-work provenance 分開放在 `NOTICE.md`，讓 scanner 能正確辨識 MIT 而不遺失 attribution。軟體仍依授權條款不附保固。
@@ -406,10 +418,10 @@ node scripts/agent/stop.mjs --json
 - [產品與協定規格](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/SPEC.md)
 - [實作計畫](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/PLAN.md)
 - [發布指南](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/RELEASE.md)
-- [v1.6.3 release notes](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/RELEASE_NOTES_v1.6.3.md)
+- [v1.8.3 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
 - [Adapter 貢獻指南](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/CONTRIBUTING.md)
 - [正式 Releases](https://github.com/teddashh/multi-ai-chat-desktop/releases) · [目前 CI](https://github.com/teddashh/multi-ai-chat-desktop/actions)
 
 ---
 
-[← 上一頁：GitHub 公開作品集](./README.md#traditional-chinese) · [下一頁：Multi-AI Chat →](./multi-ai-chat.md#traditional-chinese)
+[← 上一頁：GitHub 公開作品集](./README.md#traditional-chinese) · [下一頁：Multi-AI Terminal →](./multi-ai-terminal.md#traditional-chinese)
