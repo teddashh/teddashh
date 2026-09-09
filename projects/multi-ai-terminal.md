@@ -10,7 +10,7 @@ Multi-AI Terminal is a local workbench for composing multi-stage coding workflow
 
 It is the architectural successor to [Multi-AI Chat Desktop](./multi-ai-chat-desktop.md): instead of automating consumer chat pages through WebViews and DOM adapters, it talks to coding-agent CLIs, app servers, and SDKs. The product therefore moves from “carry an answer between websites” to “coordinate agents that can inspect and change a real workspace,” with patches, verification output, and process evidence treated as first-class results.
 
-This page was verified against the public repository and release on **July 30, 2026**. The `main` branch and v0.2.10 tag both point to [`b968af1`](https://github.com/teddashh/multi-ai-terminal/commit/b968af1526b0f24812a6d9e7b8881f9bb6139eed); GitHub showed **3 stars** at this snapshot.
+This page was verified against the public repository and release on **September 8, 2026**. The `main` branch and v0.2.10 tag both point to [`b968af1`](https://github.com/teddashh/multi-ai-terminal/commit/b968af1526b0f24812a6d9e7b8881f9bb6139eed); GitHub showed **4 stars** at this snapshot.
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -241,7 +241,7 @@ Multi-AI Terminal 是一套本機工作台，用來組合跨真實 headless codi
 
 它是 [Multi-AI Chat Desktop](./multi-ai-chat-desktop.md#traditional-chinese) 在架構上的後繼者：不再透過 WebView 與 DOM adapter 自動操作 consumer chat page，而是直接面對 coding-agent CLI、app server 與 SDK。產品因此從「在網站間搬回答」前進到「協調能檢查、修改真實 workspace 的 agent」，並把 patch、verification output 與 process evidence 視為一等結果。
 
-本頁於 **2026 年 7 月 30 日**核對公開 repository 與 release。`main` 與 v0.2.10 tag 都位於 [`b968af1`](https://github.com/teddashh/multi-ai-terminal/commit/b968af1526b0f24812a6d9e7b8881f9bb6139eed)；這次快照中 GitHub 顯示 **3 stars**。
+本頁於 **2026 年 9 月 8 日**核對公開 repository 與 release。`main` 與 v0.2.10 tag 都位於 [`b968af1`](https://github.com/teddashh/multi-ai-terminal/commit/b968af1526b0f24812a6d9e7b8881f9bb6139eed)；這次快照中 GitHub 顯示 **4 stars**。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|

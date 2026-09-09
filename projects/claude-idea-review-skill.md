@@ -12,11 +12,12 @@ Claude Idea Review Skill is a small, installable Claude Code skill rather than a
 
 Its key design decision is to optimize for **decision quality**, not encouragement. Four named thinking personalities keep the argument legible: one expands the opportunity, one attacks assumptions, one converts disagreement into tests, and one integrates the evidence. Optional Codex, Gemini/Antigravity, and Grok access can add genuinely different providers; when they are unavailable, Claude continues and labels the simulated perspective rather than blocking the review.
 
-This case study was re-verified against the unchanged public repository on **July 30, 2026**:
+This case study was re-verified against the unchanged public repository on **September 8, 2026**:
 
 | Item | Repository evidence |
 |---|---|
 | Default branch reviewed | `main` at [`6c440b9`](https://github.com/teddashh/claude-idea-review-skill/commit/6c440b93aa8b368b7fc86c44c0f899d3ff8ca656) |
+| GitHub snapshot | 0 stars, verified September 8, 2026 |
 | Repository history | 6 commits; no tags or GitHub Releases |
 | Repository shape | 7 tracked files: `README.md`, `SKILL.md`, three Python helpers, `LICENSE`, and `.gitignore` |
 | Implementation size | 407 lines of Python helpers; 755 total lines across the two docs and three scripts |
@@ -312,11 +313,12 @@ Claude Idea Review Skill 是可安裝的 Claude Code skill，不是 hosted produ
 
 它最重要的設計選擇，是優化**決策品質**而不是鼓勵感。四個有名字的思考個性讓爭論容易閱讀：一個展開機會、一個攻擊假設、一個把分歧轉成測試、一個整合證據。Codex、Gemini/Antigravity、Grok 都是選用 provider；真的可用時能加入不同模型，無法使用時 Claude 仍會繼續，並明確標示 simulated perspective，不會讓 review 永久卡住。
 
-本頁在 **2026 年 7 月 30 日**重新核對未變動的公開 repo：
+本頁在 **2026 年 9 月 8 日**重新核對未變動的公開 repo：
 
 | 項目 | Repo 實際證據 |
 |---|---|
 | 核對的預設分支 | `main`，commit [`6c440b9`](https://github.com/teddashh/claude-idea-review-skill/commit/6c440b93aa8b368b7fc86c44c0f899d3ff8ca656) |
+| GitHub 快照 | 2026-09-08 核對：0 stars |
 | Repo history | 6 個 commits；沒有 tags 或 GitHub Releases |
 | Repo 組成 | 7 個 tracked files：`README.md`、`SKILL.md`、三個 Python helpers、`LICENSE`、`.gitignore` |
 | 實作規模 | 407 行 Python helpers；兩份 docs 加三個 scripts 共 755 行 |

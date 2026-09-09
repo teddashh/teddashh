@@ -12,7 +12,7 @@ Reset Therapy is a bilingual browser toy about AI-tool quota anxiety. Four caref
 
 The joke is packaged as a complete little product rather than a screenshot. It has per-provider and reset-all paths, a relapse loop, generated sound effects, reduced-motion handling, personal counts, a weekly leaderboard, responsive English/Traditional Chinese layouts, and an optional shared counter API. It is best understood as an interactive parody and anti-burnout artifact—not an account utility, provider integration, or measurement dashboard.
 
-This page was verified against the public repository and live site on **July 30, 2026**. The one-commit `main` branch is at [`4a3dea1`](https://github.com/teddashh/reset-therapy/commit/4a3dea1682a4df9a53dccd5031c293f5b3e65d2b); GitHub showed **1 star** at this snapshot.
+This page was verified against the public repository and live site on **September 8, 2026**. The one-commit `main` branch is at [`4a3dea1`](https://github.com/teddashh/reset-therapy/commit/4a3dea1682a4df9a53dccd5031c293f5b3e65d2b); GitHub showed **1 star** at this snapshot.
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -214,7 +214,7 @@ The frontend does not require Odoo-specific response fields beyond the documente
 
 ---
 
-[← Previous: MCP Memory Server](./mcp-memory-server.md) · [Next: IDN Homograph Attack Awareness Demo →](./idn-homograph-example.md)
+[← Previous: AI Security Scanner](./ai-security-scanner.md) · [Next: IDN Homograph Attack Awareness Demo →](./idn-homograph-example.md)
 
 ---
 
@@ -232,7 +232,7 @@ Reset Therapy 是一個拿 AI tool quota anxiety 開玩笑的雙語 browser toy�
 
 這個笑點被做成完整小作品，而不只是一張 screenshot：有單家／全部 reset、relapse loop、程式生成音效、reduced-motion handling、個人次數、每週排行榜、responsive English／繁中 layout，以及選配 shared-counter API。它最適合被理解成互動 parody 與 anti-burnout artifact，不是 account utility、provider integration 或 measurement dashboard。
 
-本頁於 **2026 年 7 月 30 日**核對公開 repository 與 live site。只有一個 commit 的 `main` 位於 [`4a3dea1`](https://github.com/teddashh/reset-therapy/commit/4a3dea1682a4df9a53dccd5031c293f5b3e65d2b)；這次快照中 GitHub 顯示 **1 star**。
+本頁於 **2026 年 9 月 8 日**核對公開 repository 與 live site。只有一個 commit 的 `main` 位於 [`4a3dea1`](https://github.com/teddashh/reset-therapy/commit/4a3dea1682a4df9a53dccd5031c293f5b3e65d2b)；這次快照中 GitHub 顯示 **1 star**。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|
@@ -434,4 +434,4 @@ Frontend 除了 documented `weekIdx`、`week`、`all` maps，不依賴其他 Odo
 
 ---
 
-[← 上一頁：MCP Memory Server](./mcp-memory-server.md#traditional-chinese) · [下一頁：IDN Homograph Attack Awareness Demo →](./idn-homograph-example.md#traditional-chinese)
+[← 上一頁：AI Security Scanner](./ai-security-scanner.md#traditional-chinese) · [下一頁：IDN Homograph Attack Awareness Demo →](./idn-homograph-example.md#traditional-chinese)

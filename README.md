@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="https://ai-sister.com"><strong>Visit Ai-Sister ↗</strong></a>
+  <a href="https://ai-sister.com"><strong>Visit Ai-Sister Web ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="./projects/README.md"><strong>Explore 12 case studies →</strong></a>
+  <a href="./projects/README.md"><strong>Explore 14 case studies →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 years</strong><br><sub>Enterprise IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>12 projects</strong><br><sub>Public case studies</sub>
+      <strong>14 projects</strong><br><sub>Public case studies</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 AI systems</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -49,11 +49,11 @@
   <tr>
     <td width="32%" valign="top">
       <code>LIVE / MULTI-AI</code><br><br>
-      <strong><a href="https://ai-sister.com">Ai-Sister ↗</a></strong><br>
+      <strong><a href="https://ai-sister.com">Ai-Sister Web ↗</a></strong><br>
       <sub>One input. Four AI systems.</sub>
     </td>
     <td width="68%" valign="top">
-      A production web app that orchestrates ChatGPT, Claude, Gemini, and Grok through parallel chat, structured debate, an eight-step coding loop, roundtables, and focused single-agent modes.<br><br>
+      The production web app behind the original Ai-Sister service, orchestrating ChatGPT, Claude, Gemini, and Grok through parallel chat, structured debate, an eight-step coding loop, roundtables, and focused single-agent modes. It is distinct from the newer open-source AI-Sister desktop memory companion below.<br><br>
       <code>Hono</code> <code>React</code> <code>SQLite</code> <code>SSE</code> <code>Oracle Cloud ARM</code><br><br>
       <a href="./projects/multi-ai-chat.md">See where it started →</a>
     </td>
@@ -64,18 +64,30 @@
 
 ## Public work.
 
-Twelve original public repositories across multi-AI experiences, agent infrastructure, security, and learning—117 GitHub stars at the July 30 snapshot. Star badges below stay live; each title opens a full case study with architecture, decisions, setup, current limits, and license status.
+Fourteen original public repositories across AI products and workflows, agent infrastructure, security, and playful learning—140 GitHub stars as verified on September 9, 2026. Ten repositories carry a root license; the remaining case studies say plainly when public source is not licensed for reuse. Star badges below stay live, and every title opens a full case study rather than ending at a repository link.
 
-<p><code>01 / MULTI-AI EXPERIENCES</code></p>
+<p><code>01 / AI PRODUCTS &amp; WORKFLOWS</code></p>
 
 <table width="100%">
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/ai-sister.md">AI-Sister</a></strong><br>
+      <code>WINDOWS</code> <code>LOCAL MEMORY</code>
+    </td>
+    <td width="68%" valign="top">
+      A local-first desktop companion that turns screenshots and OCR into searchable memory with clickable evidence, explicit consent boundaries, pause/forget/export controls, and optional reasoning through a CLI the user installs.<br><br>
+      <a href="https://github.com/teddashh/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/teddashh/AI-Sister?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/AI-Sister/releases/tag/v0.1.0-alpha.116"><img alt="AI-Sister prerelease alpha.116" src="https://img.shields.io/badge/prerelease-alpha.116-111111?style=flat-square"></a><br><br>
+      <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Windows OCR</code><br><br>
+      <a href="https://github.com/teddashh/AI-Sister">Source ↗</a>
+    </td>
+  </tr>
   <tr>
     <td width="32%" valign="top">
       <strong><a href="./projects/multi-ai-chat-desktop.md">Multi-AI Chat Desktop</a></strong><br>
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      Stable v1.8.3: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through six guided presets, configurable role assignments, and a full-width transcript, with fail-closed login/challenge isolation and no model API keys.<br><br>
+      Stable v1.8.6: coordinate logged-in ChatGPT, Claude, Gemini, and Grok through six guided presets, with recoverable Brainstorm steps, fail-closed provider isolation, evidence-rich transcripts, and no model API keys.<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">Source ↗</a>
@@ -99,8 +111,8 @@ Twelve original public repositories across multi-AI experiences, agent infrastru
       <code>CHROME</code> <code>NO API KEYS</code>
     </td>
     <td width="68%" valign="top">
-      Turn the AI tabs already open in Chrome into one lightweight multi-model workflow surface, with bounded same-conversation context and structure-preserving Markdown transcripts.<br><br>
-      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.2.0</code><br><br>
+      v0.2.1 turns the AI tabs already open in Chrome into one lightweight multi-model workflow surface, with recoverable Roundtable steps, exact provider-host validation, bounded context, and semantic Markdown transcripts.<br><br>
+      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Manifest V3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat">Source ↗</a>
     </td>
@@ -184,9 +196,21 @@ Twelve original public repositories across multi-AI experiences, agent infrastru
   </tr>
 </table>
 
-<p><code>03 / SECURITY &amp; LEARNING</code></p>
+<p><code>03 / SECURITY, PLAY &amp; LEARNING</code></p>
 
 <table width="100%">
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/ai-security-scanner.md">AI Security Scanner</a></strong><br>
+      <code>SECURITY</code> <code>HONEST COVERAGE</code>
+    </td>
+    <td width="68%" valign="top">
+      A beginner-focused desktop workspace for authorized checks across code, websites, internal hosts, cloud/IaC, containers, and Kubernetes—with preserved evidence and a clear distinction between checked, incomplete, and not tested. Main now carries typed Cloudsplaining IAM policy context into bilingual reports and exports; v0.1.9 remains the public-testing download.<br><br>
+      <a href="https://github.com/teddashh/ai-security-scanner/stargazers"><img alt="AI Security Scanner stars" src="https://img.shields.io/github/stars/teddashh/ai-security-scanner?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/ai-security-scanner/releases/latest"><img alt="AI Security Scanner release" src="https://img.shields.io/github/v/release/teddashh/ai-security-scanner?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
+      <code>Tauri 2</code> <code>React</code> <code>Rust</code> <code>SQLite</code><br><br>
+      <a href="https://github.com/teddashh/ai-security-scanner">Source ↗</a>
+    </td>
+  </tr>
   <tr>
     <td width="32%" valign="top">
       <strong><a href="./projects/reset-therapy.md">Reset Therapy</a></strong><br>
