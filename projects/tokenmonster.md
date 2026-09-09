@@ -10,7 +10,7 @@ TokenMonster is a local-first AI-usage companion. It turns aggregate token activ
 
 The repository deliberately does not implement four log parsers or maintain a TokenTracker fork. A supervised, exact-pinned `tokentracker-cli@0.80.0` child remains the collection engine. TokenMonster puts a strict loopback adapter in front of its reviewed aggregate routes, projects only content-blind usage data, and owns the local experience, character rules, privacy contracts, packaging, and optional desktop pet around that boundary.
 
-This page was verified against the public repository on **July 30, 2026**. The default branch is at [`8df862d`](https://github.com/teddashh/TokenMonster/commit/8df862d27d2dd6460ab8ce73814916045afbc2c8), three documentation/screenshot commits after the latest release source. GitHub showed **0 stars** at this snapshot.
+This page was verified against the public repository on **September 8, 2026**. The default branch is at [`8df862d`](https://github.com/teddashh/TokenMonster/commit/8df862d27d2dd6460ab8ce73814916045afbc2c8), three documentation/screenshot commits after the latest release source. GitHub showed **0 stars** at this snapshot.
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -235,7 +235,7 @@ TokenMonster 是一套 local-first AI 用量陪伴工具。它把 Claude Code、
 
 Repository 刻意不實作四套 log parser，也不維護 TokenTracker fork。受監督、精確鎖版的 `tokentracker-cli@0.80.0` child 仍是 collection engine；TokenMonster 在受審核 aggregate route 前加上 strict loopback adapter，只投影 content-blind 用量資料，並擁有周圍的本機體驗、角色規則、隱私 contract、packaging 與選配 desktop pet。
 
-本頁於 **2026 年 7 月 30 日**核對公開 repository。Default branch 位於 [`8df862d`](https://github.com/teddashh/TokenMonster/commit/8df862d27d2dd6460ab8ce73814916045afbc2c8)，比最新 release source 多三個文件／截圖 commits。這次快照中 GitHub 顯示 **0 stars**。
+本頁於 **2026 年 9 月 8 日**核對公開 repository。Default branch 位於 [`8df862d`](https://github.com/teddashh/TokenMonster/commit/8df862d27d2dd6460ab8ce73814916045afbc2c8)，比最新 release source 多三個文件／截圖 commits。這次快照中 GitHub 顯示 **0 stars**。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|

@@ -1,6 +1,6 @@
 <a id="english"></a>
 
-[← Public GitHub portfolio](./README.md) · [Ted's profile](../README.md) · **English** · [繁體中文](#traditional-chinese) · [GitHub repository](https://github.com/teddashh/multi-ai-chat-desktop) · [Latest stable release: v1.8.3](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
+[← Public GitHub portfolio](./README.md) · [Ted's profile](../README.md) · **English** · [繁體中文](#traditional-chinese) · [GitHub repository](https://github.com/teddashh/multi-ai-chat-desktop) · [Latest stable release: v1.8.6](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.6)
 
 # Multi-AI Chat Desktop
 
@@ -8,7 +8,7 @@
 
 Multi-AI Chat Desktop is a feature-complete, conversation-first desktop edition for people who already use ChatGPT, Claude, Gemini, and Grok on the web. It does not put four generic chat boxes beside one another and it does not ask for model API keys. One React control pane coordinates the real provider pages in native Tauri child WebViews, carries answers through six guided presets backed by five workflow engines, and keeps the resulting conversation readable, resumable, and local.
 
-This page was re-verified against the public repository and stable release on **July 30, 2026**, with default branch `main` and the v1.8.3 tag both at [`a1aee84`](https://github.com/teddashh/multi-ai-chat-desktop/commit/a1aee8417475d277edde57737519d831d7f616f4). GitHub showed **89 stars** at this snapshot.
+This page was re-verified against the public repository and stable release on **September 8, 2026**, with default branch `main` and the v1.8.6 tag both at [`4bffaf2`](https://github.com/teddashh/multi-ai-chat-desktop/commit/4bffaf299d8d502b5e86f6ec2012a2bbca63c879). GitHub showed **108 stars** at this snapshot.
 
 | Snapshot | Current repository evidence |
 |---|---|
@@ -18,22 +18,31 @@ This page was re-verified against the public repository and stable release on **
 | Core stack | React 18, TypeScript, Zustand, Vite, Tailwind CSS, Rust, Tauri 2 |
 | Built-in workflows | Six guided presets over five engines: Free, Debate, Consult, Coding, Roundtable, and the Free-engine-based Brainstorm preset |
 | Local history | Up to 30 recent conversation transcripts |
-| Published version | v1.8.3, a stable cross-platform GitHub Release with Windows installer/portable, Apple Silicon DMG, and Linux x64 AppImage |
+| Published version | v1.8.6, a stable cross-platform GitHub Release with Windows installer/portable, Apple Silicon DMG, and Linux x64 AppImage |
 | Source status | Product scope is frozen; future work is limited to provider compatibility, security, and build breakage. Source manifests intentionally remain at `0.0.0`; release tags inject the public version. |
-| Current verification | v1.8.3: 465 frontend tests, 22 Agent contract tests, and 76 Rust tests, plus typechecking, lint, production builds, schema checks, formatting, warnings-denied Clippy, three-platform CI, and CodeQL. |
+| Current verification | v1.8.6 release evidence: 488 frontend tests across 54 files and 22 Agent-ready tests; Windows/macOS/Linux Rust tests and warnings-denied Clippy; CodeQL for Actions, JavaScript/TypeScript, and Rust; zero-known-vulnerability production and full `pnpm` audits; and byte-size plus SHA-256 verification for all four downloadable artifacts. |
 
 The project is best understood as the full-featured sibling of the lighter [Multi-AI Chat Chrome extension](./multi-ai-chat.md): the extension controls tabs already open in Chrome, while the desktop edition owns its WebView layout, local provider profiles, snapshots, replay, checkpoints, and local-file workflow.
 
-### What changed through v1.8.3
+### What changed through v1.8.6
 
 - Conversation continuity was hardened across local session switches, prompt echoes are filtered, provider-consumed sends are preserved, and rich responses are serialized into semantic Markdown rather than flattened text.
 - History dates remain stable when content has not changed; the conversation sidebar remembers its collapsed state; selecting a connection chip can locate the corresponding transcript message.
 - Response language now follows an explicit request or the question and conversation language, with interface language used only as fallback and an optional fixed-language override.
-- v1.6.0 completed the frozen product with the 12-round Brainstorm preset, an optional AI-Sister commemorative theme, and large-text/WebView alignment improvements.
+- v1.6.0 completed the frozen product with the 12-round Brainstorm preset, an optional Ai-Sister Web commemorative theme, and large-text/WebView alignment improvements.
 - v1.6.1 through v1.6.4 concentrated on session boundaries, provider isolation, recoverable resets, correct logged-out detection, passive challenge handling, and an expanded real-provider focus view.
 - v1.7.0 made structured workflow roles configurable, waits for a reset provider to become genuinely sendable, retries one bounded timing race, and prevents terminal provider errors from becoming downstream “answers.”
 - v1.8.0 added a full-width transcript, scroll-linked provider context, and safer native WebView/login transitions.
 - v1.8.1 restored four-provider defaults through a versioned migration and added bounded, read-only Grok challenge detection. v1.8.2 and v1.8.3 then kept authentication and challenge documents stock, rejected stale document authority, and applied exact fail-closed app-host checks to bridge, callback, adapter-refresh, and navigation paths.
+- [v1.8.4](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.4) made the finish-time DOM authoritative so a provider's complete final response wins over its streamed draft, preserved literal JavaScript replacement patterns in code blocks, and made incomplete ChatGPT completion fail explicitly instead of succeeding with partial text. Its bounded Grok authentication recovery considers one native reload only after an allowed popup closes and only while the same document remains loaded and blocked; it does not run code in a challenge document or bypass that challenge.
+- [v1.8.5](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.5) narrowed Grok recovery to an explicitly logged-in session stuck beyond the watchdog, improved preservation of code-block line breaks and rendered mathematics, polished transcript scrolling/replay and narrow-window layouts, and refreshed vulnerable build dependencies.
+- [v1.8.6](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.6) turned recoverable Brainstorm failures into an explicit pause with Retry, Skip, and Cancel actions. It advanced Brainstorm snapshots to graph v4, corrected reserved-turn cleanup when a retry is cancelled, taught ChatGPT adapter v7 to recognize the redesigned `/auth/login` form without widening URL or permission scope, and moved the development-only `fast-uri` dependency from 3.1.5 to 3.1.7.
+
+### v1.8.6 release evidence
+
+- The published release records 488 passing frontend tests across 54 files and 22 passing Agent-ready source-contract tests. Rust tests and warnings-denied Clippy passed on Windows, macOS, and Linux; CodeQL passed for Actions, JavaScript/TypeScript, and Rust.
+- All four downloaded artifacts matched GitHub's recorded byte sizes and SHA-256 digests. The Apple Silicon DMG passed CI signature verification; the Windows portable executable reported version 1.8.6, contained its `PORTABLE` marker, remained running for a 12-second isolated launch smoke, and closed cleanly.
+- Both `pnpm audit --prod` and the full `pnpm audit` reported zero known vulnerabilities after `fast-uri` was patched, and GitHub showed zero open Dependabot alerts. These are dependency and release-pipeline checks—not evidence that every provider login or a full 48-turn live run succeeded.
 
 ## The problem it addresses
 
@@ -76,7 +85,7 @@ The current source also includes:
 - transcript-aware navigation, a full-width reading mode, and provider chips that follow the response at the transcript reading line;
 - configurable provider assignments for structured workflow roles, with collision checks where roles run in parallel;
 - stock authentication/challenge documents and fail-closed host/document authority checks around bridge recovery and provider navigation;
-- step timeout state with retry, skip, and cancel paths rather than an invisible indefinite wait;
+- recoverable Brainstorm pauses for usage limits, bridge degradation/timeouts, and structured provider errors: Retry begins a fresh request with reserved-turn handling, Skip records a safe placeholder and advances without feeding raw error text downstream, and Cancel ends the run cleanly;
 - optional execution snapshots carrying graph version, app version, adapter versions, role map, step status, and human edits;
 - four snapshot privacy tiers: metadata only, hashes, prompt text, and full local text;
 - startup session checkpoints and replay support for interrupted or previous runs;
@@ -84,7 +93,7 @@ The current source also includes:
 - an in-memory, deduplicated diagnostic log capped at 2,000 meaningful events, plus an explicitly requested local debug-bundle export;
 - English, Traditional Chinese, Japanese, and German UI strings;
 - question-aware response-language routing that remains separate from the interface language;
-- an optional AI-Sister commemorative theme that decorates the app shell and workflow UI without reskinning third-party provider pages;
+- an optional Ai-Sister Web commemorative theme that decorates the app shell and workflow UI without reskinning third-party provider pages;
 - repository-scoped Codex and Claude Code Skills, plus deterministic `doctor`, `audit`, `launch`, `status`, and identity-safe `stop` commands for a reviewable local Agent lifecycle.
 
 ## Architecture and data flow
@@ -110,7 +119,7 @@ flowchart LR
 The responsibilities are deliberately split:
 
 - **React control pane:** owns the visible conversation, provider roles, preset catalog, process trace, checkpoints, replay controls, and the TypeScript workflow executor.
-- **Workflow graph layer:** represents all five modes as versioned graphs. Free mode fans out; serial graphs resolve roles, build prompts from earlier node outputs, enforce preflight, and record step state.
+- **Workflow graph layer:** represents all five modes as versioned graphs. Free mode fans out; serial graphs resolve roles, build prompts from earlier node outputs, enforce preflight, and record step state. Brainstorm snapshots now use graph v4 so older graph v3 runs cannot silently acquire the newer Retry/Skip/Cancel semantics; retry cancellation also reactivates and cleans the reserved turn.
 - **Rust/Tauri core:** creates, moves, shows, hides, reloads, and closes child WebViews; assigns each provider an app-data directory; enforces navigation policy; persists settings and snapshots; and fetches adapters outside provider-page CSP restrictions.
 - **Injected bootstrap and engine:** run inside each provider page. The engine finds the current composer and response DOM through the selected adapter, verifies that input landed, retries send activation, observes and polls for output, and emits chunks or completion events.
 - **Bridge:** control-to-provider messages use Tauri `eval`. Provider-to-control data does not expose general remote Tauri IPC. A small encoded `document.title` change signals that data is ready; Rust then pulls a bounded outbox with `eval_with_callback` and acknowledges consumed message IDs.
@@ -130,6 +139,8 @@ The main window contains the local control pane plus child WebViews for external
 
 Provider-specific URLs, selectors, login/thinking detectors, input strategy, send strategy, and timing live in `adapters/*.json`. Contributors can repair a selector without rewriting Rust. The Rust layer validates provider identity and schema, applies only allowed version changes, limits a fetched file to 64 KiB, stores a local cache, and pushes the adapter into an already-open WebView.
 
+The bundled ChatGPT adapter is now v7. Its focused selector update recognizes the redesigned `/auth/login` form while keeping the existing URL allowlist and permission scope unchanged.
+
 The current implementation checks the repository's raw adapter files at startup and every six hours. That is useful for recovering from provider redesigns, but it is also real outbound network behavior even though the product has no telemetry or conversation backend.
 
 ### 4. A constrained bridge instead of remote-origin IPC
@@ -138,7 +149,7 @@ The design assumes that script injected into an AI site shares that site's secur
 
 ### 5. Reproducibility is opt-in and privacy-tiered
 
-Every graph carries a version. A snapshot can record provider/adapter mapping and step lifecycle, but durable snapshot storage is off by default and defaults to metadata-only redaction when enabled. Higher tiers deliberately choose whether to retain hashes, prompts, or full local text. Cookies, provider profile files, and provider storage are outside the snapshot model.
+Every graph carries a version. Brainstorm's graph v4 boundary prevents saved graph v3 runs from silently adopting new recovery behavior. A snapshot can record provider/adapter mapping and step lifecycle, but durable snapshot storage is off by default and defaults to metadata-only redaction when enabled. Higher tiers deliberately choose whether to retain hashes, prompts, or full local text. Cookies, provider profile files, and provider storage are outside the snapshot model.
 
 ### 6. Release builds and source launches are separate products
 
@@ -188,10 +199,9 @@ The first Rust compilation can take several minutes and must run in a graphical 
 - **Terms and account eligibility still apply.** Automated interaction may be restricted by each provider's terms. Users must only operate accounts and content they are authorized to use.
 - **Embedded login is not equivalent to a normal browser.** Project architecture notes identify Google/Gemini OAuth as the highest-risk login path because Google may block embedded browsers. Other providers and Cloudflare challenges may also change behavior.
 - **The provider set is not plug-and-play.** Adapters can update an existing provider, but adding a fifth provider requires type, UI, profile, and workflow changes.
-- **Packaging still has trust friction.** Windows artifacts are unsigned. macOS v1.8.3 is ad-hoc signed and its embedded signature is checked in release CI, but it is not Apple-notarized, so Gatekeeper may still require an explicit first-launch exception. Windows portable builds update manually, and only Apple Silicon macOS packages are published.
-- **The product is deliberately in maintenance mode.** v1.8.3 is the latest stable maintenance release of the feature-complete edition. New product surfaces are not on the roadmap; future releases are reserved for provider compatibility, security, and build breakage.
-- **Automated validation is not a live provider guarantee.** v1.8.3's fresh-profile ChatGPT/Grok sign-in and Apple Silicon provider-login smoke tests were not repeated in that release session; third-party login and Turnstile behavior can still vary by account, network, and platform.
-- **One upstream Linux advisory is accepted, not hidden.** The Tauri/Wry GTK3 dependency graph retains the documented medium-severity `glib::VariantStrIter` advisory. The app does not directly call the affected API, and the compatible upstream graph does not yet provide the newer `glib` line.
+- **Packaging still has trust friction.** Windows v1.8.6 artifacts are unsigned and may trigger SmartScreen. The macOS package is ad-hoc signed and its embedded signature is checked in release CI, but it is not Apple-notarized; Apple Silicon first launch and provider login still need manual verification. Windows portable builds update manually, and only Apple Silicon macOS packages are published.
+- **The product is deliberately in maintenance mode.** v1.8.6 is the latest stable maintenance release of the feature-complete edition. New product surfaces are not on the roadmap; future releases are reserved for provider compatibility, security, and build breakage.
+- **Automated validation is not a live provider guarantee.** For v1.8.6, live provider login—including the Grok challenge path—and a complete live 48-turn Brainstorm recovery run were not manually verified. ChatGPT adapter v7 has focused live-DOM selector evidence, not a full in-app logged-out workflow; Linux packaging is CI-verified without a new real-device check. Third-party login and challenge behavior can still vary by account, network, and platform.
 - **Local-first does not mean network-free.** Prompts go to selected provider sites, and the app checks GitHub-hosted adapter JSON at startup and periodically. There is no project conversation server, account system, analytics, or model API credential.
 - **License:** the repository includes the unmodified standard MIT License. Ted Huang's 2026 copyright and reference-work provenance live separately in `NOTICE.md`, so scanners now detect MIT without losing attribution; the software is provided without warranty.
 
@@ -203,19 +213,19 @@ The first Rust compilation can take several minutes and must run in a graphical 
 - [Product and protocol specification](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/SPEC.md)
 - [Implementation plan](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/PLAN.md)
 - [Release guide](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/RELEASE.md)
-- [v1.8.3 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
+- [v1.8.4 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.4) · [v1.8.5 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.5) · [v1.8.6 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.6)
 - [Adapter contribution guide](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/CONTRIBUTING.md)
 - [Published releases](https://github.com/teddashh/multi-ai-chat-desktop/releases) · [Current CI](https://github.com/teddashh/multi-ai-chat-desktop/actions)
 
 ---
 
-[← Previous: Public GitHub portfolio](./README.md) · [Next: Multi-AI Terminal →](./multi-ai-terminal.md)
+[← Previous: AI-Sister](./ai-sister.md) · [Next: Multi-AI Terminal →](./multi-ai-terminal.md)
 
 ---
 
 <a id="traditional-chinese"></a>
 
-[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat-desktop) · [最新穩定版：v1.8.3](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
+[← GitHub 公開作品集](./README.md#traditional-chinese) · [Ted 的個人頁](../README.zh-TW.md) · [English](#english) · **繁體中文** · [GitHub Repository](https://github.com/teddashh/multi-ai-chat-desktop) · [最新穩定版：v1.8.6](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.6)
 
 # Multi-AI Chat Desktop
 
@@ -223,7 +233,7 @@ The first Rust compilation can take several minutes and must run in a graphical 
 
 Multi-AI Chat Desktop 是功能完整、以對話為中心的桌面版本，服務已經在網頁上使用 ChatGPT、Claude、Gemini、Grok 的人。它不是把四個通用聊天框並排，也不要求模型 API key；一個 React 控制面板會協調 Tauri 原生 child WebView 裡的真實 provider 頁面，讓回答依五套 workflow engine 上的六種引導 preset 流動，並把對話留在本機、保持可閱讀與可延續。
 
-本頁於 **2026 年 7 月 30 日**重新核對公開 repository 與穩定 release；default branch `main` 與 v1.8.3 tag 都位於 [`a1aee84`](https://github.com/teddashh/multi-ai-chat-desktop/commit/a1aee8417475d277edde57737519d831d7f616f4)。這次快照中 GitHub 顯示 **89 stars**。
+本頁於 **2026 年 9 月 8 日**重新核對公開 repository 與穩定 release；default branch `main` 與 v1.8.6 tag 都位於 [`4bffaf2`](https://github.com/teddashh/multi-ai-chat-desktop/commit/4bffaf299d8d502b5e86f6ec2012a2bbca63c879)。這次快照中 GitHub 顯示 **108 stars**。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|
@@ -233,22 +243,31 @@ Multi-AI Chat Desktop 是功能完整、以對話為中心的桌面版本，服�
 | 核心技術 | React 18、TypeScript、Zustand、Vite、Tailwind CSS、Rust、Tauri 2 |
 | 內建工作流 | 五套 engine 上的六種引導 preset：自由分送、四方辯證、多方諮詢、Coding、道理辯證，以及沿用 Free engine 的 Brainstorm |
 | 本機紀錄 | 最多 30 個近期對話 transcript |
-| 最新正式版 | v1.8.3 穩定版；提供 Windows installer／portable、Apple Silicon DMG 與 Linux x64 AppImage |
+| 最新正式版 | v1.8.6 穩定版；提供 Windows installer／portable、Apple Silicon DMG 與 Linux x64 AppImage |
 | 原始碼狀態 | 產品範圍已凍結；後續只處理 provider 相容性、資安與 build breakage。Source manifest 刻意維持 `0.0.0`，由 release tag 注入正式版號。 |
-| 目前驗證 | v1.8.3：465 個 frontend tests、22 個 Agent contract tests、76 個 Rust tests；另有 typecheck、lint、production build、schema checks、format、warnings-denied Clippy、三平台 CI 與 CodeQL。 |
+| 目前驗證 | v1.8.6 release evidence：54 個檔案共 488 個 frontend tests 與 22 個 Agent-ready tests；Windows／macOS／Linux 的 Rust tests 與 warnings-denied Clippy；Actions、JavaScript/TypeScript、Rust 的 CodeQL；production 與完整 `pnpm` audit 都是零已知漏洞；四個下載產物也完成檔案大小與 SHA-256 核對。 |
 
 它也可以視為輕量版 [Multi-AI Chat Chrome 外掛](./multi-ai-chat.md#traditional-chinese)的完整桌面兄弟：外掛控制已開啟的 Chrome 分頁；Desktop 則自行管理 WebView 版面、本機 provider profile、snapshot、replay、checkpoint 與本機檔案流程。
 
-### 一路更新到 v1.8.3 的變化
+### 一路更新到 v1.8.6 的變化
 
 - 本機 conversation 切換時的上下文隔離更完整，會過濾 prompt echo、保留 provider 已消費的 send，並把 rich response 序列化成有語意的 Markdown，而不是壓平成純文字。
 - Conversation 內容沒有變時日期會保持穩定；sidebar 會記住收合狀態；點 provider connection chip 可定位到對應 transcript message。
 - 回答語言會先遵從明確要求，再依問題與 conversation 語言判斷；UI 語言只作 fallback，也能另外鎖定固定回答語言。
-- v1.6.0 以 12 輪 Brainstorm preset、可選 AI-Sister 紀念主題，以及大字體／WebView 對齊改善，完成凍結前的產品範圍。
+- v1.6.0 以 12 輪 Brainstorm preset、可選 Ai-Sister Web 紀念主題，以及大字體／WebView 對齊改善，完成凍結前的產品範圍。
 - v1.6.1 到 v1.6.4 集中修正 session boundary、provider isolation、可恢復 reset、登出狀態判斷、被動 challenge handling 與 provider 頁面放大。
 - v1.7.0 讓結構化 workflow 的角色可以自訂；等待 reset 後 provider 真正可送出、只做一次有界 timing retry，也不讓 terminal error 污染後續 prompt。
 - v1.8.0 加入全寬逐字稿、隨閱讀線更新的 provider context，以及更安全的原生 WebView／登入切換。
 - v1.8.1 透過版本化 migration 恢復四家 provider 預設，並加入有界、唯讀的 Grok challenge 偵測；v1.8.2 與 v1.8.3 進一步讓 authentication／challenge document 保持原狀、拒絕過期 document authority，並在 bridge、callback、adapter refresh 與 navigation 路徑套用精確的 fail-closed host 判斷。
+- [v1.8.4](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.4) 改以完成當下的 DOM 為最終依據，讓 provider 的完整最後回答優先於串流草稿；code block 裡的 JavaScript replacement pattern 也會保持原樣，ChatGPT completion 若不完整則明確失敗，不再把半截文字當成成功。Grok 驗證恢復只會在允許的 popup 關閉後、同一份 document 仍為 loaded／blocked 時考慮一次原生 reload；不會在 challenge document 執行程式，也不會繞過 challenge。
+- [v1.8.5](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.5) 把 Grok recovery 收窄為「已明確登入、且超過 watchdog 仍卡住」的情況；改善 code block 換行與 rendered math 的保存，調整 transcript scrolling／replay 與窄視窗版面，也更新有安全風險的 build dependencies。
+- [v1.8.6](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.6) 把可恢復的 Brainstorm 失敗改成明確暫停，提供「重試／略過／取消」三種操作；Brainstorm snapshot 升到 graph v4，retry 後取消時也會正確清理 reserved turn。ChatGPT adapter v7 能辨識新版 `/auth/login` 表單而不擴大 URL／permission scope，僅供開發使用的 `fast-uri` 也由 3.1.5 更新至 3.1.7。
+
+### v1.8.6 發布證據
+
+- 公開 release 記錄 54 個檔案共 488 個 frontend tests，以及 22 個 Agent-ready source-contract tests 全數通過；Windows、macOS、Linux 的 Rust tests 與 warnings-denied Clippy 通過，Actions、JavaScript/TypeScript、Rust 的 CodeQL 也通過。
+- 四個下載產物的檔案大小與 SHA-256 都符合 GitHub 記錄。Apple Silicon DMG 通過 CI 簽章驗證；Windows portable 執行檔回報 1.8.6、包含 `PORTABLE` marker，在隔離啟動測試中持續執行 12 秒後正常關閉。
+- 修補 `fast-uri` 後，`pnpm audit --prod` 與完整 `pnpm audit` 都回報零已知漏洞，GitHub 也顯示零筆 open Dependabot alerts。這些是 dependency 與 release pipeline 的驗證，不代表每一家 provider 登入或完整 48-turn 實機流程都已成功。
 
 ## 它要解決的問題
 
@@ -291,7 +310,7 @@ Brainstorm 是最重的 preset；release notes 建議四家 provider 都保持 r
 - 從 provider chip 定位 transcript、使用全寬閱讀模式，並讓 provider chip 跟隨逐字稿閱讀線所在的回答；
 - 可自訂結構化 workflow 的 provider 角色；平行執行的角色仍會先檢查 provider collision；
 - 讓 authentication／challenge document 保持原狀，並以 fail-closed host／document authority 保護 bridge recovery 與 provider navigation；
-- step timeout 狀態，以及 retry、skip、cancel 路徑，而不是無提示地無限等待；
+- Brainstorm 遇到用量限制、bridge degraded／timeout 或結構化 provider error 時會進入可恢復暫停：Retry 以新的 request 搭配 reserved-turn handling 重試；Skip 留下安全佔位內容後前往下一席，不把原始錯誤餵給後續 prompt；Cancel 則乾淨結束執行；
 - 可選 execution snapshot，紀錄 graph/app 版本、adapter 版本、角色對應、step 狀態與 human edit；
 - 四種 snapshot 隱私層級：只留 metadata、hash、保留 prompt 文字、完整本機文字；
 - 啟動時的 session checkpoint，以及中斷／過去執行的 replay 支援；
@@ -299,7 +318,7 @@ Brainstorm 是最重的 preset；release notes 建議四家 provider 都保持 r
 - 最多 2,000 筆有意義事件的記憶體內去重診斷 log，並只在使用者明確要求時匯出本機 debug bundle；
 - English、繁體中文、日本語、Deutsch 四種 UI；
 - 與 UI 語言分離的 question-aware 回答語言 routing；
-- 可選 AI-Sister 紀念主題，只裝飾 app shell 與 workflow UI，不重繪第三方 provider 頁面；
+- 可選 Ai-Sister Web 紀念主題，只裝飾 app shell 與 workflow UI，不重繪第三方 provider 頁面；
 - repo 內建 Codex 與 Claude Code Skills，以及可重現的 `doctor`、`audit`、`launch`、`status`、identity-safe `stop`，讓本機 Agent lifecycle 可以先審查再執行。
 
 ## 架構與資料流
@@ -325,7 +344,7 @@ flowchart LR
 職責刻意被分成幾層：
 
 - **React 控制面板：** 管理可見對話、provider 角色、preset catalog、process trace、checkpoint、replay 控制與 TypeScript workflow executor。
-- **Workflow graph：** 五種模式都用有版本的 graph 表達。自由模式 fan-out；串行 graph 會解析角色、以先前 node output 建 prompt、執行 preflight 並記錄 step 狀態。
+- **Workflow graph：** 五種模式都用有版本的 graph 表達。自由模式 fan-out；串行 graph 會解析角色、以先前 node output 建 prompt、執行 preflight 並記錄 step 狀態。Brainstorm snapshot 現在使用 graph v4，舊 graph v3 執行不會靜默套用新版 Retry／Skip／Cancel 語意；retry 之後取消也會重新啟用並清理 reserved turn。
 - **Rust／Tauri core：** 建立、移動、顯示、隱藏、重載與關閉 child WebView；為 provider 指定 app-data 目錄；執行 navigation policy；保存 settings／snapshots；並在 provider CSP 之外抓 adapter。
 - **Injected bootstrap 與 engine：** 在各 provider 頁面中執行。Engine 依 adapter 找目前 composer 與回答 DOM，確認文字真的進入輸入框、重試送出、監看並輪詢輸出，再送出 chunk／完成事件。
 - **Bridge：** control → provider 使用 Tauri `eval`；provider → control 不開放通用 remote Tauri IPC。編碼後的 `document.title` 小訊號先提示資料已到，Rust 再以 `eval_with_callback` 拉取 bounded outbox，並 ack 已消費的 message ID。
@@ -345,6 +364,8 @@ flowchart LR
 
 Provider URL、selector、登入／thinking detector、輸入策略、送出策略與 timing 都放在 `adapters/*.json`。貢獻者可以只修 selector，不必改 Rust。Rust 會驗證 schema 與 provider identity，只套用允許的版本變化，把遠端檔案限制在 64 KiB，保存本機 cache，再把 adapter push 到已開啟 WebView。
 
+內建 ChatGPT adapter 現在是 v7；它以聚焦的 selector 更新辨識新版 `/auth/login` 表單，同時維持既有 URL allowlist 與 permission scope，不因相容性修正而擴權。
+
 目前實作會在啟動時及每六小時檢查 repo raw adapter。它能更快修復 provider 改版，但也代表即使沒有 telemetry 或對話 backend，app 仍存在這項真實的對外網路行為。
 
 ### 4. 受限 bridge，而不是把 remote origin 接上 IPC
@@ -353,7 +374,7 @@ Provider URL、selector、登入／thinking detector、輸入策略、送出策�
 
 ### 5. Reproducibility 採 opt-in 與隱私分級
 
-每個 graph 都有 version。Snapshot 可以記錄 provider／adapter mapping 與 step lifecycle，但 durable snapshot 預設關閉；開啟時預設仍是 metadata-only。更高層級明確選擇保留 hash、prompt 或完整本機文字。Cookie、provider profile 檔與 provider storage 不屬於 snapshot model。
+每個 graph 都有 version；Brainstorm 的 graph v4 邊界讓已保存的 graph v3 執行不會靜默取得新的恢復行為。Snapshot 可以記錄 provider／adapter mapping 與 step lifecycle，但 durable snapshot 預設關閉；開啟時預設仍是 metadata-only。更高層級明確選擇保留 hash、prompt 或完整本機文字。Cookie、provider profile 檔與 provider storage 不屬於 snapshot model。
 
 ### 6. 正式套件與原始碼啟動是兩條不同產品路徑
 
@@ -403,10 +424,9 @@ node scripts/agent/stop.mjs --json
 - **仍受各服務條款與帳號資格約束。** 自動化操作可能受到 provider terms 限制；只能使用自己有權操作的帳號與內容。
 - **Embedded login 不等於一般瀏覽器。** 架構文件把 Google／Gemini OAuth 列為最高風險登入路徑，因 Google 可能阻擋 embedded browser；其他 provider 與 Cloudflare challenge 也可能隨時改變。
 - **Provider 不是任意 plug-in。** Adapter 可更新既有 provider；加入第五家仍要改 type、UI、profile 與 workflow。
-- **套件信任仍有摩擦。** Windows 套件未簽章；macOS v1.8.3 已 ad-hoc sign，release CI 也會檢查內嵌簽章，但尚未 Apple notarization，因此 Gatekeeper 仍可能要求第一次啟動時明確放行。Windows portable 需手動更新，macOS 也只提供 Apple Silicon。
-- **產品刻意進入維護模式。** v1.8.3 是功能完整版本目前最新的穩定維護版；沒有新增產品介面的 roadmap，後續 release 只處理 provider 相容性、資安與 build breakage。
-- **自動驗證不等於 live provider 保證。** v1.8.3 release session 沒有重跑全新 profile 的 ChatGPT／Grok 登入與 Apple Silicon provider-login smoke；第三方登入與 Turnstile 行為仍可能因帳號、網路與平台而異。
-- **一項上游 Linux advisory 是明確接受，而非藏起來。** Tauri／Wry GTK3 dependency graph 仍有已記錄的 medium-severity `glib::VariantStrIter` advisory；app 未直接呼叫受影響 API，而相容的 upstream graph 尚未提供新版 `glib` line。
+- **套件信任仍有摩擦。** Windows v1.8.6 產物尚未簽章，可能觸發 SmartScreen。macOS package 使用 ad-hoc 簽章，release CI 也會檢查內嵌簽章，但尚未 Apple notarization；Apple Silicon 第一次啟動與 provider 登入仍需人工驗證。Windows portable 需手動更新，macOS 也只提供 Apple Silicon。
+- **產品刻意進入維護模式。** v1.8.6 是功能完整版本目前最新的穩定維護版；沒有新增產品介面的 roadmap，後續 release 只處理 provider 相容性、資安與 build breakage。
+- **自動驗證不等於 live provider 保證。** v1.8.6 尚未人工驗證 live provider 登入（包含 Grok challenge path），也沒有完成一輪實機 48-turn Brainstorm recovery。ChatGPT adapter v7 有聚焦的 live-DOM selector 證據，但不是完整 app 內 logged-out workflow；Linux packaging 只有 CI 驗證，沒有新的實機檢查。第三方登入與 challenge 行為仍可能因帳號、網路與平台而異。
 - **Local-first 不代表完全離線。** Prompt 送到所選 provider，app 也會在啟動及固定週期檢查 GitHub adapter JSON；但沒有本專案對話 server、帳號系統、analytics 或模型 API credential。
 - **授權：** repo 內是未修改的標準 MIT License；Ted Huang 2026 copyright 與 reference-work provenance 分開放在 `NOTICE.md`，讓 scanner 能正確辨識 MIT 而不遺失 attribution。軟體仍依授權條款不附保固。
 
@@ -418,10 +438,10 @@ node scripts/agent/stop.mjs --json
 - [產品與協定規格](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/SPEC.md)
 - [實作計畫](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/PLAN.md)
 - [發布指南](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/docs/RELEASE.md)
-- [v1.8.3 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.3)
+- [v1.8.4 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.4) · [v1.8.5 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.5) · [v1.8.6 release notes](https://github.com/teddashh/multi-ai-chat-desktop/releases/tag/v1.8.6)
 - [Adapter 貢獻指南](https://github.com/teddashh/multi-ai-chat-desktop/blob/main/CONTRIBUTING.md)
 - [正式 Releases](https://github.com/teddashh/multi-ai-chat-desktop/releases) · [目前 CI](https://github.com/teddashh/multi-ai-chat-desktop/actions)
 
 ---
 
-[← 上一頁：GitHub 公開作品集](./README.md#traditional-chinese) · [下一頁：Multi-AI Terminal →](./multi-ai-terminal.md#traditional-chinese)
+[← 上一頁：AI-Sister](./ai-sister.md#traditional-chinese) · [下一頁：Multi-AI Terminal →](./multi-ai-terminal.md#traditional-chinese)

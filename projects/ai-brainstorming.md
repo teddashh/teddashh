@@ -8,10 +8,11 @@
 
 AI Brainstorming is a standalone web MVP for asynchronous, multi-model review of a product, startup, feature, business-model, or decision idea. A visitor submits an email address and an idea, chooses the depth of the review, and receives a private resume link. Five model “seats” then work through a staged review while the page streams round-by-round progress; the completed transcript remains available as rendered Markdown, a download, and—when SMTP is configured—an email attachment.
 
-This page was re-verified against the public repository on **July 30, 2026**; default branch `main` remains at [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5).
+This page was re-verified against the public repository on **September 8, 2026**; default branch `main` remains at [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5).
 
 | Snapshot | Current repository evidence |
 |---|---|
+| GitHub snapshot | 4 stars, verified September 8, 2026 |
 | Product form | Single-origin web application mounted at `/idea` |
 | Current version | v0.1.0 in the root, server, and web packages |
 | Review seats | Claude, Gemini, Grok, ChatGPT, and DeepSeek through OpenRouter's OpenAI-compatible endpoint |
@@ -204,10 +205,11 @@ For production, build both packages and put the Hono server behind a reverse pro
 
 AI Brainstorming 是一個獨立 Web MVP，專門對產品、創業、功能、商業模式或決策 idea 做非同步多模型 review。訪客輸入 email 與 idea、選擇 review 深度後，會先得到一條私人 resume link；五個模型席位接著按階段工作，頁面逐輪 streaming 進度，完成 transcript 則保留為 rendered Markdown、下載檔，以及在 SMTP 有設定時寄出的 email 附件。
 
-本頁於 **2026 年 7 月 30 日**重新核對公開 repository；default branch `main` 仍位於 [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5)。
+本頁於 **2026 年 9 月 8 日**重新核對公開 repository；default branch `main` 仍位於 [`2ef9470`](https://github.com/teddashh/ai-brainstorming/commit/2ef9470a7c6f0a119ce47ab17f31ed684fe677a5)。
 
 | 快照 | 目前 repository 的實際狀態 |
 |---|---|
+| GitHub 快照 | 2026-09-08 核對：4 stars |
 | 產品形式 | 掛載於 `/idea` 的 single-origin Web application |
 | 目前版本 | Root、server、web package 都是 v0.1.0 |
 | Review 席位 | 透過 OpenRouter OpenAI-compatible endpoint 呼叫 Claude、Gemini、Grok、ChatGPT、DeepSeek |

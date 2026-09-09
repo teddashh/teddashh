@@ -12,11 +12,12 @@
 
 The product is aimed at a difficult middle ground: an operator wants an agent to learn from months of service history and continuously study useful improvements, but does not want that same agent to grant itself permission, apply its own upgrades, rewrite the alarm, or demand attention every day.
 
-This case study was re-verified against the unchanged public repository on **July 30, 2026**:
+This case study was re-verified against the unchanged public repository on **September 8, 2026**:
 
 | Item | Repository evidence |
 |---|---|
 | Default branch reviewed | `main` at [`45ef886`](https://github.com/teddashh/openclaw-hermes-watcher/commit/45ef886fb2b5f870829abb635ddef6da6963f6ad) |
+| GitHub snapshot | 1 star, verified September 8, 2026 |
 | Latest published release | [`v0.1.7`](https://github.com/teddashh/openclaw-hermes-watcher/releases/tag/v0.1.7), published May 7, 2026 |
 | Repository shape | 50 tracked files; Bash, rendered templates, YAML, Markdown, JSONL contracts, and a systemd user unit |
 | Core implementation size | 3,300 lines across the shell scripts, templates, and PII test counted in the reviewed commit |
@@ -267,11 +268,12 @@ The project is released under the **Apache License 2.0**, including its explicit
 
 它處理的是一個很難拿捏的中間地帶：操作員希望 Agent 能累積數月的服務歷史、持續研究值得做的改進；但又不希望同一個 Agent 可以替自己擴權、套用自己的升級、改寫警報規則，或每天用大量通知消耗人的注意力。
 
-本頁在 **2026 年 7 月 30 日**重新逐項核對未變動的公開 repo：
+本頁在 **2026 年 9 月 8 日**重新逐項核對未變動的公開 repo：
 
 | 項目 | Repo 實際證據 |
 |---|---|
 | 核對的預設分支 | `main`，commit [`45ef886`](https://github.com/teddashh/openclaw-hermes-watcher/commit/45ef886fb2b5f870829abb635ddef6da6963f6ad) |
+| GitHub 快照 | 2026-09-08 核對：1 star |
 | 最新公開 release | [`v0.1.7`](https://github.com/teddashh/openclaw-hermes-watcher/releases/tag/v0.1.7)，發布於 2026-05-07 |
 | Repo 組成 | 50 個 tracked files；Bash、render templates、YAML、Markdown、JSONL contract 與 systemd user unit |
 | 核心實作規模 | 核對 commit 中的 shell、templates 與 PII test 合計 3,300 行 |

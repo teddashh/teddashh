@@ -21,11 +21,12 @@ The repository packages that discipline in several connected forms:
 - optional Oracle Vector Search, Odoo, Codex, Gemini, NotebookLM, and deployment skills;
 - Windows, macOS, Linux, and experimental Docker setup paths.
 
-This case study was re-verified against the unchanged public repository on **July 30, 2026**:
+This case study was re-verified against the unchanged public repository on **September 8, 2026**:
 
 | Item | Repository evidence |
 |---|---|
 | Default branch reviewed | `master` at [`5d497c9`](https://github.com/teddashh/clawd-lobster/commit/5d497c9c3307f9e5c9af3d8cbfe6656335dfc6f4) |
+| GitHub snapshot | 4 stars, verified September 8, 2026 |
 | Package version | `0.6.0` in both `pyproject.toml` and `clawd_lobster.__version__` |
 | Release status | No Git tags or GitHub Releases in the reviewed repository |
 | Repository shape | 209 tracked files; 22,658 lines of Python source in the tree |
@@ -359,11 +360,12 @@ Repo 把這些能力包成幾種互相連接的形式：
 - 選用 Oracle Vector Search、Odoo、Codex、Gemini、NotebookLM 與 deploy skills；
 - Windows、macOS、Linux，以及實驗性 Docker setup path。
 
-本頁在 **2026 年 7 月 30 日**重新核對未變動的公開 repo：
+本頁在 **2026 年 9 月 8 日**重新核對未變動的公開 repo：
 
 | 項目 | Repo 實際證據 |
 |---|---|
 | 核對的預設分支 | `master`，commit [`5d497c9`](https://github.com/teddashh/clawd-lobster/commit/5d497c9c3307f9e5c9af3d8cbfe6656335dfc6f4) |
+| GitHub 快照 | 2026-09-08 核對：4 stars |
 | Package version | `pyproject.toml` 與 `clawd_lobster.__version__` 都是 `0.6.0` |
 | Release 狀態 | 核對 repo 沒有 Git tags 或 GitHub Releases |
 | Repo 規模 | 209 個 tracked files；tree 中有 22,658 行 Python source |

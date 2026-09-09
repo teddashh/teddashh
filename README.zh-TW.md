@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="https://ai-sister.com"><strong>前往 Ai-Sister ↗</strong></a>
+  <a href="https://ai-sister.com"><strong>前往 Ai-Sister Web ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="./projects/README.md#traditional-chinese"><strong>瀏覽 12 個完整案例 →</strong></a>
+  <a href="./projects/README.md#traditional-chinese"><strong>瀏覽 14 個完整案例 →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 年</strong><br><sub>企業 IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>12 個作品</strong><br><sub>公開案例研究</sub>
+      <strong>14 個作品</strong><br><sub>公開案例研究</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 套 AI</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -49,11 +49,11 @@
   <tr>
     <td width="32%" valign="top">
       <code>LIVE / MULTI-AI</code><br><br>
-      <strong><a href="https://ai-sister.com">Ai-Sister ↗</a></strong><br>
+      <strong><a href="https://ai-sister.com">Ai-Sister Web ↗</a></strong><br>
       <sub>一個輸入，四套 AI。</sub>
     </td>
     <td width="68%" valign="top">
-      正式上線的 Web App，同時調度 ChatGPT、Claude、Gemini、Grok；支援平行對話、結構化辯論、八步 Coding Loop、多輪圓桌，以及單一 Agent 模式。<br><br>
+      原本 Ai-Sister 服務背後、正式上線的 Web App，同時調度 ChatGPT、Claude、Gemini、Grok；支援平行對話、結構化辯論、八步 Coding Loop、多輪圓桌與單一 Agent 模式。它和下方較新的開源 AI-Sister 桌面記憶夥伴是不同產品。<br><br>
       <code>Hono</code> <code>React</code> <code>SQLite</code> <code>SSE</code> <code>Oracle Cloud ARM</code><br><br>
       <a href="./projects/multi-ai-chat.md#traditional-chinese">看看它從哪裡開始 →</a>
     </td>
@@ -64,18 +64,30 @@
 
 ## 公開作品。
 
-十二個非 fork 的原創公開 repository，涵蓋多 AI 體驗、Agent 基礎設施、資安與學習；2026-07-30 快照合計 117 顆 GitHub stars。下方 star badge 會持續更新；每個作品都有完整案例頁，說清楚架構、設計決策、使用方式、現有限制與授權狀態。
+十四個非 fork 的原創公開 repository，涵蓋 AI 產品與工作流、Agent 基礎設施、資安與玩心學習；2026-09-09 核對時合計 140 顆 GitHub stars，其中十個 repo 有 root license。其餘案例也會如實標示「公開可讀不等於可自由重用」。下方 star badge 會持續更新，而且每個標題都會打開完整案例，不會只把你丟到 repository。
 
-<p><code>01 / 多 AI 體驗</code></p>
+<p><code>01 / AI 產品與工作流</code></p>
 
 <table width="100%">
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/ai-sister.md#traditional-chinese">AI-Sister</a></strong><br>
+      <code>WINDOWS</code> <code>LOCAL MEMORY</code>
+    </td>
+    <td width="68%" valign="top">
+      一個會記得你一天、卻把證據與控制權留在本機的桌面姊妹：把螢幕截圖與 OCR 變成可搜尋、可點回證據的記憶，並提供明確同意、暫停、忘記與匯出邊界；需要外部推理時也只交給使用者自行安裝的 CLI。<br><br>
+      <a href="https://github.com/teddashh/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/teddashh/AI-Sister?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/AI-Sister/releases/tag/v0.1.0-alpha.116"><img alt="AI-Sister prerelease alpha.116" src="https://img.shields.io/badge/prerelease-alpha.116-111111?style=flat-square"></a><br><br>
+      <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Windows OCR</code><br><br>
+      <a href="https://github.com/teddashh/AI-Sister">原始碼 ↗</a>
+    </td>
+  </tr>
   <tr>
     <td width="32%" valign="top">
       <strong><a href="./projects/multi-ai-chat-desktop.md#traditional-chinese">Multi-AI Chat Desktop</a></strong><br>
       <code>DESKTOP</code> <code>LOCAL-FIRST</code>
     </td>
     <td width="68%" valign="top">
-      穩定版 v1.8.3：不使用模型 API key，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行六種引導 preset，支援可自訂角色、全寬逐字稿，以及 fail-closed 的登入／驗證頁隔離。<br><br>
+      穩定版 v1.8.6：不使用模型 API key，讓已登入的 ChatGPT、Claude、Gemini、Grok 執行六種引導 preset，並加入可恢復的 Brainstorm 步驟、fail-closed provider 隔離與證據完整的逐字稿。<br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat-desktop">原始碼 ↗</a>
@@ -99,8 +111,8 @@
       <code>CHROME</code> <code>NO API KEYS</code>
     </td>
     <td width="68%" valign="top">
-      把 Chrome 裡已開啟的 AI 服務分頁，變成輕量多模型工作流控制面板；支援有界的同對話上下文與保留結構的 Markdown transcript。<br><br>
-      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <code>source v0.2.0</code><br><br>
+      v0.2.1 把 Chrome 裡已開啟的 AI 服務分頁變成輕量多模型工作流控制面板，加入可恢復的 Roundtable 步驟、精確 provider host 驗證、有界上下文與語意化 Markdown transcript。<br><br>
+      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
       <code>Manifest V3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://github.com/teddashh/multi-ai-chat">原始碼 ↗</a>
     </td>
@@ -184,9 +196,21 @@
   </tr>
 </table>
 
-<p><code>03 / 資安與學習</code></p>
+<p><code>03 / 資安、玩心與學習</code></p>
 
 <table width="100%">
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="./projects/ai-security-scanner.md#traditional-chinese">AI Security Scanner</a></strong><br>
+      <code>SECURITY</code> <code>HONEST COVERAGE</code>
+    </td>
+    <td width="68%" valign="top">
+      給開發者、小團隊與 IT 管理者的桌面掃描工作區：把程式碼、網站、內部主機、Cloud／IaC、容器與 Kubernetes 的授權檢查整理在一起，保存證據，也清楚區分已檢查、不完整與未測試。Main 現在還會把 typed Cloudsplaining IAM policy context 保留到雙語報告與 exports；v0.1.9 仍是公開測試下載版。<br><br>
+      <a href="https://github.com/teddashh/ai-security-scanner/stargazers"><img alt="AI Security Scanner stars" src="https://img.shields.io/github/stars/teddashh/ai-security-scanner?style=flat-square&amp;label=stars&amp;color=111111"></a> <a href="https://github.com/teddashh/ai-security-scanner/releases/latest"><img alt="AI Security Scanner release" src="https://img.shields.io/github/v/release/teddashh/ai-security-scanner?style=flat-square&amp;label=release&amp;color=111111"></a><br><br>
+      <code>Tauri 2</code> <code>React</code> <code>Rust</code> <code>SQLite</code><br><br>
+      <a href="https://github.com/teddashh/ai-security-scanner">原始碼 ↗</a>
+    </td>
+  </tr>
   <tr>
     <td width="32%" valign="top">
       <strong><a href="./projects/reset-therapy.md#traditional-chinese">Reset Therapy</a></strong><br>

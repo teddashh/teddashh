@@ -20,7 +20,8 @@ The strongest way to position the current repository is as an **early, inspectab
 | Registered surface | **18 MCP tools** in the current server code |
 | Storage reached by code | Per-workspace SQLite; optional Oracle AI Database; optional OpenAI embeddings for Oracle vector queries |
 | Repository size | 9 tracked files; 841-line main server module; no tests, migrations, or schema DDL |
-| Audit basis | Default branch <code>master</code>, commit <code>780e3b11d24eb44c5a04cbc65bee68119f912f24</code>, re-verified unchanged on 2026-07-30 |
+| Audit basis | Default branch <code>master</code>, commit <code>780e3b11d24eb44c5a04cbc65bee68119f912f24</code>, re-verified unchanged on 2026-09-08 |
+| GitHub snapshot | 2 stars, verified September 8, 2026 |
 
 ## Problem
 
@@ -213,7 +214,7 @@ The Oracle path likewise assumes an existing wallet, user, and compatible tables
 
 ---
 
-[← Previous: Claude Idea Review Skill](./claude-idea-review-skill.md) · [Public GitHub portfolio](./README.md) · [Next: Reset Therapy →](./reset-therapy.md)
+[← Previous: Claude Idea Review Skill](./claude-idea-review-skill.md) · [Public GitHub portfolio](./README.md) · [Next: AI Security Scanner →](./ai-security-scanner.md)
 
 ---
 
@@ -239,7 +240,8 @@ MCP Memory Server 是一個以 Python 實作的 AI 開發者基礎設施作品�
 | 實際註冊介面 | 目前 server code 共 **18 個 MCP tools** |
 | 程式可連接的儲存 | 各 workspace 的 SQLite；選配 Oracle AI Database；Oracle vector query 可選配 OpenAI embeddings |
 | Repo 規模 | 9 個 tracked files；主要 server module 841 行；沒有 tests、migration 或 schema DDL |
-| 稽核基準 | 預設分支 <code>master</code>、commit <code>780e3b11d24eb44c5a04cbc65bee68119f912f24</code>，2026-07-30 重新確認未變動 |
+| 稽核基準 | 預設分支 <code>master</code>、commit <code>780e3b11d24eb44c5a04cbc65bee68119f912f24</code>，2026-09-08 重新確認未變動 |
+| GitHub 快照 | 2026-09-08 核對：2 stars |
 
 ## 要解決的問題
 
@@ -432,4 +434,4 @@ Oracle 路徑也假設 wallet、user 與相容資料表都已經存在。README 
 
 ---
 
-[← 上一篇：Claude Idea Review Skill](./claude-idea-review-skill.md#traditional-chinese) · [GitHub 公開作品集](./README.md#traditional-chinese) · [下一篇：Reset Therapy →](./reset-therapy.md#traditional-chinese)
+[← 上一篇：Claude Idea Review Skill](./claude-idea-review-skill.md#traditional-chinese) · [GitHub 公開作品集](./README.md#traditional-chinese) · [下一篇：AI Security Scanner →](./ai-security-scanner.md#traditional-chinese)

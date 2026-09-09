@@ -8,7 +8,7 @@
 
 ## Positioning and snapshot
 
-AI Beyblade X Field Guide—titled **AI 教你打陀螺** in the repository—is a content and knowledge-design project rather than a software application. It curates several AI Sister discussions, adds model/build notes and a training plan, and reframes the beginner question “Which Beyblade is strongest?” as a rules-and-resource problem.
+AI Beyblade X Field Guide—titled **AI 教你打陀螺** in the repository—is a content and knowledge-design project rather than a software application. It curates several Ai-Sister Web discussions, adds model/build notes and a training plan, and reframes the beginner question “Which Beyblade is strongest?” as a rules-and-resource problem.
 
 Its distinctive idea is simple: a top that spins the longest is not automatically the best competitive choice. If a spin finish is usually worth 1 point, an over or burst finish 2, an Xtreme finish 3, and the match ends at 4, then role coverage and expected scoring matter more than a permanent single-item ranking.
 
@@ -20,7 +20,8 @@ Its distinctive idea is simple: a top that spins the longest is not automaticall
 | Repository size | 7 tracked Markdown files; 421 lines / 15,217 bytes |
 | Evidence map | 6 unique external source URLs are linked across the guide |
 | AI scope | Describes ways an AI agent can analyze rules, inventory, matchups, and reviews; contains no agent code, prompt engine, model call, or dataset |
-| Audit basis | Default branch <code>main</code>, commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>, re-verified unchanged on 2026-07-30 |
+| Audit basis | Default branch <code>main</code>, commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>, re-verified unchanged on 2026-09-08 |
+| GitHub snapshot | 2 stars, verified September 8, 2026 |
 
 ## Problem
 
@@ -101,7 +102,7 @@ The assistant can then propose a matchup table, identify duplicated parts, chall
 
 ~~~mermaid
 flowchart LR
-    S["Linked discussions<br/>AI Sister · BeyBase · BeyCase"] --> N["Four source-summary notes"]
+    S["Linked discussions<br/>Ai-Sister Web · BeyBase · BeyCase"] --> N["Four source-summary notes"]
     N --> I["README reading map"]
     I --> B["Recommended models<br/>roles · example 3v3 decks · seasonal meta"]
     I --> T["Technique guide<br/>launch drills · checklist · review template"]
@@ -207,10 +208,10 @@ State every rule or meta assumption that I must verify.
 
 ### External sources linked by the repository
 
-- [AI Sister forum post 248](https://ai-sister.com/zh-TW/forum/post/248)
-- [AI Sister blog 602](https://ai-sister.com/zh-TW/blog/602)
-- [AI Sister blog 603](https://ai-sister.com/zh-TW/blog/603)
-- [AI Sister blog 604](https://ai-sister.com/zh-TW/blog/604)
+- [Ai-Sister Web forum post 248](https://ai-sister.com/zh-TW/forum/post/248)
+- [Ai-Sister Web blog 602](https://ai-sister.com/zh-TW/blog/602)
+- [Ai-Sister Web blog 603](https://ai-sister.com/zh-TW/blog/603)
+- [Ai-Sister Web blog 604](https://ai-sister.com/zh-TW/blog/604)
 - [BeyBase combination article](https://beybase.com/top-5-best-beyblade-x-combos-up-to-ux-13-bx-39/)
 - [BeyCase Spring 2026 combination list](https://www.beycase.com/post/best-top-5-beyblade-x-combo-list-for-spring-2026)
 
@@ -230,7 +231,7 @@ State every rule or meta assumption that I must verify.
 
 ## 作品定位與快照
 
-AI 教你打陀螺（英文作品名：**AI Beyblade X Field Guide**）是一個內容與知識設計作品，不是 software application。它整理數篇 AI Sister 討論，補上型號／配置筆記與訓練菜單，再把新手常問的「哪顆最強？」重新定義成規則與資源配置問題。
+AI 教你打陀螺（英文作品名：**AI Beyblade X Field Guide**）是一個內容與知識設計作品，不是 software application。它整理數篇 Ai-Sister Web 討論，補上型號／配置筆記與訓練菜單，再把新手常問的「哪顆最強？」重新定義成規則與資源配置問題。
 
 核心觀念很直接：轉最久，不代表競技上一定最好。如果 spin finish 通常 1 分、over／burst 2 分、Xtreme finish 3 分，而比賽先到 4 分，那麼角色覆蓋與預期得分效率，就比永久單品排行榜更重要。
 
@@ -242,7 +243,8 @@ AI 教你打陀螺（英文作品名：**AI Beyblade X Field Guide**）是一個
 | Repo 規模 | 7 個 Markdown files；共 421 行／15,217 bytes |
 | 來源地圖 | 全站共連到 6 個不重複 external source URLs |
 | AI 範圍 | 說明 AI Agent 如何分析規則、庫存、對位與賽後結果；沒有 agent code、prompt engine、model call 或 dataset |
-| 稽核基準 | 預設分支 <code>main</code>、commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>，2026-07-30 重新確認未變動 |
+| 稽核基準 | 預設分支 <code>main</code>、commit <code>ce33c834e06b4d3a2ebe698cb0fcdf1fe9be19f5</code>，2026-09-08 重新確認未變動 |
+| GitHub 快照 | 2026-09-08 核對：2 stars |
 
 ## 要解決的問題
 
@@ -323,7 +325,7 @@ Assistant 接著可以產生 matchup table、檢查零件重複、挑戰角色�
 
 ~~~mermaid
 flowchart LR
-    S["外部討論<br/>AI Sister · BeyBase · BeyCase"] --> N["四份來源摘要"]
+    S["外部討論<br/>Ai-Sister Web · BeyBase · BeyCase"] --> N["四份來源摘要"]
     N --> I["README 閱讀地圖"]
     I --> B["推薦型號<br/>角色 · 3v3 examples · 季度 meta"]
     I --> T["技巧 guide<br/>發射練習 · checklist · 復盤模板"]
@@ -429,10 +431,10 @@ Stadium 與 launcher：
 
 ### Repo 連結的外部來源
 
-- [AI Sister forum post 248](https://ai-sister.com/zh-TW/forum/post/248)
-- [AI Sister blog 602](https://ai-sister.com/zh-TW/blog/602)
-- [AI Sister blog 603](https://ai-sister.com/zh-TW/blog/603)
-- [AI Sister blog 604](https://ai-sister.com/zh-TW/blog/604)
+- [Ai-Sister Web forum post 248](https://ai-sister.com/zh-TW/forum/post/248)
+- [Ai-Sister Web blog 602](https://ai-sister.com/zh-TW/blog/602)
+- [Ai-Sister Web blog 603](https://ai-sister.com/zh-TW/blog/603)
+- [Ai-Sister Web blog 604](https://ai-sister.com/zh-TW/blog/604)
 - [BeyBase 組合文章](https://beybase.com/top-5-best-beyblade-x-combos-up-to-ux-13-bx-39/)
 - [BeyCase 2026 春季組合](https://www.beycase.com/post/best-top-5-beyblade-x-combo-list-for-spring-2026)
 
