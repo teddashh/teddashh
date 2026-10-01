@@ -1,4 +1,4 @@
-# Agent scratch + local memory — never publish to this public profile repo
+# Agent scratch + local memory: never publish to this public profile repo
 .claude-memory/
 .bat-worktrees/
 HANDOFF.md
