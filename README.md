@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://ai-sister.com"><strong>Visit Ai-Sister Web ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://teddashh.github.io/"><strong>All 18 project pages →</strong></a>
+  <a href="https://teddashh.github.io/"><strong>All 19 project pages →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 years</strong><br><sub>Enterprise IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>18 projects</strong><br><sub>Bilingual project pages</sub>
+      <strong>19 projects</strong><br><sub>Bilingual project pages</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 AI systems</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -71,7 +71,7 @@
 <!-- projects:start -->
 <!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
-18 original public repositories in four groups. Each title opens the project's own page in English and Traditional Chinese, with an honest status section. Badges are live.
+19 original public repositories in four groups. Each title opens the project's own page in English and Traditional Chinese, with an honest status section. Badges are live.
 
 <p><img src="./assets/profile-group-ai-tools-en.svg" width="100%" alt="01 / AI tools"></p>
 
@@ -256,6 +256,18 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
+      <strong><a href="https://github.com/TED-H-com/Control-AI-Chat#readme">Control AI Chat</a></strong><br>
+      <img alt="EARLY STAGE" src="https://img.shields.io/badge/EARLY%20STAGE-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      Self-hosted AI chat for companies, using their own model credentials. A gate checks every prompt and every reply, with spend budgets and a hash-chained audit log.<br><br>
+      <a href="https://github.com/TED-H-com/Control-AI-Chat/stargazers"><img alt="Control AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/Control-AI-Chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
+      <code>TypeScript</code> <code>Hono</code> <code>React</code> <code>SQLite</code> <code>Docker</code><br><br>
+      <a href="https://github.com/TED-H-com/Control-AI-Chat#readme">Project page ↗</a> · <a href="https://github.com/TED-H-com/Control-AI-Chat">Source ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
       <strong><a href="https://ted-h-com.github.io/idn-homograph-example/">IDN Homograph Demo</a></strong><br>
       <img alt="STABLE" src="https://img.shields.io/badge/STABLE-1A7F37?style=flat-square">
     </td>
@@ -309,7 +321,7 @@
   </tr>
 </table>
 
-<p align="right"><a href="https://teddashh.github.io/"><strong>All 18 project pages →</strong></a></p>
+<p align="right"><a href="https://teddashh.github.io/"><strong>All 19 project pages →</strong></a></p>
 <!-- projects:end -->
 
 ---

@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://ai-sister.com"><strong>前往 Ai-Sister Web ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 18 個專案介紹頁 →</strong></a>
+  <a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 19 個專案介紹頁 →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 年</strong><br><sub>企業 IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>18 個專案</strong><br><sub>中英雙語介紹頁</sub>
+      <strong>19 個專案</strong><br><sub>中英雙語介紹頁</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 套 AI</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -71,7 +71,7 @@
 <!-- projects:start -->
 <!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
-18 個原創公開專案，分成四組。點標題會打開該專案自己的中英雙語介紹頁，頁面裡也老實寫出目前的狀態。徽章都是即時的。
+19 個原創公開專案，分成四組。點標題會打開該專案自己的中英雙語介紹頁，頁面裡也老實寫出目前的狀態。徽章都是即時的。
 
 <p><img src="./assets/profile-group-ai-tools-zh.svg" width="100%" alt="01 / AI 工具"></p>
 
@@ -256,6 +256,18 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
+      <strong><a href="https://github.com/TED-H-com/Control-AI-Chat/blob/main/README.zh-TW.md">Control AI Chat</a></strong><br>
+      <img alt="早期階段" src="https://img.shields.io/badge/%E6%97%A9%E6%9C%9F%E9%9A%8E%E6%AE%B5-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      給公司自架的 AI 聊天系統，使用自己的模型憑證。每個提示詞和每個回覆都會經過閘道檢查，並有費用預算與雜湊鏈稽核紀錄。<br><br>
+      <a href="https://github.com/TED-H-com/Control-AI-Chat/stargazers"><img alt="Control AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/Control-AI-Chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
+      <code>TypeScript</code> <code>Hono</code> <code>React</code> <code>SQLite</code> <code>Docker</code><br><br>
+      <a href="https://github.com/TED-H-com/Control-AI-Chat/blob/main/README.zh-TW.md">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/Control-AI-Chat">原始碼 ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
       <strong><a href="https://ted-h-com.github.io/idn-homograph-example/?lang=zh-TW">IDN Homograph Demo</a></strong><br>
       <img alt="穩定" src="https://img.shields.io/badge/%E7%A9%A9%E5%AE%9A-1A7F37?style=flat-square">
     </td>
@@ -309,7 +321,7 @@
   </tr>
 </table>
 
-<p align="right"><a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 18 個專案介紹頁 →</strong></a></p>
+<p align="right"><a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 19 個專案介紹頁 →</strong></a></p>
 <!-- projects:end -->
 
 ---

@@ -1,4 +1,4 @@
-<!-- Generated from hub.json in teddashh/teddashh.github.io by kit/render_profile.py. -->
+<!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
 <a id="english"></a>
 
@@ -6,7 +6,7 @@
 
 # Projects
 
-Each of these 18 repositories has its own bilingual page on GitHub Pages. The full directory lives at **[teddashh.github.io](https://teddashh.github.io/)**.
+Each of these 19 repositories has its own bilingual page. The full directory lives at **[teddashh.github.io](https://teddashh.github.io/)**.
 
 | Project | What it is | Status |
 |---|---|---|
@@ -24,6 +24,7 @@ Each of these 18 repositories has its own bilingual page on GitHub Pages. The fu
 | **[MCP Memory Server](https://ted-h-com.github.io/mcp-memory-server/)** · [Source ↗](https://github.com/TED-H-com/mcp-memory-server) | An MCP server for long-term agent memory: decisions, resolved issues, open questions, and knowledge that you can inspect. | Paused |
 | **[ai-security-scanner](https://ted-h-com.github.io/ai-security-scanner/)** · [Source ↗](https://github.com/TED-H-com/ai-security-scanner) | A desktop app and agent skills that run upstream open-source security tools and turn their output into one standardized report. | Active |
 | **[AI-Intune](https://ted-h-com.github.io/AI-Intune/)** · [Source ↗](https://github.com/TED-H-com/AI-Intune) | An evidence-first control plane for Linux machines that run AI agents and coding tools. | Active |
+| **[Control AI Chat](https://github.com/TED-H-com/Control-AI-Chat#readme)** · [Source ↗](https://github.com/TED-H-com/Control-AI-Chat) | Self-hosted AI chat for companies, using their own model credentials. A gate checks every prompt and every reply, with spend budgets and a hash-chained audit log. | Early stage |
 | **[IDN Homograph Demo](https://ted-h-com.github.io/idn-homograph-example/)** · [Source ↗](https://github.com/TED-H-com/idn-homograph-example) | A one-page bilingual awareness demo that shows how a look-alike Unicode domain can pass for the real one. | Stable |
 | **[Reset Therapy](https://ted-h-com.github.io/reset-therapy/)** · [Source ↗](https://github.com/TED-H-com/reset-therapy) | A bilingual anti-burnout toy: watch four fake AI quota panels burn down, then let golden dragons reset them. | Toy |
 | **[AI Beyblade X Notes](https://ted-h-com.github.io/zhan-dou-tuo-luo/)** · [Source ↗](https://github.com/TED-H-com/zhan-dou-tuo-luo) | Chinese-first notes on Beyblade X: why points, not spin time, decide a match, and how to build a 3v3 deck. | Notes |
@@ -37,7 +38,7 @@ Each of these 18 repositories has its own bilingual page on GitHub Pages. The fu
 
 # 專案
 
-這 18 個 repository 在 GitHub Pages 上都有自己的中英雙語介紹頁。完整目錄在 **[teddashh.github.io](https://teddashh.github.io/?lang=zh-TW)**。
+這 19 個 repository 都有自己的中英雙語介紹頁。完整目錄在 **[teddashh.github.io](https://teddashh.github.io/?lang=zh-TW)**。
 
 | 專案 | 內容 | 狀態 |
 |---|---|---|
@@ -55,6 +56,7 @@ Each of these 18 repositories has its own bilingual page on GitHub Pages. The fu
 | **[MCP Memory Server](https://ted-h-com.github.io/mcp-memory-server/?lang=zh-TW)** · [原始碼 ↗](https://github.com/TED-H-com/mcp-memory-server) | 給 agent 用的長期記憶 MCP 伺服器：決策、已解決的問題、待回答的問題與知識，都可以檢視。 | 暫停開發 |
 | **[ai-security-scanner](https://ted-h-com.github.io/ai-security-scanner/?lang=zh-TW)** · [原始碼 ↗](https://github.com/TED-H-com/ai-security-scanner) | 桌面 app 與 agent skill：執行上游的開源資安工具，把結果整理成一份標準化報告。 | 持續開發 |
 | **[AI-Intune](https://ted-h-com.github.io/AI-Intune/?lang=zh-TW)** · [原始碼 ↗](https://github.com/TED-H-com/AI-Intune) | 以證據為本的控制平面，管理執行 AI agent 與 coding 工具的 Linux 機器。 | 持續開發 |
+| **[Control AI Chat](https://github.com/TED-H-com/Control-AI-Chat/blob/main/README.zh-TW.md)** · [原始碼 ↗](https://github.com/TED-H-com/Control-AI-Chat) | 給公司自架的 AI 聊天系統，使用自己的模型憑證。每個提示詞和每個回覆都會經過閘道檢查，並有費用預算與雜湊鏈稽核紀錄。 | 早期階段 |
 | **[IDN Homograph Demo](https://ted-h-com.github.io/idn-homograph-example/?lang=zh-TW)** · [原始碼 ↗](https://github.com/TED-H-com/idn-homograph-example) | 一頁式的中英雙語資安意識示範：看看長得一模一樣的 Unicode 網域，怎麼冒充真的網站。 | 穩定 |
 | **[重置 Therapy](https://ted-h-com.github.io/reset-therapy/?lang=zh-TW)** · [原始碼 ↗](https://github.com/TED-H-com/reset-therapy) | 中英雙語的抗倦怠小玩具：看著四個假的 AI 額度面板燒光，再讓黃金龍幫你重置。 | 小玩具 |
 | **[AI 教你打陀螺](https://ted-h-com.github.io/zhan-dou-tuo-luo/?lang=zh-TW)** · [原始碼 ↗](https://github.com/TED-H-com/zhan-dou-tuo-luo) | 戰鬥陀螺 Beyblade X 中文筆記：為什麼決定勝負的是分數而不是誰轉得最久，以及怎麼配 3v3 牌組。 | 筆記 |

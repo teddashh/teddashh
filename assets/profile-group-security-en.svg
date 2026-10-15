@@ -4,6 +4,6 @@
 <rect x="0" y="12" width="1000" height="3" fill="#FFFFFF"/>
 <rect x="24" y="34" width="5" height="43" rx="2" fill="#39D353"/>
 <text x="47" y="52" fill="#FFFFFF" font-family="system-ui,Segoe UI,sans-serif" font-size="26" font-weight="700">03 · Security and IT</text>
-<text x="47" y="80" fill="#A6B8CE" font-family="system-ui,Segoe UI,sans-serif" font-size="16">Scanner, control plane, training</text>
+<text x="47" y="80" fill="#A6B8CE" font-family="system-ui,Segoe UI,sans-serif" font-size="16">Scanner, control plane, AI governance, training</text>
 <circle cx="958" cy="52" r="7" fill="#39D353"/><path d="M926 79h42" stroke="#58A6FF" stroke-width="3"/>
 </svg>
