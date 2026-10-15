@@ -69,7 +69,7 @@
 <p><img src="./assets/profile-section-public-en.svg" width="100%" alt="Public work."></p>
 
 <!-- projects:start -->
-<!-- Generated from hub.json in teddashh/teddashh.github.io by kit/render_profile.py. -->
+<!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
 18 original public repositories in four groups. Each title opens the project's own page in English and Traditional Chinese, with an honest status section. Badges are live.
 

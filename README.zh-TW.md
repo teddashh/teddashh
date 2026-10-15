@@ -69,7 +69,7 @@
 <p><img src="./assets/profile-section-public-zh.svg" width="100%" alt="公開作品。"></p>
 
 <!-- projects:start -->
-<!-- Generated from hub.json in teddashh/teddashh.github.io by kit/render_profile.py. -->
+<!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
 18 個原創公開專案，分成四組。點標題會打開該專案自己的中英雙語介紹頁，頁面裡也老實寫出目前的狀態。徽章都是即時的。
 
