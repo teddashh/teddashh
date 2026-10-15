@@ -1,0 +1,29 @@
+name: Sync canonical public profile
+on:
+  schedule:
+    - cron: '2/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: canonical-profile-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.repository == 'teddashh/teddashh'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Check canonical SHA and sync approved paths
+        id: sync
+        run: python3 .github/scripts/sync_public_source.py profile
+      - name: Record source and publish this repository only
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          python3 .github/scripts/sync_public_source.py profile --finalize
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          sha=$(python3 -c 'import json; print(json.load(open(".github/sync-state.json"))["sha"])')
+          git commit -m "Sync public profile from TED-H-com/teddashh@$sha"
+          git push origin HEAD:main
