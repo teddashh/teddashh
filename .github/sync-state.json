@@ -1,11 +1,11 @@
 {
   "files": {
-    "README.md": "0c1324194773ab9219381b401652af4dc9090b4e3ad86cbe193a9964062c8d0e",
-    "README.zh-TW.md": "07c83c5cc7e31557c8e1fd455d878129cd3a09f91c206b6882b6c1f84060c3a6",
-    "assets/profile-group-agents-en.svg": "48845a52abab19d26a841848b436c5b170c4d2635167821be5e3deb1bc402306",
-    "assets/profile-group-agents-zh.svg": "e31111b269551ad08268fd2e6bda55b1f3acd933f9b4ca75c574f6a57bf9c5be",
-    "assets/profile-group-ai-tools-en.svg": "a22cd3d11ba5fdec7a6b635bdab4a7e216edfbd312ec0f113b7e0c5555d44ef7",
-    "assets/profile-group-ai-tools-zh.svg": "4298db0e8cefcc35bc6d2ac7a766d52838e4510c8e685c03375dfc3488c7605f",
+    "README.md": "a1205f54844c694e1b24a13f0295624304fdec68a5065e5dbb23fe84567d92bc",
+    "README.zh-TW.md": "2d89b7b88b6597e6424b61513a3c77db0bb1525902dbd1cd28dabafc8104545f",
+    "assets/profile-group-agents-en.svg": "aeb6fbee9552a057b85ae82607532c6fc0bcd017c457a125773042941a1e8928",
+    "assets/profile-group-agents-zh.svg": "78520a03a5d0dfbe2cc3af4a30ac111d3e33e75f36d73e65d73be74a9d69d0ec",
+    "assets/profile-group-ai-tools-en.svg": "d66c91de7bc586feb95777a75496f0bf7903614bf730614e3d4e3e1ba802efbf",
+    "assets/profile-group-ai-tools-zh.svg": "d678b7ba3ddbe79b3d8a797072cdc59fa67eb3c9237144a8bb9fb89819cdfe9e",
     "assets/profile-group-security-en.svg": "29dd86917348993039aa7e7cf4fba50361a079af566089b66f907836dae9ef26",
     "assets/profile-group-security-zh.svg": "dc0743a81257a4322b389451cc578ab7c5b4eec1421d0e1b33db5b3d813f0a69",
     "assets/profile-group-small-en.svg": "5050b83c971d6af719e7504610ee753673ef31f5b24bb5511856b5ea2e5edffe",
@@ -18,10 +18,10 @@
     "assets/profile-section-production-zh.svg": "baef33888755fe5bfebf40cb4e6f73024e920732e3eaceca38967ea123c3e421",
     "assets/profile-section-public-en.svg": "4ff77c716e4c44d316637a4b3054202cacf07e5bfe32c4c3957d6319c7f7c2da",
     "assets/profile-section-public-zh.svg": "ef6ef946cf5cc4f8074f39cb19cf186ad1680c7012087cb1e93bdd45bcd91b38",
-    "projects/README.md": "f939e42ffe17659900f7cd3d2984b084db8b3e2cd447b97a1c0d939b268cb86c",
+    "projects/README.md": "18ed306c8d22dc6b982c2876aaa7e7ec844ef070134182b661096e66acec244a",
     "projects/ai-brainstorming.md": "dfa9879879d3a7b8889f9eb4968cd65d053ce9758ba4cf663a740e014525e84c",
     "projects/ai-security-scanner.md": "594f48806fd61fe269336cde8b52698ee2793de9f413d5d08719bd36b12c7030",
-    "projects/ai-sister.md": "79e4991605dea59637814327e265d4b06248020517399a5b851b8ba4d945f564",
+    "projects/ai-sister.md": "619e06d919ddae25a12df8d2fb38750a92c692fb7ebbc4f3bfdd577f29e1dd8b",
     "projects/claude-idea-review-skill.md": "0538b851f378ed8abaefa3803697aeeb4f58e7a221e380d1946ad7682afc8d70",
     "projects/clawd-lobster.md": "d29187713a621a4b3da6b189f5020aa59a69ca2f170b44fb8bccc27c7566b3a1",
     "projects/idn-homograph-example.md": "bd707cf8aba99c69a4672889726b166eaff91d7edb78c1281edd3a2ea2a5a038",
@@ -34,6 +34,6 @@
     "projects/tokenmonster.md": "1b9ad7de3aff16a620fad9c2ee97b3ebd389c5760d256ffb6d439fb3bec38b7f",
     "projects/zhan-dou-tuo-luo.md": "f5461522e9141419718509711af328dc126accdf9c04e6605455a2b3e7a5e81a"
   },
-  "sha": "c5c4f5f5ae86ded4bfa12937a312e727096f9e8f",
+  "sha": "651e2c9f57f977932cacd10b39b102635ec0d89c",
   "source": "TED-H-com/teddashh"
 }

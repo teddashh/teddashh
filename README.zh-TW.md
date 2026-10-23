@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://ai-sister.com"><strong>前往 Ai-Sister Web ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 19 個專案介紹頁 →</strong></a>
+  <a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 23 個專案介紹頁 →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 年</strong><br><sub>企業 IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>19 個專案</strong><br><sub>中英雙語介紹頁</sub>
+      <strong>23 個專案</strong><br><sub>中英雙語介紹頁</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 套 AI</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -71,7 +71,7 @@
 <!-- projects:start -->
 <!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
-19 個原創公開專案，分成四組。點標題會打開該專案自己的中英雙語介紹頁，頁面裡也老實寫出目前的狀態。徽章都是即時的。
+23 個原創公開專案，分成四組。點標題會打開該專案自己的中英雙語介紹頁，頁面裡也老實寫出目前的狀態。徽章都是即時的。
 
 <p><img src="./assets/profile-group-ai-tools-zh.svg" width="100%" alt="01 / AI 工具"></p>
 
@@ -79,10 +79,10 @@
   <tr>
     <td width="32%" valign="top">
       <strong><a href="https://ted-h-com.github.io/multi-ai-chat-desktop/?lang=zh-TW">Multi-AI Chat Desktop</a></strong><br>
-      <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
+      <img alt="穩定" src="https://img.shields.io/badge/%E7%A9%A9%E5%AE%9A-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      可攜式桌面 app，用引導式流程同時操作你已登入的 ChatGPT、Claude、Gemini、Grok，不需要 API key。<br><br>
+      把四個已登入的 AI 服務放在同一個桌面工作空間，支援引導式審查、檢查點與重播。正式版 v1.9.6，功能已凍結，持續維護相容性。<br><br>
       <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://ted-h-com.github.io/multi-ai-chat-desktop/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop">原始碼 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest">下載 ↗</a>
@@ -94,7 +94,7 @@
       <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      Chrome 側邊面板，把你已經開著的 AI 分頁串成一條多模型工作流程。<br><br>
+      在 Chrome 側邊面板協調四個 AI 服務，v0.4.0 可在重啟後接續工作流程。GitHub 提供 v0.4.0，Chrome 商店目前為 v0.3.0。<br><br>
       <a href="https://github.com/TED-H-com/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
       <code>Chrome MV3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://ted-h-com.github.io/multi-ai-chat/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat">原始碼 ↗</a>
@@ -114,14 +114,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://ted-h-com.github.io/AI-Sister/?lang=zh-TW">AI-Sister</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/AI-Sister/">AI-Sister</a></strong><br>
       <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      本機優先的桌面陪伴：記得你做過什麼，大部分時間保持安靜，每句回答都附上出處。<br><br>
+      桌面記憶夥伴，在本機記錄、辨識畫面文字，回答可點回來源。Alpha.171 提供 Windows 與 Ubuntu X11 下載，macOS 仍待交付。<br><br>
       <a href="https://github.com/TED-H-com/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Sister?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/AI-Sister/releases"><img alt="AI-Sister release" src="https://img.shields.io/github/v/release/TED-H-com/AI-Sister?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
-      <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Windows OCR</code><br><br>
-      <a href="https://ted-h-com.github.io/AI-Sister/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/AI-Sister">原始碼 ↗</a>
+      <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Local OCR</code><br><br>
+      <a href="https://ted-h-com.github.io/AI-Sister/">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/AI-Sister">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
@@ -148,6 +148,30 @@
       <a href="https://ted-h-com.github.io/claude-idea-review-skill/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/claude-idea-review-skill">原始碼 ↗</a>
     </td>
   </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/metamuse-cli/?lang=zh-TW">MetaMuse CLI</a></strong><br>
+      <img alt="早期階段" src="https://img.shields.io/badge/%E6%97%A9%E6%9C%9F%E9%9A%8E%E6%AE%B5-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      在自己的電腦上保存留言、字幕與附來源的草稿。0.1.0a2 alpha 支援本機匯入、文字搜尋與匯出，也可另行設定帳號連線。<br><br>
+      <a href="https://github.com/TED-H-com/metamuse-cli/stargazers"><img alt="MetaMuse CLI stars" src="https://img.shields.io/github/stars/TED-H-com/metamuse-cli?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/metamuse-cli/releases"><img alt="MetaMuse CLI release" src="https://img.shields.io/github/v/release/TED-H-com/metamuse-cli?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
+      <code>Python</code> <code>CLI</code> <code>MCP</code> <code>SQLite</code><br><br>
+      <a href="https://ted-h-com.github.io/metamuse-cli/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/metamuse-cli">原始碼 ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/Web_Comfyui/?lang=zh-TW">Web ComfyUI</a></strong><br>
+      <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      ComfyUI 的本機操作介面，整合圖片、影片、語音工作流、佇列與素材庫。靜態展示可探索 23 種工具，實際生成在自己的安裝環境執行。<br><br>
+      <a href="https://github.com/TED-H-com/Web_Comfyui/stargazers"><img alt="Web ComfyUI stars" src="https://img.shields.io/github/stars/TED-H-com/Web_Comfyui?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
+      <code>Python</code> <code>ComfyUI</code> <code>JavaScript</code><br><br>
+      <a href="https://ted-h-com.github.io/Web_Comfyui/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/Web_Comfyui">原始碼 ↗</a> · <a href="https://ted-h-com.github.io/Web_Comfyui/demo/">互動展示 ↗</a>
+    </td>
+  </tr>
 </table>
 
 <p><img src="./assets/profile-group-agents-zh.svg" width="100%" alt="02 / Agent 基礎建設"></p>
@@ -155,14 +179,14 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://ted-h-com.github.io/bat-agent-connector/?lang=zh-TW">bat-agent-connector</a></strong><br>
-      <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
+      <strong><a href="https://ted-h-com.github.io/bat-agent-connector/?lang=zh-TW">Better Agent Dashboard</a></strong><br>
+      <img alt="早期階段" src="https://img.shields.io/badge/%E6%97%A9%E6%9C%9F%E9%9A%8E%E6%AE%B5-0969DA?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      非官方連接器，讓 AI agent 查看、推動與調度 Better Agent Terminal 的 session，權限分層、需要主動開啟，並有確定性的關卡。<br><br>
-      <a href="https://github.com/TED-H-com/bat-agent-connector/stargazers"><img alt="bat-agent-connector stars" src="https://img.shields.io/github/stars/TED-H-com/bat-agent-connector?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
-      <code>Python</code> <code>MCP</code> <code>CLI</code><br><br>
-      <a href="https://ted-h-com.github.io/bat-agent-connector/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/bat-agent-connector">原始碼 ↗</a>
+      Web 與桌面共用的專案工作空間，整理進度、PM 討論、需求與 agent 工作。已有開發預覽版，並提供使用合成資料的互動展示。<br><br>
+      <a href="https://github.com/TED-H-com/bat-agent-connector/stargazers"><img alt="Better Agent Dashboard stars" src="https://img.shields.io/github/stars/TED-H-com/bat-agent-connector?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/bat-agent-connector/releases"><img alt="Better Agent Dashboard release" src="https://img.shields.io/github/v/release/TED-H-com/bat-agent-connector?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
+      <code>Python</code> <code>Web</code> <code>Tauri</code> <code>MCP</code><br><br>
+      <a href="https://ted-h-com.github.io/bat-agent-connector/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/bat-agent-connector">原始碼 ↗</a> · <a href="https://ted-h-com.github.io/bat-agent-connector/demo/">互動展示 ↗</a> · <a href="https://github.com/TED-H-com/bat-agent-connector/releases">版本下載 ↗</a>
     </td>
   </tr>
   <tr>
@@ -225,6 +249,30 @@
       <a href="https://ted-h-com.github.io/mcp-memory-server/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/mcp-memory-server">原始碼 ↗</a>
     </td>
   </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/agentic-smart-home/?lang=zh-TW">Agentic Smart Home</a></strong><br>
+      <img alt="早期階段" src="https://img.shields.io/badge/%E6%97%A9%E6%9C%9F%E9%9A%8E%E6%AE%B5-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      把 Home Assistant、AI 家庭管家與隔離的開發助手放在同一台 Linux 主機。v0.11.0 是試裝預覽，v0.11.1 仍是驗證中的候選版。<br><br>
+      <a href="https://github.com/TED-H-com/agentic-smart-home/stargazers"><img alt="Agentic Smart Home stars" src="https://img.shields.io/github/stars/TED-H-com/agentic-smart-home?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/agentic-smart-home/releases"><img alt="Agentic Smart Home release" src="https://img.shields.io/github/v/release/TED-H-com/agentic-smart-home?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
+      <code>Python</code> <code>React</code> <code>Linux</code> <code>Home Assistant</code><br><br>
+      <a href="https://ted-h-com.github.io/agentic-smart-home/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/agentic-smart-home">原始碼 ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/agy-openai-shim/?lang=zh-TW">agy-openai-shim</a></strong><br>
+      <img alt="早期階段" src="https://img.shields.io/badge/%E6%97%A9%E6%9C%9F%E9%9A%8E%E6%AE%B5-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      以 Antigravity CLI 提供本機 OpenAI 相容聊天端點，支援帳號選擇與配額冷卻。使用 Python 標準函式庫，目前以原始碼提供。<br><br>
+      <a href="https://github.com/TED-H-com/agy-openai-shim/stargazers"><img alt="agy-openai-shim stars" src="https://img.shields.io/github/stars/TED-H-com/agy-openai-shim?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
+      <code>Python</code> <code>Antigravity CLI</code> <code>systemd</code><br><br>
+      <a href="https://ted-h-com.github.io/agy-openai-shim/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/agy-openai-shim">原始碼 ↗</a>
+    </td>
+  </tr>
 </table>
 
 <p><img src="./assets/profile-group-security-zh.svg" width="100%" alt="03 / 資安與 IT"></p>
@@ -236,7 +284,7 @@
       <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      桌面 app 與 agent skill：執行上游的開源資安工具，把結果整理成一份標準化報告。<br><br>
+      把多種掃描工具的證據整理成可採取行動報告的桌面資安工作台。v0.5.3 加入事件掃描包，提供 Windows、macOS 與 Linux 安裝檔。<br><br>
       <a href="https://github.com/TED-H-com/ai-security-scanner/stargazers"><img alt="ai-security-scanner stars" src="https://img.shields.io/github/stars/TED-H-com/ai-security-scanner?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/ai-security-scanner/releases/latest"><img alt="ai-security-scanner release" src="https://img.shields.io/github/v/release/TED-H-com/ai-security-scanner?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
       <code>Rust</code> <code>Tauri</code> <code>React</code><br><br>
       <a href="https://ted-h-com.github.io/ai-security-scanner/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/ai-security-scanner">原始碼 ↗</a>
@@ -248,7 +296,7 @@
       <img alt="持續開發" src="https://img.shields.io/badge/%E6%8C%81%E7%BA%8C%E9%96%8B%E7%99%BC-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      以證據為本的控制平面，管理執行 AI agent 與 coding 工具的 Linux 機器。<br><br>
+      管理 AI 機器的控制平臺：註冊主機、部署軟體設定、驗證工作並保留證據。Linux 已部署，macOS 與 Windows 仍待實機驗收。<br><br>
       <a href="https://github.com/TED-H-com/AI-Intune/stargazers"><img alt="AI-Intune stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Intune?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
       <code>Go</code> <code>Linux</code><br><br>
       <a href="https://ted-h-com.github.io/AI-Intune/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/AI-Intune">原始碼 ↗</a>
@@ -256,14 +304,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://github.com/TED-H-com/Control-AI-Chat/blob/main/README.zh-TW.md">Control AI Chat</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/Control-AI-Chat/?lang=zh-TW">Control AI Chat</a></strong><br>
       <img alt="早期階段" src="https://img.shields.io/badge/%E6%97%A9%E6%9C%9F%E9%9A%8E%E6%AE%B5-0969DA?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      給公司自架的 AI 聊天系統，使用自己的模型憑證。每個提示詞和每個回覆都會經過閘道檢查，並有費用預算與雜湊鏈稽核紀錄。<br><br>
+      自架 AI 聊天系統，依群組管理模型權限，檢查提示詞與回覆，並提供預算保留、稽核匯出與資料保留控制。使用自己的供應商憑證。<br><br>
       <a href="https://github.com/TED-H-com/Control-AI-Chat/stargazers"><img alt="Control AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/Control-AI-Chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
       <code>TypeScript</code> <code>Hono</code> <code>React</code> <code>SQLite</code> <code>Docker</code><br><br>
-      <a href="https://github.com/TED-H-com/Control-AI-Chat/blob/main/README.zh-TW.md">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/Control-AI-Chat">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/Control-AI-Chat/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/Control-AI-Chat">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
@@ -321,7 +369,7 @@
   </tr>
 </table>
 
-<p align="right"><a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 19 個專案介紹頁 →</strong></a></p>
+<p align="right"><a href="https://teddashh.github.io/?lang=zh-TW"><strong>全部 23 個專案介紹頁 →</strong></a></p>
 <!-- projects:end -->
 
 ---

@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://ai-sister.com"><strong>Visit Ai-Sister Web ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://teddashh.github.io/"><strong>All 19 project pages →</strong></a>
+  <a href="https://teddashh.github.io/"><strong>All 23 project pages →</strong></a>
   &nbsp;·&nbsp;
   <a href="mailto:ted@ted-h.com"><strong>Email ↗</strong></a>
 </p>
@@ -33,7 +33,7 @@
       <strong>20 years</strong><br><sub>Enterprise IT</sub>
     </td>
     <td width="33%" align="center">
-      <strong>19 projects</strong><br><sub>Bilingual project pages</sub>
+      <strong>23 projects</strong><br><sub>Bilingual project pages</sub>
     </td>
     <td width="33%" align="center">
       <strong>4 AI systems</strong><br><sub>Claude · GPT · Gemini · Grok</sub>
@@ -71,7 +71,7 @@
 <!-- projects:start -->
 <!-- Generated from hub.json in TED-H-com/ted-h-com.github.io by kit/render_profile.py. -->
 
-19 original public repositories in four groups. Each title opens the project's own page in English and Traditional Chinese, with an honest status section. Badges are live.
+23 original public repositories in four groups. Each title opens the project's own page in English and Traditional Chinese, with an honest status section. Badges are live.
 
 <p><img src="./assets/profile-group-ai-tools-en.svg" width="100%" alt="01 / AI tools"></p>
 
@@ -79,10 +79,10 @@
   <tr>
     <td width="32%" valign="top">
       <strong><a href="https://ted-h-com.github.io/multi-ai-chat-desktop/">Multi-AI Chat Desktop</a></strong><br>
-      <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
+      <img alt="STABLE" src="https://img.shields.io/badge/STABLE-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      A portable desktop app that drives your logged-in ChatGPT, Claude, Gemini, and Grok side by side through guided workflows. No API keys.<br><br>
+      A desktop workspace for four signed-in AI services, with guided reviews, saved checkpoints and replay. Stable v1.9.6; features are frozen while compatibility is maintained.<br><br>
       <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
       <a href="https://ted-h-com.github.io/multi-ai-chat-desktop/">Project page ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop">Source ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest">Download ↗</a>
@@ -94,7 +94,7 @@
       <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      A Chrome side panel that turns the AI tabs you already have open into one multi-model workflow.<br><br>
+      A Chrome side panel for four AI services, with v0.4.0 workflow recovery after restart. GitHub has v0.4.0; the Chrome Web Store currently offers v0.3.0.<br><br>
       <a href="https://github.com/TED-H-com/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
       <code>Chrome MV3</code> <code>React</code> <code>TypeScript</code><br><br>
       <a href="https://ted-h-com.github.io/multi-ai-chat/">Project page ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat">Source ↗</a>
@@ -114,14 +114,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://ted-h-com.github.io/AI-Sister/">AI-Sister</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/AI-Sister/en/">AI-Sister</a></strong><br>
       <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      A local-first desktop companion that remembers what you worked on, stays quiet most of the time, and cites a source for every answer.<br><br>
+      A desktop memory companion with local recording, OCR and answers linked to their sources. Alpha.171 offers Windows and Ubuntu X11 downloads; macOS delivery is still pending.<br><br>
       <a href="https://github.com/TED-H-com/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Sister?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/AI-Sister/releases"><img alt="AI-Sister release" src="https://img.shields.io/github/v/release/TED-H-com/AI-Sister?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
-      <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Windows OCR</code><br><br>
-      <a href="https://ted-h-com.github.io/AI-Sister/">Project page ↗</a> · <a href="https://github.com/TED-H-com/AI-Sister">Source ↗</a>
+      <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Local OCR</code><br><br>
+      <a href="https://ted-h-com.github.io/AI-Sister/en/">Project page ↗</a> · <a href="https://github.com/TED-H-com/AI-Sister">Source ↗</a>
     </td>
   </tr>
   <tr>
@@ -148,6 +148,30 @@
       <a href="https://ted-h-com.github.io/claude-idea-review-skill/">Project page ↗</a> · <a href="https://github.com/TED-H-com/claude-idea-review-skill">Source ↗</a>
     </td>
   </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/metamuse-cli/">MetaMuse CLI</a></strong><br>
+      <img alt="EARLY STAGE" src="https://img.shields.io/badge/EARLY%20STAGE-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      Keep comments, transcripts and cited drafts together on your computer. The 0.1.0a2 alpha supports local import, text search and exports, with optional connected workflows.<br><br>
+      <a href="https://github.com/TED-H-com/metamuse-cli/stargazers"><img alt="MetaMuse CLI stars" src="https://img.shields.io/github/stars/TED-H-com/metamuse-cli?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/metamuse-cli/releases"><img alt="MetaMuse CLI release" src="https://img.shields.io/github/v/release/TED-H-com/metamuse-cli?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
+      <code>Python</code> <code>CLI</code> <code>MCP</code> <code>SQLite</code><br><br>
+      <a href="https://ted-h-com.github.io/metamuse-cli/">Project page ↗</a> · <a href="https://github.com/TED-H-com/metamuse-cli">Source ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/Web_Comfyui/?lang=en">Web ComfyUI</a></strong><br>
+      <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      A local ComfyUI front end for image, video and voice workflows, queues and media collections. Explore 23 tools in the static demo; generation runs on your own installation.<br><br>
+      <a href="https://github.com/TED-H-com/Web_Comfyui/stargazers"><img alt="Web ComfyUI stars" src="https://img.shields.io/github/stars/TED-H-com/Web_Comfyui?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
+      <code>Python</code> <code>ComfyUI</code> <code>JavaScript</code><br><br>
+      <a href="https://ted-h-com.github.io/Web_Comfyui/?lang=en">Project page ↗</a> · <a href="https://github.com/TED-H-com/Web_Comfyui">Source ↗</a> · <a href="https://ted-h-com.github.io/Web_Comfyui/demo/">Interactive demo ↗</a>
+    </td>
+  </tr>
 </table>
 
 <p><img src="./assets/profile-group-agents-en.svg" width="100%" alt="02 / Agent infrastructure"></p>
@@ -155,14 +179,14 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://ted-h-com.github.io/bat-agent-connector/">bat-agent-connector</a></strong><br>
-      <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
+      <strong><a href="https://ted-h-com.github.io/bat-agent-connector/">Better Agent Dashboard</a></strong><br>
+      <img alt="EARLY STAGE" src="https://img.shields.io/badge/EARLY%20STAGE-0969DA?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      An unofficial connector that lets AI agents watch, nudge, and orchestrate Better Agent Terminal sessions, with opt-in tiers and deterministic gates.<br><br>
-      <a href="https://github.com/TED-H-com/bat-agent-connector/stargazers"><img alt="bat-agent-connector stars" src="https://img.shields.io/github/stars/TED-H-com/bat-agent-connector?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
-      <code>Python</code> <code>MCP</code> <code>CLI</code><br><br>
-      <a href="https://ted-h-com.github.io/bat-agent-connector/">Project page ↗</a> · <a href="https://github.com/TED-H-com/bat-agent-connector">Source ↗</a>
+      A shared Web and desktop workspace for project progress, PM discussions, requirements and agent work. Published development previews include a demo with synthetic data.<br><br>
+      <a href="https://github.com/TED-H-com/bat-agent-connector/stargazers"><img alt="Better Agent Dashboard stars" src="https://img.shields.io/github/stars/TED-H-com/bat-agent-connector?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/bat-agent-connector/releases"><img alt="Better Agent Dashboard release" src="https://img.shields.io/github/v/release/TED-H-com/bat-agent-connector?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
+      <code>Python</code> <code>Web</code> <code>Tauri</code> <code>MCP</code><br><br>
+      <a href="https://ted-h-com.github.io/bat-agent-connector/">Project page ↗</a> · <a href="https://github.com/TED-H-com/bat-agent-connector">Source ↗</a> · <a href="https://ted-h-com.github.io/bat-agent-connector/demo/">Interactive demo ↗</a> · <a href="https://github.com/TED-H-com/bat-agent-connector/releases">Releases ↗</a>
     </td>
   </tr>
   <tr>
@@ -225,6 +249,30 @@
       <a href="https://ted-h-com.github.io/mcp-memory-server/">Project page ↗</a> · <a href="https://github.com/TED-H-com/mcp-memory-server">Source ↗</a>
     </td>
   </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/agentic-smart-home/">Agentic Smart Home</a></strong><br>
+      <img alt="EARLY STAGE" src="https://img.shields.io/badge/EARLY%20STAGE-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      A Linux home server with Home Assistant, an AI butler and isolated development helpers. v0.11.0 is an installation preview; v0.11.1 remains a candidate under validation.<br><br>
+      <a href="https://github.com/TED-H-com/agentic-smart-home/stargazers"><img alt="Agentic Smart Home stars" src="https://img.shields.io/github/stars/TED-H-com/agentic-smart-home?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/agentic-smart-home/releases"><img alt="Agentic Smart Home release" src="https://img.shields.io/github/v/release/TED-H-com/agentic-smart-home?include_prereleases&amp;style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
+      <code>Python</code> <code>React</code> <code>Linux</code> <code>Home Assistant</code><br><br>
+      <a href="https://ted-h-com.github.io/agentic-smart-home/">Project page ↗</a> · <a href="https://github.com/TED-H-com/agentic-smart-home">Source ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <strong><a href="https://ted-h-com.github.io/agy-openai-shim/">agy-openai-shim</a></strong><br>
+      <img alt="EARLY STAGE" src="https://img.shields.io/badge/EARLY%20STAGE-0969DA?style=flat-square">
+    </td>
+    <td width="68%" valign="top">
+      A local OpenAI-compatible chat endpoint backed by the Antigravity CLI, with account selection and quota cooldowns. A source-only utility using Python standard-library code.<br><br>
+      <a href="https://github.com/TED-H-com/agy-openai-shim/stargazers"><img alt="agy-openai-shim stars" src="https://img.shields.io/github/stars/TED-H-com/agy-openai-shim?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
+      <code>Python</code> <code>Antigravity CLI</code> <code>systemd</code><br><br>
+      <a href="https://ted-h-com.github.io/agy-openai-shim/">Project page ↗</a> · <a href="https://github.com/TED-H-com/agy-openai-shim">Source ↗</a>
+    </td>
+  </tr>
 </table>
 
 <p><img src="./assets/profile-group-security-en.svg" width="100%" alt="03 / Security and IT"></p>
@@ -236,7 +284,7 @@
       <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      A desktop app and agent skills that run upstream open-source security tools and turn their output into one standardized report.<br><br>
+      A desktop security workbench that combines scanner evidence into actionable reports. v0.5.3 adds an incident scan pack; Windows, macOS and Linux installers are available.<br><br>
       <a href="https://github.com/TED-H-com/ai-security-scanner/stargazers"><img alt="ai-security-scanner stars" src="https://img.shields.io/github/stars/TED-H-com/ai-security-scanner?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a> <a href="https://github.com/TED-H-com/ai-security-scanner/releases/latest"><img alt="ai-security-scanner release" src="https://img.shields.io/github/v/release/TED-H-com/ai-security-scanner?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=release"></a><br><br>
       <code>Rust</code> <code>Tauri</code> <code>React</code><br><br>
       <a href="https://ted-h-com.github.io/ai-security-scanner/">Project page ↗</a> · <a href="https://github.com/TED-H-com/ai-security-scanner">Source ↗</a>
@@ -248,7 +296,7 @@
       <img alt="ACTIVE" src="https://img.shields.io/badge/ACTIVE-1A7F37?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      An evidence-first control plane for Linux machines that run AI agents and coding tools.<br><br>
+      A control plane for AI machines: enroll hosts, deploy software profiles, verify jobs and keep evidence. Linux is deployed; macOS and Windows await hardware acceptance.<br><br>
       <a href="https://github.com/TED-H-com/AI-Intune/stargazers"><img alt="AI-Intune stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Intune?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
       <code>Go</code> <code>Linux</code><br><br>
       <a href="https://ted-h-com.github.io/AI-Intune/">Project page ↗</a> · <a href="https://github.com/TED-H-com/AI-Intune">Source ↗</a>
@@ -256,14 +304,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://github.com/TED-H-com/Control-AI-Chat#readme">Control AI Chat</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/Control-AI-Chat/">Control AI Chat</a></strong><br>
       <img alt="EARLY STAGE" src="https://img.shields.io/badge/EARLY%20STAGE-0969DA?style=flat-square">
     </td>
     <td width="68%" valign="top">
-      Self-hosted AI chat for companies, using their own model credentials. A gate checks every prompt and every reply, with spend budgets and a hash-chained audit log.<br><br>
+      Self-hosted AI chat with model access by group, prompt and response checks, budget reservations, audit exports and retention controls. Bring your own provider credentials.<br><br>
       <a href="https://github.com/TED-H-com/Control-AI-Chat/stargazers"><img alt="Control AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/Control-AI-Chat?style=flat-square&amp;labelColor=0A2342&amp;color=0969DA&amp;label=stars"></a><br><br>
       <code>TypeScript</code> <code>Hono</code> <code>React</code> <code>SQLite</code> <code>Docker</code><br><br>
-      <a href="https://github.com/TED-H-com/Control-AI-Chat#readme">Project page ↗</a> · <a href="https://github.com/TED-H-com/Control-AI-Chat">Source ↗</a>
+      <a href="https://ted-h-com.github.io/Control-AI-Chat/">Project page ↗</a> · <a href="https://github.com/TED-H-com/Control-AI-Chat">Source ↗</a>
     </td>
   </tr>
   <tr>
@@ -321,7 +369,7 @@
   </tr>
 </table>
 
-<p align="right"><a href="https://teddashh.github.io/"><strong>All 19 project pages →</strong></a></p>
+<p align="right"><a href="https://teddashh.github.io/"><strong>All 23 project pages →</strong></a></p>
 <!-- projects:end -->
 
 ---
