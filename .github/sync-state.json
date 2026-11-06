@@ -1,7 +1,7 @@
 {
   "files": {
-    "README.md": "a1205f54844c694e1b24a13f0295624304fdec68a5065e5dbb23fe84567d92bc",
-    "README.zh-TW.md": "2d89b7b88b6597e6424b61513a3c77db0bb1525902dbd1cd28dabafc8104545f",
+    "README.md": "e1951ac256c0ffc060e8f9b1992d4f0d456fe58285a41d7466d81423f42397d9",
+    "README.zh-TW.md": "85556afac2440a062d5bd5fd30cb786eb8aedf6257fdbe5b34f150386cac8469",
     "assets/profile-group-agents-en.svg": "aeb6fbee9552a057b85ae82607532c6fc0bcd017c457a125773042941a1e8928",
     "assets/profile-group-agents-zh.svg": "78520a03a5d0dfbe2cc3af4a30ac111d3e33e75f36d73e65d73be74a9d69d0ec",
     "assets/profile-group-ai-tools-en.svg": "d66c91de7bc586feb95777a75496f0bf7903614bf730614e3d4e3e1ba802efbf",
@@ -34,6 +34,6 @@
     "projects/tokenmonster.md": "1b9ad7de3aff16a620fad9c2ee97b3ebd389c5760d256ffb6d439fb3bec38b7f",
     "projects/zhan-dou-tuo-luo.md": "f5461522e9141419718509711af328dc126accdf9c04e6605455a2b3e7a5e81a"
   },
-  "sha": "5c4e0a2e8e762b2d2adda9d493cc6a64263b2517",
+  "sha": "4eddd018ae6b124cab46da5a8198be14c7432d5a",
   "source": "TED-H-com/teddashh"
 }

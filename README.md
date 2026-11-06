@@ -43,6 +43,13 @@
 
 ---
 
+## Documentation.
+
+* [API Reference](./docs/api-reference.md)
+* [Dashboard Telemetry](./docs/dashboard-telemetry.md)
+
+---
+
 ## In production.
 
 <p><img src="./assets/profile-section-production-en.svg" width="100%" alt="In production."></p>

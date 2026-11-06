@@ -43,6 +43,13 @@
 
 ---
 
+## 文件。
+
+* [API 參考](./docs/api-reference.md)
+* [儀表板遙測](./docs/dashboard-telemetry.md)
+
+---
+
 ## 正在線上運作。
 
 <p><img src="./assets/profile-section-production-zh.svg" width="100%" alt="正在線上運作。"></p>
